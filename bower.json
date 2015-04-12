@@ -1,0 +1,16 @@
+{
+  "name": "patraolocal",
+  "version": "0.0.0",
+  "homepage": "https://github.com/maprohu/patraolocal",
+  "authors": [
+    "maprohu <maprohu@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
