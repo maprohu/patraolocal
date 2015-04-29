@@ -18,12 +18,12 @@ var app = angular.module('mfw-app', [
 	}
 
 	var exercise = function() {
-		return $scope.currentExercise().exercise;
+		return $scope.currentExercise.exercise;
 	}
 	var exerciseHandlers = {
 			text: {
 				template: function() {
-					'partials/exercise/' + exercise().type + '.html'
+					return 'partials/exercise/' + exercise().type + '.html';
 				}
 				
 			}
