@@ -1,0 +1,25 @@
+.container(ng-controller="MainCtrl")
+	h1 Redminex
+	
+	form(role="form", ng-submit="onApiKey()")
+		.form-group
+			label(for="apiKey") API key:
+			.input-group
+				input.form-control#apiKey(ng-model="apiKey", type="text", placeholder="API key")
+				span.input-group-btn
+					button.btn.btn-default(type="submit") Load
+	
+	form(role="form")
+		.form-group
+			label(for="project") Project:
+			ui-select#project(multiple, ng-model="projects", theme="bootstrap")	
+				ui-select-match(placeholder="Select project(s)...") {{$item.name}}
+				ui-select-choices(repeat="project in availableProjects.projects") {{project.name}}
+				
+	pre.
+		service/issues?key={{apiParams.key}}
+		
+	button.btn(ng-click="queryIssues()") Query Issues
+	
+	pre.
+		{{issuesResult}}
