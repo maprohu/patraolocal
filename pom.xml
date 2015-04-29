@@ -151,6 +151,16 @@
 			</snapshots>
 			<url>http://cwatch.org/repo/ext-release-local</url>
 		</repository>
+		<repository>
+			<id>cwatch-repo-snapshots</id>
+			<releases>
+				<enabled>false</enabled>
+			</releases>
+			<snapshots>
+				<enabled>true</enabled>
+			</snapshots>
+			<url>http://cwatch.org/repo/libs-snapshot-local</url>
+		</repository>
 	</repositories>
 	<dependencies>
 
