@@ -1,28 +1,51 @@
 var app = angular.module('mfw-app', [
-]).controller('RedminexCtrl', function($scope, $http, $resource, $location, CONFIG) {
+	'ui.router'                                    
+]).config(function($stateProvider, $urlRouterProvider) {
 	
-	$scope.apiKey = $location.search().apiKey;
-	
-	$scope.apiParams = {};
-	var Api = $resource('/service/api/:call', $scope.apiParams);
-	
-	$scope.projects = [];
-	
-	$scope.issuesRequest = $resource('/service/issues', $scope.apiParams);
-	
-	$scope.onApiKey = function() {
-		$scope.apiParams.key = $scope.apiKey;
-		
-		$scope.availableProjects = Api.get({call:'projects.json'});
-	};
+	$stateProvider
+	.state('practice', {
+	      url: "/practice",
+	      templateUrl: "partials/practice.html"
+	});
 
-    if ($scope.apiKey) {
-    	$scope.onApiKey();
-    }
-    
-    $scope.queryIssues = function() {
-    	$http.get('/service/issues', $scope.apiParams).success(function(data) {
-    		$scope.issuesResult = data;
-    	});
-    };
+}).controller('MainCtrl', function($scope, $http, $resource, $location, $state, CONFIG) {
+
+	$scope.exercises = [];
+	$scope.currentExercise = null;
+	
+	$scope.nextExercise = function() {
+		$scope.currentExercise = $scope.exercises[Math.floor(Math.random()*$scope.exercises.length)];
+	}
+
+	var exercise = function() {
+		return $scope.currentExercise().exercise;
+	}
+	var exerciseHandlers = {
+			text: {
+				template: function() {
+					'partials/exercise/' + exercise().type + '.html'
+				}
+				
+			}
+	};
+	
+	
+	$scope.dataPromise = $http.get('data/exam.json').success(function(data) {
+		$scope.exam = data;
+		
+		$scope.exercises = [].concat.apply([], data.map(function(topic) {
+			return topic.exercises.map(function(exercise) {
+				return {
+					topic: topic,
+					exercise: exercise,
+					handler: exerciseHandlers[exercise.type] 
+				}
+			});
+		}));
+		
+		$scope.nextExercise();
+		
+		$state.go('practice');
+	});
+
 });
