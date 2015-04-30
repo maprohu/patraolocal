@@ -1,0 +1,11 @@
+input(
+	style="font-family: monospace; text-align:center;",
+	ng-model="value",
+	size="{{value.length+1}}", 
+	ng-disabled="model.showSolution",
+	class="{{model.showSolution ? handler.isCorrect(value, solution) ? 'bg-success' : handler.isStrict() ? 'bg-danger' : 'bg-warning'  : ''}}"
+)
+span(
+	ng-show="model.showSolution && !handler.isCorrect(value, solution)",
+	class="bg-success"
+) {{solution}}

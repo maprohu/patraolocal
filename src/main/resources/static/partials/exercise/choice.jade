@@ -1,5 +1,9 @@
-p {{currentExercise.exercise.text}}
+ul.list-group
+	li.list-group-item.btn(
+		ng-repeat="item in model.items", 
+		ng-click="handler.select($index)",
+		ng-class="{'btn-default': handler.showDefault($index), 'btn-success': handler.showCorrect($index), 'btn-danger': handler.showIncorrect($index)}"
+	)
+		div
+			{{item}}
 
-textarea
-p
-button.btn(ng-click="checkSolution()") Check

@@ -1,6 +1,11 @@
-p {{currentExercise.exercise.text}}
+form(ng-submit="handler.check()")
 
-form
-	textarea.form-control(ng-submit="checkSolution()")
+	p
+		textarea.form-control(ng-model="model.text")
 
-	button.btn.btn-default(type="submit") Check
+	button.btn.btn-default(type="submit", ng-hide="model.showSolution") Check
+	
+div(ng-show="model.showSolution")
+	h4 Solução:
+	div.bg-warning
+		{{handler.exercise.solution}}	

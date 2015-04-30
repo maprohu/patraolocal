@@ -1,9 +1,11 @@
 -
   topic: RADIOCOMUNICAÇÕES
   exercises:
-    - 
-      type: text
-      text: Em que local deve instalar a bordo o equipamento de radiocomunicações?
-      solution: >
-        Junto do local de governo ou se não for possível, 
-        num local perto da mesa de navegação protegido da água e da chuva
+    -
+      type: choice
+      text: Quem é o responsável a bordo pelas comunicações?
+      solution: O Comandante.
+      alternatives:
+        - O tripulante que tiver licença de Radiotelefonista.
+        - O Comandante e o tripulante que tiver licença de Radiotelefonista.
+        - A {{0}} e a {{2}} estão certas.

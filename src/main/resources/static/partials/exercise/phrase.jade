@@ -1,5 +1,22 @@
-p {{currentExercise.exercise.text}}
+form(ng-submit="handler.check()")
 
-textarea
+	.form-group.has-feedback(
+		class="{{model.showSolution ? handler.isCorrect(model.text, handler.exercise.solution) ? 'has-success' : 'has-error'  : ''}}"
+	)
+		input.form-control(
+			ng-disabled="model.showSolution",
+			ng-model="model.text"
+		)
+		span.glyphicon.glyphicon-ok.form-control-feedback(
+			ng-show="model.showSolution && handler.isCorrect(model.text, handler.exercise.solution)"
+		)
+		span.glyphicon.glyphicon-remove.form-control-feedback(
+			ng-show="model.showSolution && !handler.isCorrect(model.text, handler.exercise.solution)"
+		)
 
-button.btn(ng-click="checkSolution()") Check
+	button.btn.btn-default(type="submit", ng-hide="model.showSolution") Check
+	
+div(ng-show="model.showSolution && !handler.isCorrect(model.text, handler.exercise.solution)")
+	h4 Solução:
+	div.bg-success
+		{{handler.exercise.solution}}	

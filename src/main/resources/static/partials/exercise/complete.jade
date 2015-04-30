@@ -1,5 +1,5 @@
-p {{currentExercise.exercise.text}}
+form(ng-submit="handler.check()")
 
-textarea
-
-button.btn(ng-click="checkSolution()") Check
+	pl-complete(data="handler.exercise.data")
+	
+	button.btn.btn-default(type="submit", ng-hide="model.showSolution") Check

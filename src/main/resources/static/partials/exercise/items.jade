@@ -1,5 +1,24 @@
-p {{currentExercise.exercise.text}}
+form(ng-submit="handler.check()")
 
-textarea
+	.form
+		.form-group(
+			ng-repeat="item in handler.exercise.solution",
+			class="{{model.showSolution ? handler.isIncluded(model.values[$index], handler.exercise.solution) ? 'has-success' : 'has-error'  : ''}}"
+		)
+			.controls
+				input.form-control(
+					ng-model="model.values[$index]",
+					ng-disabled="model.showSolution",
+					
+				)
 
-button.btn(ng-click="checkSolution()") Check
+	button.btn.btn-default(type="submit", ng-hide="model.showSolution") Check
+	
+ul
+	li(
+		ng-repeat="item in handler.exercise.solution",
+		ng-show="model.showSolution && !handler.isIncluded(item, model.values)"
+		class="bg-danger"
+	)
+		{{item}}
+
