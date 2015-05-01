@@ -666,25 +666,226 @@
       text: >
         As características das Marcas Cardeais são:
       data: >
-        Cor: {{Amarelas e pretas}}
-        Alvo: {{alvo constituído por dois alvos cónicos sobrepostos}}
+        Cor: {{Amarelas e pretas}}<br>
+        Alvo: {{alvo constituído por dois alvos cónicos sobrepostos}}<br>
+    -
+      type: choice
+      text: >
+        As marcas cardeais, em que os dois 
+        alvos apontam para cima, indicam que o perigo está a:
+      soltuion: >
+        Sul em relação à boia
+      alternatives:
+        - Norte em relação à boia
+        - Oeste em relação à boia
+        - Leste em relação à boia
+    -
+      type: choice
+      text: >
+        As marcas cardeais em que o alvo superior aponta 
+        para cima e o alvo inferior aponta 
+        para baixo, indicam que o perigo está a:
+      solution: >
+        Oeste em relação à boia
+      alternatives:
+        - Norte em relação à boia
+        - Sul em relação à boia
+        - Leste em relação à boia
+    -
+      type: phrase
+      text: >
+        As marcas que assinalam àreas 
+        reservadas à navegação de recreio são de cor:
+      solution: >
+        Amarela
+    -
+      type: complete_text
+      text: >
+        Ver figura 28 do anexo;
+      data: >
+        <img src="data/images/figura28.png"><br>
+        Marca: {{cardeal}}<br>
+        Indica: {{águas profundas a sul da marca}}<br>
+    -
+      type: choice
+      text: >
+        Assinale a alínea correcta:
+      solution: >
+        (Região A IALA) À entrada de um porto as 
+        marcas vermelhas são deixadas a bombordo
+      alternatives:
+        - Uma baliza é algo que flutua e está presa ao fundo apenas com uma amarra.
+        - Marcas de perigo isolado são marcas que limitam a zona navegável de um canal
+        - As marcas laterais não dependem do sentido da balizagem
+    -
+      type: choice
+      text: >
+        As marcas que indicam os lados de BB e EB da entrada de um canal, designam-se por:
+      solution: >
+        Marcas laterais
+      alternatives:
+        - Marcas cardeais
+        - Marcas especiais
+        - Nenhuma se aplica
+    -
+      type: complete_text
+      text: >
+        Ver figura 30 do anexo;
+      data: >
+        <img src="data/images/figura30.png"><br>
+        Marca: {{perigo isolado}}<br>
+        Indica: {{um perigo que é possível assinalar com uma marca única e que se pode deixar por um ou outro bordo}}<br>
+    -
+      type: complete
+      text: >
+        À entrada de um porto (região A), as marcas laterais a EB são:
+      data: >
+        Cor: {{verde}}<br>
+        Forma: {{cónica}}<br>
+        Número: {{impar}}<br>
+    -
+      type: phrase
+      text: >
+        As marcas que indicam que por baixo 
+        delas existe um perigo à navegação isolado mas que à 
+        sua volta as águas são limpas e 
+        livres para navegar em segurança designam-se por:
+      solution: >
+        Perigo isolado
+    -
+      type: complete
+      text: >
+        Ver figura 20 do Anexo:
+      data: >
+        <img src="data/images/figura20.png"><br>
+        Marca: {{lateral}}<br>
+        Região: {{A}}<br> 
+        Numeração: {{impar}}<br>
+        Forma da marca: {{cónica}}<br>
+        Luz: {{verde}}<br>
+        Qual o bordo pelo qual à entrada deve deixar ?: {{Estibordo}}<br>
+    -
+      type: complete_text
+      text: >
+        Em que situações podem ser utilizadas as marcas da figura 32 do Anexo?
+      data: >
+        <img src="data/images/figura32.png"><br>
+        {{Marcação de campos de regata, exercícios militares, cabos submarinos, colectores submarinos e boias ODAS.}}
+    -
+      type: choice
+      text: >
+        As marcas cardeais, em que os dois 
+        alvos apontam para baixo, indicam que o perigo está a:
+      solution: >
+        Norte em relação à boia
+      alternatives:
+        - Sul em relação à boia
+        - Oeste em relação à boia
+        - Leste em relação à boia
+    -
+      type: choice
+      text: >
+        As marcas cardeais, em que o alvo superior aponta 
+        para baixo e o alvo inferior aponta 
+        para cima, indicam que o perigo está a:
+      solution: >
+        Leste em relação à boia
+      alternatives:
+        - Norte em relação à boia
+        - Sul em relação à boia
+        - Oeste em relação à boia
+    - 
+      type: choice
+      text: >
+        Ao entrar num porto (região A) as 
+        marcas laterais a estibordo são de cor:
+      solution: >
+        Verde
+      alternatives: 
+        - Amarela e preta
+        - Vermelha e verde
+        - Vermelha
+    -
+      type: complete_text
+      text: >
+        Vai a navegar e vê a marca da figura 27, por onde não deve passar?
+      data: >
+        <img src="data/images/figura27.png"><br>
+        {{A leste da marca}}
+    -
+      type: complete_text
+      text: >
+        Qual o significado da marca da figura 31?
+      data: >
+        <img src="data/images/figura31.png"><br>
+        {{Àguas limpas, isto é, águas profundas.}}
+    -
+      type: complete_text
+      text: >
+        Vai a navegar e vê a marca da figura 28, por onde não deve passar?
+      data: >
+        <img src="data/images/figura28.png"><br>
+        {{A norte da marca}}
+    - 
+      type: choice
+      text: >
+        As marcas cardeais em que os dois alvos 
+        apontam para baixo, devemos deixa-las a:
+      solution: >
+        Norte em relação ao nosso rumo
+      alternatives:
+        - Sul em relação ao nosso rumo
+        - Este em relação ao nosso rumo
+        - Oeste em relação ao nosso rumo
+    - 
+      type: choice
+      text: >
+        As marcas cardeais em que o alvo 
+        superior aponta para baixo e o alvo 
+        inferior aponta para cima, devemos deixa-las a:
+      solution: >
+        Este em relação ao nosso rumo
+      alternatives:
+        - Sul em relação ao nosso rumo
+        - Oeste em relação ao nosso rumo
+        - Norte em relação ao nosso rumo
+    - 
+      type: choice
+      text: >
+        As marcas cardeais em que o alvo 
+        superior aponta para cima e o alvo 
+        inferior aponta para baixo, devemos deixa-las a:
+      solution: >
+        Oeste em relação ao nosso rumo
+      alternatives:
+        - Sul em relação ao nosso rumo
+        - Norte em relação ao nosso rumo
+        - Este em relação ao nosso rumo
+    - 
+      type: choice
+      text: >
+        As marcas cardeais em que o 
+        os dois alvos apontam para 
+        cima, devemos deixa-las a:
+      solution: >
+        Sul em relação ao nosso rumo     
+      alternatives:
+        - Oeste em relação ao nosso rumo
+        - Norte em relação ao nosso rumo
+        - Este em relação ao nosso rumo
+-
+  topic: Cabos, Voltas e Nós
+  exercises: 
+    -
+      type: phrase
+      text: >
+        Para fixar um cabo a um cunho devem-se utilizar:
+      solution: >
+        Voltas de cunho
       
-      
         
-      
-     
-        
-        
-   
-    
-        
-         
-        
-      
-        
+       
       
         
         
-      
-      
- 
+        
