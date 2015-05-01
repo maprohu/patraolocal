@@ -1134,7 +1134,7 @@
       text: >
         Identifique o nó da figura:
       data: >
-        <img src="data/images/lacada.png"></img><br>
+        <img src="data/images/nodeazelha.png"></img><br>
         {{Nó de azelha}}
     -
       type: complete
