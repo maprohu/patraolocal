@@ -16,6 +16,38 @@ var app = angular.module('mfw-app', [
 		}
 	};
 	
+}).directive('plChoiceItem', function($compile) {
+	return {
+		restrict: 'E',
+		link: function(scope, element, attrs) {
+			scope.$watch(function(scope) {
+				return scope.$eval(attrs.data);
+			}, function(value) {
+				value = value.replace(/{{/g, '<pl-choice-ref handler="handler" model="model" index="\'').replace(/}}/g, '\'"></pl-choice-ref>')
+				element.html(value);
+				$compile(element.contents())(scope);
+			})
+		}
+	};
+	
+}).filter('alphabet', function() {
+
+	return function(input) {
+		return String.fromCharCode(97+Number(input));
+	}
+		
+}).directive('plChoiceRef', function() {
+	
+	return {
+		restrict: 'E',
+		scope: {
+		      index: '=',
+		      handler: '=',
+		      model: '='
+		},
+		templateUrl: 'partials/exercise/choice/ref.html'
+	};
+
 }).directive('plCompleteField', function() {
 	
 	return {
@@ -99,9 +131,9 @@ var app = angular.module('mfw-app', [
 	}
 	ChoiceHandler.prototype = {
 		initialize: function() {
-			var indexes = [];
+			var indexes = [0];
 			for (var i = 0 ; i < this.exercise.alternatives.length ; i++) {
-				indexes.push(i);
+				indexes.push(i+1);
 			}
 			shuffle(indexes);
 			var items = shuffle(this.exercise.alternatives.slice());
@@ -110,13 +142,13 @@ var app = angular.module('mfw-app', [
 			
 			$scope.model.elements = [this.exercise.solution].concat(this.exercise.alternatives);
 			$scope.model.indexes = indexes;
-			$scope.model.correct = correct;
+			$scope.model.correct = this.reverse(0);
 		},
 		forward: function(index) {
 			return $scope.model.indexes[index];
 		},
 		reverse: function(index) {
-			return $scope.model.indexes.indexOf(index); 
+			return $scope.model.indexes.indexOf(Number(index)); 
 		},
 		parse: function(text) {
 			
