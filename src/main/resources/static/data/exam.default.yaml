@@ -1134,7 +1134,7 @@
       text: >
         Identifique o nó da figura:
       data: >
-        <img src="data/images/lacada.png"></img><br>
+        <img src="data/images/nodeazelha.png"></img><br>
         {{Nó de azelha}}
     -
       type: complete
@@ -1170,8 +1170,227 @@
         - Não porque o navio fica a bater no cais
         - Não, porque o navio pode soltar-se
         - Sim, porque assim evita-se a entrada de ratos ou outros animais indesejados.
+-
+  topic: Legislação
+  exercises:
+    - 
+      type: complete
+      text: >
+        Complete:
+      data: >
+        Durante a prática de esqui náutico 
+        é obrigatório o uso de {{colete de salvação}} 
+        ou de {{ajudas flutuantes}} 
+        apropriadas pelos {{praticantes}}.
+    -
+      type: choice
+      text: >
+        A zona distanciada da costa mais de 300 metros, 
+        fora das áreas restritas e interditas, 
+        onde é permitido fundear, 
+        navegar ou praticar desportos náuticos, chama-se:
+      solution: >
+        Zona de navegação livre
+      alternatives:
+        - Zona de navegação interdita
+        - Zona de navegação condicionada
+        - Zona de navegação restrita
+    -
+      type: text
+      text: >
+        Como deve ser efectuado o governo 
+        de uma embarcação de recreio 
+        nas Zonas de Navegação Restrita? 
+      solution: >
+        Em baixa velocidade, de pé e perpendicular à praia.
+    -
+      type: text
+      text: >
+        Quais as vistorias a que as embarcações de recreio estão sujeitas?
+      solution: >
+        De registo e de manutenção.
+    -
+      type: choice
+      text: >
+        A carta de navegar de recreio que habilita 
+        o titular ao comando de ER em navegação 
+        sem limite de área é da categoria de :
+      solution: >
+        Patrão de alto mar
+      alternatives:
+        - Patrão de costa
+        - Patrão local
+        - Marinheiro
+    -
+      type: choice
+      text: >
+        O regulamento da Náutica de recreio aplica-se a:
+      solution: >
+        Motas de água
+      alternatives:
+        - Embarcações experimentais
+        - Gaivotas
+        - Pranchas à vela
+    -
+      type: text
+      text: >
+        Quando é que uma embarcação de recreio 
+        deve possuir um sinal luminoso 
+        numa boia de salvação individual?
+      solution: >
+        Em todas as classes desde que a ER 
+        tenha mais de 9 metros de comprimento.
+    -
+      type: complete
+      text: >
+        Complete a frase:
+      data: >
+        O titular da carta de Marinheiro com mais de 18 anos, 
+        está habilitado ao comando de uma ER 
+        até {{7 metros}} de comprimento, 
+        até a uma distância máxima de {{3 milhas}} da costa 
+        e de {{6 milhas}} de um porto de abrigo, 
+        em navegação {{diurna}} 
+        com potência instalada até {{45 KW}}.
+    -
+      type: complete
+      text: >
+        Complete a frase:
+      data: >
+        O titular da carta de Patrão Local está habilitado 
+        ao comando de uma ER a navegar à vista da costa, 
+        até uma distância máxima de {{10 milhas}} de um porto de abrigo 
+        e de {{5 milhas}} da costa.
+    -
+      type: choice
+      text: >
+        Assinale o que entende por embarcação de recreio:
+      solution: >
+        Embarcações destinadas aos desportos náuticos ou simples lazer sem fins lucrativos.
+      alternatives: 
+        - Embarcações destinadas à competição, Iates de cruzeiro e gaivotas
+        - Gaivotas, cocos e pranchas à vela
+        - Embarcações destinadas aos desportos náuticos e competição.
+    -
+      type: choice
+      text: >
+        Quem é o responsável pela radiotelefonia a bordo de uma embarcação de recreio?
+      solution: >
+        Comandante
+      alternatives: 
+        - Proprietário
+        - Detentor da licença de Radiotelefonista
+    -
+      type: complete
+      text: >
+        Complete a frase:
+      data: >
+        As embarcações que efectuem um reboque 
+        de um praticante de esqui náutico 
+        devem ter sempre a bordo {{dois}} tripulantes.
+    -
+      type: phrase
+      text: >
+        Quantas bóias de salvação as embarcações 
+        de recreio, de comprimento entre os 9 e os 15 metros devem dispor?
+      solution: >
+        duas
+    -
+      type: text
+      text: >
+        As ER dos tipos 1, 2, 3 e 4 são obrigados 
+        a usar a Bandeira Nacional nos seguintes casos:
+      solution: >
+        Entrada ou saída de qualquer porto nacional ou estrangeiro. 
+        Ao cruzar em viagem com um navio de guerra de qualquer nacionalidade.
+    -
+      type: phrase
+      text: >
+        As ER concebidas para navegar ao largo, 
+        até 200 milhas de um porto de abrigo, são designadas:
+      solution: >
+        Tipo 2
+    -
+      type: complete
+      text: >
+        Complete a frase:
+      data: >
+        A prática de esqui náutico é vedada 
+        em {{fundeadouros}} ou a uma 
+        distância inferior a {{300 metros}} da praia.
+    -
+      type: choice
+      text: >
+        Uma embarcação de recreio tipo 4 pode navegar até:
+      solution: >
+        Até 6 milhas de costa e 20 milhas do porto de Abrigo
+      alternatives: 
+        - Até 25 milhas de costa e 60 milhas do porto de Abrigo
+        - Até 3 milhas de costa e 6 milhas do porto de Abrigo
+        - Até 5 milhas de costa e 10 milhas do porto de Abrigo
+    -
+      type: choice
+      text: >
+        Uma embarcação de recreio tipo 3 pode navegar até:
+      solution: >
+        Até 25 milhas de costa e 60 milhas do porto de Abrigo
+      alternatives: 
+        - Até 6 milhas de costa e 20 milhas do porto de Abrigo
+        - Até 3 milhas de costa e 6 milhas do porto de Abrigo
+        - Até 5 milhas de costa e 10 milhas do porto de Abrigo
+    -
+      type: choice
+      text: >
+        Assinale qual a entidade responsável pela classificação e arqueação de embarcações de recreio:
+      solution: >
+        Instituto Portuário e Transportes Marítimos e Capitania
+      alternatives:
+        - Porto de Lisboa
+        - Clubes Náuticos 
+    - 
+      type: choice
+      text: >
+        A carta de navegador de recreio da categoria de Patrão Local permite navegação:
+      solution: >
+        Até 5 milhas de costa e 10 milhas do porto de abrigo
+      alternatives:
+        - Até 5 milhas de costa e 6 milhas do porto de abrigo
+        - Até 3 milhas de costa e 6 milhas do porto de abrigo
+        - Até 10 milhas de costa e 5 milhas do porto de abrigo
+    - 
+      type: phrase
+      text: >
+        A carta de navegador de recreio que habilita o titular ao comando de ER em navegação
+        até uma distância de costa que não exceda 25 milhas é da categoria de:
+      solution: >
+        Patrão de Costa
+    -
+      type: choice
+      text: >
+        As embarcações de boca aberta com cobertura parcial, fixa ou amovível, da zona de
+        vante, designa-se por:
+      solution: >
+        Embarcações parcialmente abertas
+      alternatives:
+        - Embarcações abertas
+        - Embarcações fechadas
+        - Embarcações com convés
+    - 
+      type: complete
+      text: >
+        Complete a frase:
+      data: >
+        As motas de água e pranchas motorizadas 
+        só podem navegar até 1 milha da linha de baixa mar, 
+        desde o nascer até {{1 hora}} antes do pôr do sol.
+      
+        
+      
+      
+    
         
         
+
         
         
       

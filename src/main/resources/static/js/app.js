@@ -237,7 +237,11 @@ var app = angular.module('mfw-app', [
 		
 		$scope.exercises = [].concat.apply([], data.map(function(topic) {
 			return topic.exercises.map(function(exercise) {
-				return new exerciseHandlers[exercise.type](topic, exercise);
+				var handler = exerciseHandlers[exercise.type]
+				if (typeof handler === "undefined") {
+				    alert("no such type: " + exercise.type);
+				}
+				return new handler(topic, exercise);
 			});
 		}));
 		
