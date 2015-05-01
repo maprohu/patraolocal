@@ -225,6 +225,7 @@ var app = angular.module('mfw-app', [
 		text: Handler,
 		phrase: Handler,
 		choice: ChoiceHandler,
+		choice_multi: ChoiceHandler,
 		complete: CompleteHandler,
 		complete_text: CompleteTextHandler,
 		items: ItemsHandler,

@@ -395,12 +395,285 @@
     -
       type: choice
       text: >
-        O comando do radiotelefone que permite, nas comunicações normais, ouvir sem ruídos, chama-se:
+        O comando do radiotelefone que permite, 
+        nas comunicações normais, ouvir sem ruídos, chama-se:
       solution: Squelch
       alternatives:
         - Dual watch
         - Volume
         - Potência
+- 
+  topic: Âncoras e Amarras
+  exercises:
+    -
+      type: text
+      text: >
+        De que material é constituída normalmente uma amarra?
+      solution: >
+        Ferro ou aço.
+    -
+      type: text
+      text: >
+        O local onde normalmente é recolhida a amarra do ferro chama-se?
+      solution: >
+        Paiol ou porão de amarra.
+    -
+      type: complete
+      text: > 
+        Observe a figura e diga como se designam, 
+        no ferro de Almirantado, as partes referenciadas com os números.
+      data: >
+        <img src="data/images/ancora.png"></img>
+        <ul>
+        <li>1 {{Haste}}</li>
+        <li>3 {{Cepo}}</li>
+        <li>5 {{Cruz}}</li>
+        </ul>
+    -
+      type: phrase
+      text: >
+        Que nome dá, na “âncora de Almirantado”, 
+        à parte extrema dos braços que penetra no fundo?  
+      solution: Unha
+    -
+      type: choice
+      text: >
+        A expressão “o ferro está unhado” significa:
+      solution: >
+        A embarcação ficou fundeada
+      alternatives:
+        - O ferro ficou preso
+        - O ferro está virado ao contrário
+        - A embarcação não ficou fundeada
+    -
+      type: choice_multi
+      text: >
+        Dos termos abaixo, sinalize três 
+        que compõem uma âncora (almirantado):
+      solution: 
+        - Cepo
+        - Haste
+        - Anete
+      alternatives:
+        - Mísula
+        - Toleteira
+        - Arganéu
+    - 
+      type: text
+      text: >
+        A manobre de recolha da amarra, isto é, âncora, dá-se o nome de?
+      solution: >
+        Suspender o ferro.
+    -
+      type: text
+      text: >
+        À manobra de “içar o ferro”, pode-se também designar por:
+      solution: >
+        Suspender o ferro
+    -
+      type: choice
+      text: >
+        A expressão “a embarcação está à garra” significa:
+      solution: >
+        A embarcação não ficou fundeada
+      alternatives: 
+        - O ferro ficou preso num obstáculo
+        - O ferro está bem unhado
+        - A embarcação ficou fundeada
+    -
+      type: choice
+      text: >
+        O ancorete pode ser usado para fundear:
+      solution: >
+        Pequenas embarcações
+      alternatives:
+        - Navios de carga
+        - Barcos de pesca (arrasto)
+        - Navios de guerra
+    -
+      type: choice
+      text: >
+        A fateixa, ferro de pequenas dimensões, é composta por:
+      solution: >
+        3 ou 4 braços
+      alternatives:
+        - 1 único braço
+        - 2 braços
+    -
+      type: choice
+      text: >
+        O arinque é?
+      solution: >
+        Um cabo
+      alternatives: 
+        - Uma volta
+        - Um arganéu
+        - Uma manilha
+    - 
+      type: choice
+      text: >
+        Quando se fundeia a dois ferros, 
+        as respectivas amarras são fixadas a bordo, passando:
+      solution: >
+        Ambas pela proa
+      alternatives: 
+        - Uma à proa e outra à popa
+        - Uma à proa e uma à meia nau
+        - Ambas pela popa
+    -
+      type: choice_multi
+      text: >
+        De entre os fundos abaixo, indique 
+        aqueles que se podem considerar de boa tença:
+      solution: 
+        - Barro
+        - Areia
+      alternatives:
+        - Rocha
+        - Seixos
+    -
+      type: text
+      text: >
+        A expressão “a pique de estai” significa:
+      solution: >
+        O ângulo que a amarra faz com o plano 
+        da superfície da água é identico ao do estai de
+        vante.
+    -
+      type: complete
+      text: >
+        Complete a frase:
+      data: >
+        A Defensa destina-se a proteger o {{costado}} 
+        na manobra de acostagem a um cais ou a outra embarcação.
+    - 
+      type: choice
+      text: >
+        Os cabos esticados, que de um e outro bordo vão de proa à popa, 
+        passando por peças verticais fixadas à borda, chamam-se:
+      solution: >
+        Vergueiros
+      alternatives:
+        - Gualdropes
+        - Espias
+        - Ovéns
+    -
+      type: choice
+      text: >
+        Bitola é:
+      solution: >
+        O perímetro da secção transversal de um cabo
+      alternatives:
+        - O meio de um cabo
+        - A extremidade de um cabo
+        - O diâmetro de um cabo
+    -
+      type: choice
+      text: >
+        Para travar o correr de um cabo diz-se:
+      solution: >
+        Aguentar um cabo
+      alternatives:
+        - Alar um cabo
+        - Folgar um cabo
+        - Largar um cabo
+    -
+      type: text
+      text: >
+        Por um fundo de boa tença entende-se 
+        um fundo que permite que o ferro:
+      solution: >
+        Unhe com facilidade
+    -
+      type: phrase 
+      text: >
+        À manobra de deixar correr a amarra, 
+        para que o ferro chegue ao fundo dá-se o nome de?
+      solution: >
+        Largar o ferro
+    -
+      type: phrase
+      text: >
+        Que nome se dá aos espaçamentos da amarra 
+        (vulgarmente sinalizados com tinta) 
+        que nos permite controlar o comprimento 
+        da amarra largada, na manobra de fundear?
+      solution: >
+        Quarteladas
+    -
+      type: choice
+      text: >
+        A abertura, normalmente em forma tubular, 
+        por onde passa a amarra do ferro chama- se:
+      solution: > 
+        Escovém
+      alternatives:
+        - Capelo
+        - Enora
+        - Escotilha
+    -
+      type: choice
+      text: >
+        A corrente constituída por elos de ferro 
+        ou aço que, tarlingada à âncora, permite 
+        fundear a embarcação chama-se:
+      solution: >
+        Amarra
+      alternatives:
+        - Ferro
+        - Cabo
+        - Manilha
+    -
+      type: text
+      text: >
+        Uma das características de um fundeadouro 
+        é a inclinação do fundo. Deve-se evitar
+        fundear num fundo de muita inclinação porque:
+      solution: >
+        Se o ferro desunhar e resvalar em direcção 
+        a uma zona mais funda, dificilmente voltará
+        a unhar.
+-
+  topic: Balizagem
+  exercises:
+    - 
+      type: phrase
+      text: >
+        As marcas especiais são de cor
+      solution: >
+        Amarelas
+    -
+      type: choice
+      text: >
+        Ao entrar num porto (região A) as 
+        marcas laterais a bombordo são de cor:
+      solution: >
+        Vermelha
+      alternatives:
+        - Amarela e preta
+        - Vermelha e verde
+        - Verde
+    -
+      type: complete
+      text: >
+        À entrada de um porto (região A), as marcas laterais a BB são:
+      data: >
+        Cor: {{Vermelha}}<br>
+        Forma: {{Cilindrica}}<br>
+        Número: {{Par}}<br>
+    -
+      type: complete_text
+      text: >
+        As características das Marcas Cardeais são:
+      data: >
+        Cor: {{Amarelas e pretas}}
+        Alvo: {{alvo constituído por dois alvos cónicos sobrepostos}}
+      
+      
+        
+      
+     
+        
         
    
     
