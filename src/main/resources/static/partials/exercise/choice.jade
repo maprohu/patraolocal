@@ -5,7 +5,7 @@ ul.list-group
 		ng-class="{'btn-default': handler.showDefault($index), 'btn-success': handler.showCorrect($index), 'btn-danger': handler.showIncorrect($index)}",
 		ng-disabled="model.showSolution"
 	)
-		div
-			b {{$index | alphabet | uppercase}}: 
-			pl-choice-item(data="model.elements[index]")
+		
+		b {{$index | alphabet | uppercase}}: 
+		pl-choice-item(data="model.elements[index]")
 
