@@ -1,8 +1,7 @@
-p {{handler.exercise.text}}
+p.lead {{handler.exercise.text}}
+
+p.lead
+	ng-include(src="handler.getTemplate()")
 
 
-ng-include(src="handler.getTemplate()")
-
-
-p
-button.btn(ng-click="nextExercise()") Seguinte
+button.btn.btn-lg.btn-block(ng-click="nextExercise()") Seguinte

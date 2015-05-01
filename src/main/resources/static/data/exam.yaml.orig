@@ -21,11 +21,11 @@
     -
       type: choice
       text: Em que canal deve estar ligado para escuta, quando sai para o mar?
-      solution: 16
+      solution: '16'
       alternatives:
-        - 12
-        - 11
-        - 06
+        - '12'
+        - '11'
+        - '06'
     -
       type: text
       text: >
@@ -202,7 +202,7 @@
         grave na sua embarcação.
         Nome da embarcação: SIRIUS
         Posição: 7 milhas a SW do cabo Espichel.
-        Diga como deve responder a estação (Sirius) que ouvir o pedido.
+        Diga como deve responder a estação (Pilotos) que ouvir o pedido.
         Diga como deve responder à estação a embarcação que pediu socorro.
       data: >
         Chamada:<br>

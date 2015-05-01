@@ -1,9 +1,10 @@
+
 form(ng-submit="handler.check()")
 
-	.form-group.has-feedback(
+	.form-group.form-group-lg.has-feedback(
 		class="{{model.showSolution ? handler.isCorrect(model.text, handler.exercise.solution) ? 'has-success' : 'has-error'  : ''}}"
 	)
-		input.form-control(
+		input.form-control.input-lg(
 			ng-disabled="model.showSolution",
 			ng-model="model.text"
 		)
@@ -14,7 +15,7 @@ form(ng-submit="handler.check()")
 			ng-show="model.showSolution && !handler.isCorrect(model.text, handler.exercise.solution)"
 		)
 
-	button.btn.btn-default(type="submit", ng-hide="model.showSolution") Check
+	button.btn.btn-default.btn-lg.btn-block(type="submit", ng-hide="model.showSolution") Verificar
 	
 div(ng-show="model.showSolution && !handler.isCorrect(model.text, handler.exercise.solution)")
 	h4 Solução:

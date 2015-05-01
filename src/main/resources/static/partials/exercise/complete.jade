@@ -1,5 +1,6 @@
 form(ng-submit="handler.check()")
 
-	pl-complete(data="handler.exercise.data")
+	p.lead
+		pl-complete(data="handler.exercise.data")
 	
-	button.btn.btn-default(type="submit", ng-hide="model.showSolution") Check
+	button.btn.btn-default.btn-lg.btn-block(type="submit", ng-hide="model.showSolution") Verificar
