@@ -882,10 +882,291 @@
         Para fixar um cabo a um cunho devem-se utilizar:
       solution: >
         Voltas de cunho
-      
-        
-       
-      
-        
-        
-        
+    -
+      type: choice
+      text: >
+        A acção de enrolar um cabo em voltas 
+        largas e sucessivas de modo a que 
+        fique pronto a usar, designa-se:
+      solution: >
+        Colher um cabo (em aduchas)
+      alternatives:
+        - Alar um cabo
+        - Armazenar um cabo
+        - Aguentar um cabo
+    -
+      type: choice
+      text: >
+        Para fixar um cabo num cabeço duplo utilizamos:
+      solution: >
+        Voltas falidas
+      alternatives:
+        - Voltas de fiel
+        - Voltas de tomadouro
+        - Voltas redondas
+    -
+      type: choice
+      text: >
+        Quando temos o objectivo de 
+        criar uma alça ou mãozinha, no 
+        chicote de um cabo utilizamos um(a):
+      solution: >
+        Lais de guia
+      alternatives:
+        - Nó de escota
+        - Nó de azelha
+        - Volta de fiel
+    -
+      type: choice  
+      text: >
+        Quando temos o objectivo de criar uma
+        alça ou mãozinha, seio de um cabo utilizamos um(a):
+      solution: >
+        Nó de azelha
+      alternatives:
+        - Nó de escota
+        - Volta de fiel
+        - Lais de guia
+    -
+      type: choice
+      text: >
+        Para unir dois cabos de bitolas 
+        diferentes o nó (ou volta) a utilizar é:
+      solution: >
+        Nó de escota
+      alternatives:
+        - Nó de azelha
+        - Volta de fiel
+        - Lais de guia   
+    - 
+      type: choice
+      text: >
+        Para unir dois cabos de bitolas 
+        iguais o nó (ou volta) a utilizar é:
+      solution: >
+        Nó direito
+      alternatives: 
+        - Lais de guia
+        - Nó de escota
+        - Nó torto
+    -
+      type: choice
+      text: >
+        Quando se passa a amarração ao cais, 
+        devem-se deixar os cabos suficientemente
+        folgados pois desse modo:
+      solution: >
+        Os cabos não ficam demasiado espertos 
+        (esticados) em consequência da
+        variação da maré.
+      alternatives:
+        - Evita-se a entrada de ratos e outros animais indesejados
+    -
+      type: choice
+      text: >
+        Os cabos livres que estão prontos a ser 
+        utilizados em qualquer lugar onde necessário
+        chamam-se:
+      solution: >
+        Cabos solteiros
+      alternatives:
+        - Boça
+        - Espia
+        - Cabo cadeira
+    -
+      type: choice
+      text: >
+        As pequenas torções que um cabo dá 
+        sobre si próprio dá-se o nome de: 
+      solution: >
+        Cocas
+      alternatives: 
+        - Nós
+        - Retenidas
+        - Torções
+    -
+      type: choice
+      text: >
+        O acto de deixar correr um cabo sem
+        largar o seu chicote designa-se por:
+      solution: >
+        Folgar um cabo
+      alternatives:
+        - Alar um cabo
+        - Colher um cabo
+        - Dar a volta a um cabo
+    -
+      type: complete
+      text: >
+        Complete os espaços em branco;
+      data: >
+        às extremidades de qualquer cabo dá-se 
+        o nome de {{chicote}} e à 
+        região do cabo compreendida entre as 
+        suas extremidades designa-se por {{seio}}.
+    - 
+      type: choice
+      text: >
+        Pretende unir rápidamente dos cabos de 
+        bitolas iguais pelo chicote. Que nó deve usar?
+      solution: >
+        Nó direito
+      alternatives:
+        - Nó de escota
+        - Volta de fiel
+        - Lais de guia
+    -
+      type: choice
+      text: >
+        Ao cabo fixo num arganéu de proa, 
+        que serve para amarrar a embarcação, dá-se o
+        nome de:
+      solution: >
+        Boça
+      alternatives:
+        - Regeira
+        - Cabo da amarração
+        - Defensa
+    -
+      type: choice
+      text: >
+        Às voltas que, para arrumo de 
+        um cabo se dão, dá-se o nome de:
+      solution: >
+        Aduchas
+      alternatives:
+        - Boças
+        - Falcas
+        - Arreigadas
+    -
+      type: phrase
+      text: >
+        Às pequenas torções que um cabo 
+        dá sobre si próprio dá-se o nome de:
+      solution: >
+        cocas
+    -
+      type: choice
+      text: >
+        Os cabos de massa que servem 
+        para içar velas, têm o nome de:
+      solution: >
+        Adriças
+      alternatives: 
+        - Escotas
+        - Brandais
+        - Amantilhos
+    -
+      type: phrase
+      text: >
+        Que nó utiliza para unir dois 
+        cabos de bitolas diferentes?
+      solution: >
+        Nó de escota
+    -
+      type: choice
+      text: >
+        A um cabo de massa de pequena 
+        bitola e leve com um peso numa das 
+        pontas para facilitar o seu arremesso 
+        para longe chama-se:
+      solution: >
+        Retenida
+      alternatives: 
+        - Espia
+        - Cabo solteiro
+    -
+      type: choice
+      text: > 
+        Para travar o correr de um cabo diz-se:
+      solution: >
+        Aguentar um cabo
+      alternatives:
+        - Alar um cabo
+        - Folgar um cabo
+        - Largar um cabo
+    -
+      type: choice
+      text: >
+        O seio de um cabo, designa:
+      solution: >
+        A parte média de um cabo
+      alternatives:
+        - O seu comprimento
+        - O extremo do cabo
+        - O diâmetro do cabo
+    -
+      type: choice
+      text: >
+        Os cabos que sustentam o mastro 
+        no sentido transversal chamam-se:
+      solution: >
+        Brandais
+      alternatives:
+        - Valumas
+        - Vergas
+        - Estais
+    -
+      type: complete
+      text: >
+        Identifique o nó / volta representado na figura:
+      data: >
+        <img src="data/images/lacada.png"></img><br>
+        {{laçada}}
+    -
+      type: phrase
+      text: >
+        Que nome se dá à extremidade de qualquer cabo?
+      solution: >
+        chicote
+    -
+      type: choice
+      text: >
+        A acção de puxar um cabo para bordo ou para o cais designa-se:
+      solution: >
+        Alar um cabo
+      alternatives: 
+        - Folgar um cabo
+        - Aguentar um cabo
+        - Embarcar um cabo
+    -
+      type: complete
+      text: >
+        Identifique o nó da figura:
+      data: >
+        <img src="data/images/lacada.png"></img><br>
+        {{Nó de azelha}}
+    -
+      type: complete
+      text: >
+        Identifique o nó da figura:
+      data: >
+        <img src="data/images/laisdeguia.png"></img><br>
+        {{Lais de guia}}
+    -
+      type: choice
+      text: >
+        A acção de prender um cabo a um cabeço, ou a um cunho, designa-se:
+      solution: >
+        Dar a volta a um cabo
+      alternatives: 
+        - Colher um cabo
+        - Cunhar um cabo
+        - Aguentar um cabo
+    -
+      type: complete
+      text: >
+        Identifique o nó da figura:
+      data: >
+        <img src="data/images/voltasdecunho.png"></img><br>
+        {{voltas de cunho}}
+    - 
+      type: choice
+      text: >
+        Quando se passa a amarração ao cais devem-se deixar os cabos de amarração folgados?
+      solution: >
+        Sim, porque assim os cabos não ficam demasiado espertos (esticados) com a variação da maré.
+      alternatives: 
+        - Não porque o navio fica a bater no cais
+        - Não, porque o navio pode soltar-se
+        - Sim, porque assim evita-se a entrada de ratos ou outros animais indesejados.
