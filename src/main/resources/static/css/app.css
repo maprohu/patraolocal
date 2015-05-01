@@ -3,3 +3,7 @@
 pl-complete img {
 	max-width: 100%;
 }
+
+body {
+	margin-bottom: 1em;
+}
