@@ -1497,13 +1497,842 @@
         O que entende por “navegar à bolina folgada”?
       solution: > 
         Navegar com o vento a (+/-) 60° 
-      
-      
-      
-    
-        
-        
-
+    -
+      type: text
+      text: >
+        Defina “barlavento”: 
+      solution: >
+        De onde vem o vento
+    -
+      type: choice
+      text: >
+        Numa embarcação a força provocada pelo efeito do leme é tanto maior:
+      solution: >
+        Quanto maior for o ângulo do leme
+      alternatives: 
+        - Quanto menor for a velocidade
+        - Quanto menor for a área do leme 
+        - Quanto maior for a cana do leme
+    -
+      type: choice
+      text: >
+        A força exercida na porta do leme de uma embarcação é tanto maior:
+      solution: >
+        Quanto maior for a velocidade
+      alternatives: 
+        - Quanto maior for o ângulo do leme
+        - Quanto menor for a área do leme
+    -
+      type: choice
+      text: >
+        Numa embarcação a motor qual é o procedimento imediato a tomar no caso de cair
+        alguém ao mar
+      solution: > 
+        Desengrenar o motor e guinar de imediato para o bordo em que caiu a pessoa
+      alternatives:
+        - Parar o motor e guinar imediatamente para o bordo em que caiu a pessoa
+        - Pedir socorro via VHF e aguardar que alguem chegue ao local
+        - Pôr a máquina à ré.
+    -
+      type: text
+      text: >
+        No caso de ocorrer um abalroamento em 
+        que a proa da sua embarcação penetre 
+        no costado da outra, como é que, 
+        acto continuo, deve proceder e justifique porquê.
+        <ul>
+        <li>a) Desengrenar os motores e manter as embarcações na posição em que ficaram avaliando a extensão dos danos.
+        <li>b) Meter, rapidamente, os motores em marcha à ré, procurando afastar as embarcações .
+        </ul>
+        Justifique as razões que consubstanciam a opção por si escolhida.
+      solution: >
+        a), para que se faça uma correta avaliação da situação, isolando os compartimentos
+        alagados, e procurar esgotar a água embarcada e localizar e vedar o rombo.
+    -
+      type: choice
+      text: >
+        Ao reduzir a velocidade, o efeito lateral do hélice:
+      solution: >
+        Começa a sentir-se mais
+      alternatives: 
+        - Não tem qualquer efeito
+        - Começa a sentir-semenosk 
+    -
+      type: choice
+      text: >
+        Numa embarcação com hélice de passo direito, em manobra de marcha à ré, com
+        leme a meio:
+      solution: >
+        A popa vai para BB
+      alternatives:
+        - A popa vai para EB
+    - 
+      type: choice
+      text: >
+        Numa embarcação com cana de leme, a navegar à ré, para que bordo há que colocar a
+        cana do leme para levar a proa para EB?
+      solution: >
+        Para EB
+      alternatives: 
+        - Para BB
+        - Para nenhum dos bordos
+        - Para BB e depois para EB
+    -
+      type: choice
+      text: >
+        A manobra de fundear deve ser efetuada:
+      solution: >
+        Contra a corrente
+      alternatives:
+        - A favor do vento
+        - A favor da corrente
+    - 
+      type: choice
+      text: >
+        O efeito do leme na marcha AV é:
+      solution: >
+        Mais acentuado do que na marcha AR
+      alternatives:
+        - Menos acentuado do que na marcha AR
+        - Muito semelhante ao da marcha AR
+        - Ligeiramente mais acentuado do que na marcha AR
+    -
+      type: choice
+      text: >
+        A força motivada pela pressão sentida pelas pás de um hélice no seu movimento:
+      solution: >
+        Tem o efeito de deslocar a popa da embarcação no sentido de rotação do hélice.
+      alternatives:
+        - Tem o efeito de deslocar a popa da embarcação no sentido contrário à rotação do hélice
+        - Não tem qualquer efeito no movimento lateral da embarcação.
+    - 
+      type: choice
+      text: >
+        Em marcha AV, se colocarmos a cana do leme para BB, a embarcação:
+      solution: >
+        Guina para EB
+      alternatives: 
+        - Guina para BB
+        - Mantém o rumo
+    - 
+      type: choice
+      text: >
+        Indique como se chama o cabo que mantêm a embarcação da figura atracada e o que
+        vai acontecer quando for colocado o motor AV:
+      figure: regeiradevante.png
+      solution: >
+        O cabo é a regeira de vante e a embarcação vai abrir a popa
+      alternatives:
+        - O cabo é o lançante de ré e a embarcação vai abrir a popa
+        - O cabo é o lançante de ré e a embarcação vai abrir a proa
+        - O cabo é a regeira de ré e a embarcação vai abrir a proa
+    -
+      type: text
+      text: >
+        A embarcação desta figura utilizou para atracar, os seguintes cabos:
+        <ul>
+        <li>Lançante de vante
+        <li>Regeira de proa
+        </ul>
+        Desenhe-os na figura:
+      figure: manobras29.png
+      solution: >
+        Lançante de vante, amarrado à proa e projectado no sentido de vante, regeira de proa,
+        amarrado á proa e projectado no sentido da ré.
+    -
+      type: choice
+      text: >
+        Para indicar um objecto que se aviste 300 à direita da proa, diz-se que está: 
+      solution: >
+        Pela amura de estibordo da embarcação
+      alternatives: 
+        - Pela proa da embarcação
+        - Pela alheta de Estibordo da embarcação 
+        - Pelo través de bombordo da embarcação 
+    -   
+      type: choice
+      text: >
+        Numa ER o hélice no seu movimento de 
+        rotação em marcha AR, origina uma 
+        corrente de sucção que é descarregada para:
+      solution: >
+        Vante
+      alternatives:
+        - Ré
+        - Alheta de BB
+        - Alheta de EB
+    -
+      type: choice
+      text: >
+        Ao meter o leme a um bordo é necessário vencer uma certa resistência que se designa por:
+      solution: >
+        Resistência do leme
+      alternatives:
+        - Resistência do hélice
+        - Resistência passiva
+    -
+      type: choice
+      text: >
+        Indique como se chama o cabo que mantém 
+        a embarcação atracada e o que acontece 
+        com o motor em marcha a vante:
+      figure: manobras33.png
+      solution: >
+        Lançante de ré e a embarcação não abre nem a proa nem a popa. 
+      alternatives: 
+        - Regeira de ré e a embarcação abre a popa
+        - Lançante de ré e a embarcação abre de proa
+        - Regeira de ré e a embarcação abre de proa
+    -
+      type: text
+      text: > 
+        Defina sotavento:
+      solution: >
+        Direcção para onde sopra o vento.
+    -
+      type: choice
+      text: >
+        Numa manobra de atracação com vento do lado de terra, quanto maior for a força do
+        vento:
+      solution: >
+        Maior será o ângulo entre o cais e a linha proa-popa da embarcação
+      alternatives: 
+        - Menor será o ângulo entre o cais e a linha proa-popa da embarcação
+        - O ângulo entre o cais e a linha proa-popa da embarcação não influencia a manobra
+    - 
+      type: text
+      text: >
+        Defina arribar:
+      solution: >
+        Afastar a proa da linha do vento
+    -
+      type: text
+      text: >
+        O que entende por “ navega pela alheta de EB”:
+      solution: >
+        Quando o vento entra pelo sector direito do painel de popa.
+    -
+      type: text
+      text: >
+        No caso da inevitabilidade de abalroamento da sua com outra embarcação, diga como
+        deve proceder para diminuir os danos, em ambas, resultantes do embate?
+      solution: >
+        Guinar o leme, por forma a não embater com a proa, isto é, que na medida do possível
+        o embate ocorra costado com costado.
+    -   
+      type: text
+      text: >
+        O que entende por “ navegar à popa arrasada”?:
+      solution: >
+        Quando o vento entra na direcção popa-proa da embarcação.
+    -
+      type: choice
+      text: >
+        Numa ER com motor fora de bordo e hélice de passo direito, ao governar a alta
+        velocidade se avistar um tronco de grandes dimensões à proa deve:
+      solution: >
+        Meter máquina à ré.
+      alternatives: 
+        - Guinar com o todo o leme para estibordo
+        - Guinar com todo o leme para bombordo
+        - Guinar com pouco leme, apenas para passar safo 
+    - 
+      type: choice
+      text: >
+        Numa ER equipada apenas com um hélice este, geralmente, é de passo:
+      solution: >
+        Direito
+      alternatives:
+        - Esquerdo
+        - Simétrico
+        - Afastado
+    -
+      type: choice
+      text: >
+        ER equipada com dois hélices o de BB é, geralmente de passo:
+      solution: >
+        Esquerdo
+      alternatives:
+        - Direito
+    -
+      type: choice
+      text: >
+        Fazer com que a proa de uma embarcação se aproxime da linha do vento designa-se
+        por:
+      solution: >
+        Orçar
+      alternatives:
+        - Atravessar
+        - Rizar
+        - Arribar
+    - 
+      type: choice
+      text: >
+        Fazer com que a proa de uma embarcação se afaste da linha do vento designa-se por: 
+      solution: >
+        Arribar
+      alternatives:
+        - Atravessar
+        - Rizar 
+        - Orçar 
+-
+  topic: Marés
+  exercises:
+    -
+      type: phrase
+      text: >
+        No respeitante às marés, em situações de Quarto Crescente ou Quarto Minguante, ocorrem:
+      solution: >
+        Marés mortas
+    -
+      type: choice
+      text: >
+        Supondo que a sua embarcação encalhou 
+        às 12 horas e a maré tinha começado a 
+        vazar às 10 horas, a que horas deve 
+        iniciar as manobras de desencalhe?
+      solution: >
+        Próximo das 2000horas
+      alternatives:
+        - Próximo das 1600 horas
+        - Próximo das 1800 horas
+        - Próximo das 2200 horas
+    -
+      type: choice
+      text: >
+        Nas cartas náuticas, o plano a que são referidas as sondas chama-se:
+      solution: >
+        zero hidrográfico
+      alternatives:
+        - sonda reduzida
+        - sonda à hora
+        - nível médio
+    -
+      type: choice
+      text: >
+        A altura de água do Zero Hidrográfico à superfície da água chama-se:
+      solution: >
+        altura de maré
+      alternatives:
+        - sonda reduzida
+        - sonda à hora
+        - nível médio      
+    -
+      type: phrase
+      text: >
+        A altura de água do Zero Hidrográfico à superfície da água chama-se:
+      solution: >
+        Altura da maré
+    -
+      type: phrase
+      text: >
+        A altura entre o fundo submarino e o nível livre das águas chama-se: 
+      solution: >
+        Sonda à hora
+    -
+      type: phrase
+      text: >
+        A altura de água entre o fundo e o zero hidrográfico chama-se:
+      solution: >
+        Sonda reduzida
+    -
+      type: phrase
+      text: >
+        Como se chama o nível de referência vertical a que são referidas as sondas
+        representadas na carta náutica oficial?
+      solution: >
+        Batimétrica
+    -
+      type: phrase
+      text: >
+        A diferença entre os níveis de preia-mar e de baixa-mar designa-se por:
+      solution: >
+        Amplitude de maré
+    -
+      type: phrase
+      text: >
+        Como se chama o nível de referência vertical a que são referidas as alturas de maré
+        representadas na Tabela de Marés?
+      solution: >
+        Amplitude de maré
+    -
+      type: phrase
+      text: >
+        A sonda reduzida é de 12,5 metros e a amplitude da maré é de 3,20 metros. 
+        Se a altura da preia-mar é de 3,5 metros qual é a altura de maré na baixa-mar seguinte?
+      solution: >
+        0,30 m
+    -
+      type: phrase
+      text: >
+        Num determinado local a sonda reduzida é de 12,5 metros 
+        e a amplitude da maré é de 3,20 metros. 
+        Se a altura da preia-mar é de 3,4 metros 
+        qual é a sonda à hora na baixa- mar seguinte?
+      solution: >
+        12,70 m
+    -
+      type: phrase
+      text: >
+        Num dado local a baixa-mar é de 2,3 m. 
+        Se a amplitude da maré for de 3,7 m, 
+        qual será a altura de maré na preia-mar seguinte?
+      solution: >
+        6,00 m
+    -
+      type: phrase
+      text: >
+        A sonda reduzida é de 10m, 
+        a amplitude da maré é de 3m 
+        e a altura da preia-mar é de 5 metros. 
+        Qual a altura da baixa-mar?
+      solution: >
+        2,00 m
+    -
+      type: phrase
+      text: >
+        A altura da baixa-mar é de 0.75m. 
+        A amplitude da maré é de 3.15m. 
+        O calado do navio
+        é de 2.7m, e a sonda reduzida é de 14m. 
+        Qual a altura de água que terá debaixo da
+        quilha na preia-mar? 
+      solution: >
+        15,20 m
+    -
+      type: choice
+      text: >
+        Que instrumento usa para determinar a profundidade da água em qualquer momento.
+      solution: >
+        Prumo de mão ou sonda 
+      alternatives:
+        - Odómetro
+        - Sonar     
+    -
+      type: phrase
+      text: >
+        A maré começou a baixar às 1000, às 1200 encalhou. 
+        Por volta de que horas inicia as manobras para desencalhar a embarcação ?
+      solution: >
+        2000
+    -
+      type: phrase
+      text: >
+        No respeitante às marés, em situações de Lua nova ou Lua Cheia, ocorrem:
+      solution: >
+        Marés vivas
+    -
+      type: phrase
+      text: >
+        O plano a que são referidas as Sondas Reduzidas indicado na carta de navegação designa-se por:
+      solution: >
+        Zero Hidrográfico
+    -
+      type: text
+      text: >
+        O que entende por marés e a que são devidas?
+      solution: >
+        São as variações, alternadas, do nível da superfície da água do mar. Consequência da
+        atração exercida na superfície do mar, pela Lua e pelo Sol.
+    -
+      type: choice
+      text: >
+        Diga o que entende por Altura de Maré:
+      solution: >
+        É a altura do mar em determinado local e momento, sobre o Zero Hidrográfico
+      alternatives:
+        - É o plano a que são referidas as sondas
+        - É o plano a que são referidas as sondas indicadas nas cartas
+        - É a altura da água em determinado local
+    -
+      type: phrase
+      text: >
+        Relativamente às marés, durante o Quarto Minguante ocorrem: 
+      solution: >
+        Marés mortas
+    -
+      type: text
+      text: >
+        O que entende por Amplitude da maré?
+      solution: >
+        É a diferença de altura entre a Preia-mar e a Baixa-mar de determinada maré.
+    -
+      type: choice
+      text: >
+        A altura entre o Zero Hidrográfico e a superfície da água dá-se o nome de:
+      solution: >
+        Altura da mare
+      alternatives:
+        - Sonda reduzida 
+        - Sonda à hora 
+        - Nível médio 
+    -
+      type: choice
+      text: >
+        Diga o que entende por Sonda Reduzida:
+      solution: >
+        É a altura do Zero Hidrográfico sobre o fundo 
+      alternatives:
+        - É a altura do Zero Hidrográfico
+        - É a altura da maré
+        - É a altura da maré a contar do fundo
+    -
+      type: text
+      text: >
+        Quando se dão as Marés Vivas? 
+      solution: >
+        Quando a Lua e o Sol estão em conjunção ou em oposição.
+    -
+      type: choice
+      text: >
+        Diga o que entende por Sonda à Hora:
+      solution: >
+        É a altura em determinado momento, do nível da água sobre o fundo. 
+      alternatives:
+        - É a altura da água sobre o fundo abaixo do Zero Hidrográfico
+        - É a altura da água sobre o fundo
+        - É a altura de determinada maré em relação ao Zero Hidrográfico
+    -
+      type: phrase
+      text: >
+        Relativamente às marés, durante a Lua Nova ocorrem:
+      solution: >
+        Marés vivas
+    -
+      type: choice
+      text: >
+        O estofo da maré é:
+      solution: >
+        Um breve período na preia-mar e na baixa-mar, antes da mudança da maré,
+        em que não se faz sentir qualquer movimento no nível e na corrente da maré.
+      alternatives:
+        - A altura da preia-mar
+        - A diferença entre os níveis de duas preias-mares consecutivas
+        - A diferença de tempo entre a preia-mar e a baixa-mar  
+-
+  topic: Meteorologia
+  exercises:
+    -
+      type: choice
+      text: >
+        O Navtex é um sistema para radiodifusão e recepção automática de informação de segurança marítima. Por informação de segurança marítima entende-se:
+      solution: >
+        Todas as alíneas estão correctas    
+      alternatives:
+        - Avisos aos navegantes
+        - Boletins meteorológicos
+        - Alertas de socorro
+    -
+      type: complete
+      text: >
+        Utilizando as palavras ONDULAÇÃO e VAGA, complete a frase abaixo.
+      data: >
+        A {{ondulação}} apresenta-se numa sucessão mais regular de cristas e cavas e numa
+        direcção mais bem defenida que a {{vaga}}.
+    -
+      type: choice
+      text: >
+        O Navtex é um equipamento que permite receber a bordo:
+      solution: >
+        As alíneas {{2}} e {{3}} estão correctas        
+      alternatives:
+        - Cartas de tempo
+        - Informação meteotológico
+        - Informação sobre o fecho e abertura das barras
+    -
+      type: choice
+      text: >
+        Caracterize uma Superfície Frontal
+      solution: >
+        É quando duas massas de ar se encontram e não se misturam, mantendo cada uma
+        as suas características.
+        A zona entre as duas massas de ar designa-se por Superfície Frontal.      
+      alternatives:
+        - >
+          É quando duas massas de ar se encontram e misturam-se.
+          A zona entre as duas massas de ar designa-se por Superfície Frontal
+        - >
+          É quando duas massas de ar se encontram e não se misturam, mantendo as suas características.
+          Ás duas massas de ar designa-se por Superfície Frontal
+        - >
+          É quando duas massas de ar se encontram e não se misturam, mantendo as suas
+          características. 
+          Às duas massas de ar designam-se por Frente Fria
+    -
+      type: text
+      text: >
+        Numa Alta Pressão no Hemisfério Norte, em que sentido roda o vento?
+      solution: >
+        No sentido dos ponteiros do relógio
+    -
+      type: choice
+      text: >
+        A agitação marítima resulta, geralmente, da acção do vento. 
+        Ao movimento ondulatório originado pelo vento, chama-se:
+      solution: >
+        Vaga
+      alternatives:
+        - Ondulação
+        - Rebentação
+        - Nenhuma se aplica      
+    -
+      type: choice
+      text: >
+        O Navtex é um sistema para radiodifusão e 
+        recepção automática de informação
+        de segurança marítima. Existem três prioridades 
+        para manuseamento das mensagens NAVTEX:
+      solution: >
+        VITAL, IMPORTANT E ROUTINE
+      alternatives:
+        - VERY IMPORTANT, IMPORTANT e ROUTINE
+        - VITAL, URGENT e ROUTINE      
+    -
+      type: choice
+      text: >
+        A escala de Beaufort relaciona força 
+        e velocidade do vento com os 
+        seus efeitos no mar; à designação da força de 
+        vento “ fresco” corresponde uma velocidade de vento de:
+      solution: >
+        17 a 21 nós 
+      alternatives:
+        - < 1 nó
+        - 41 a 47 nós    
+    -
+      type: choice
+      text: >
+        A escala de Beaufort relaciona força e velocidade de vento 
+        com os seus efeitos no mar; ao estado do 
+        mar “ encrespado” corresponde uma velocidade de vento de:
+      solution: >
+        4 a 6 nós
+      alternatives:
+        - < 1 nó
+        - 41 a 47 nós  
+    -
+      type: text
+      text: >
+        Indique o que causa a formação de nevoeiro: 
+      solution: >
+        A condensação através do contacto de calor e frio causa nevoeiro
+    -
+      type: choice
+      text: >
+        Indique quais os fenómenos que pode observar à passagem de uma frente quente no hemisfério norte?
+      solution: >
+        Pressão: Estabiliza; Vento: Roda para SW e diminui de intensidade; Nuvens: Cirros, Altos- estratos; Tempo: Chuva contínua e intermitente
+      alternatives:
+        - >
+          Pressão: Sobe bruscamente; Vento: Roda para SW e diminui de intensidade; Nuvens: Cúmulos; Tempo: Chuva forte e aguaceiros
+        - >
+          Pressão: Estabiliza; Vento: Roda para SW e diminui de intensidade; Nuvens: Cúmulos ou cúmulo-nimbos; Tempo: Chuva forte e aguaceiros
+        - >
+          Pressão: Estabiliza; Vento: Roda para SW e diminui de intensidade; Nuvens: Cirros, Altos- estratos; Tempo: Chuva forte e aguaceiros
+    -
+      type: choice
+      text: >
+        Indique o que entendo por Isóbaras
+      solution: >
+        São linhas à superfície do nível médio do mar que unem os pontosde igual pressão 
+      alternatives:
+        - São linhas que unem os pontos de igual temperatura
+        - São linhas que unem os pontos de igual temperatura ao nível do mar
+        - São os pontos de igual pressão e temperatura.
+    -
+      type: text
+      text: >
+        O que entende por força de Coriólis?
+      solution: >
+        É a força exercida sobre um corpo em movimento à superfície da terra em virtude do
+        seu movimento de rotação. Desvia-se para a direita no hemisfério Norte, e para a
+        esquerda no hemisfério Sul. 
+    -
+      type: choice
+      text: >
+        Indique o nome de nuvens baixas:
+      solution: >
+        Estratos e Cúmulos
+      alternatives:
+        - Cirros, Estratos e Cúmulos 
+        - Estratos e Altostratos 
+        - Cirros e Cúmulos    
+    -
+      type: choice
+      text: >
+        Indique em que camada da atmosfera podem ocorrer fenómenos meteorológicos.
+      solution: >
+        Troposfera
+      alternatives:
+        - Atmosfera
+        - Estratosfera
+        - As respostas {{0}} e {{2}} estão certas.
+    -
+      type: choice
+      text: >
+        Indique o nome de nuvens médias
+      solution: >
+        Altos-cúmulos e Altos Estratos
+      alternatives:
+        - Cirros, Estratos e Cúmulos
+        - Altos-cúmulos, Altos-estratos e Altos-cirros 
+        - Altos-cúmulos, Altos-estratos e Cirros
+    -
+      type: choice
+      text: >
+        Indique o nome de uma núvem baixa que pode dar origem à formação de nevoeiro:
+      solution: >
+        Estratos 
+      alternatives:
+        - Cúmulos 
+        - Cirros
+        - Nimbos  
+    -
+      type: choice
+      text: >
+        O NAVTEX é:
+      solution: >
+        As alíneas {{1}} e {{3}} estão correctas    
+      alternatives:
+        - Um sistema para radiodifusão e recepção automática de informação de segurança marítima.
+        - Um sistema para recepção por voz de informação de segurança maritima.
+        - Um sistema para radiodifusão e recepção automática de informação meteorológica
+    -
+      type: complete
+      text: >
+        Utilizando as palavras MAIS ou MENOS, complete a frase abaixo:
+      data: >
+        A ondulação apresenta-se numa sucessão {{mais}} 
+        regular de cristas e cavas e numa direcção mais bem definida que a vaga.      
+    -
+      type: items
+      text: >
+        Como Classifica as nuvens?
+      solution: 
+        - Altas
+        - médias
+        - Baixas 
+        - de formação vertical
+    -
+      type: choice
+      text: >
+        Considera-se que uma massa de ar 
+        está a uma pressão atmosférica média quando o seu valor for de:
+      solution: >
+        1013 Milibares 
+      alternatives:
+        - 1013° Fahrenheit 
+        - 2023° Fahrenheit 
+        - 2023 Milibares 
+    -
+      type: choice
+      text: >
+        As ondas do mar são causadas pela interacção entre:
+      solution: >
+        A superfície do mar e o vento
+      alternatives:
+        - A ondulação e a vaga
+        - O Vento e o fundo do mar
+        - A praia e o mar
+    -
+      type: choice
+      text: >
+        Indique uma nuvem de formação vertical que constitua perigo para a navegação de recreio:
+      solution: >
+        Cúmulos-nimbos 
+      alternatives:
+        - Cirros
+        - Cúmulos
+        - Estratos
+    -
+      type: complete
+      text: >
+        Brisa Terreste. Complete a frase:
+      data: >
+        A causa desta brisa está {{no desigual}} 
+        arrefecimento e aquecimento do 
+        mar e da terra, em resultado das 
+        radiações solares. 
+        O Vento sopra {{da terra}} para o {{mar}}.
+    -
+      type: choice
+      text: >
+        Indique quais os fenómenos que pode observar à passagem de uma frente frio no hemisfério norte?
+      solution: >
+        Pressão: Sobe bruscamente; Vento: Roda para NW e aumenta de intensidade e sopra com rajadas; Nuvens: Cúmulos ou Cúmulos-nimbos; Tempo: Chuva forte e aguaceiros
+      alternatives:
+        - >
+          Pressão: Estabiliza; Vento: Roda para NW e aumenta de intensidade e sopra com rajadas; Nuvens: Cúmulos ou Cúmulos-nimbos; Tempo: Chuva forte e aguaceiros
+        - >
+          Pressão: Estabiliza; Vento: Roda para NW e aumenta de intensidade e sopra com rajadas; Nuvens: Cúmulos; Tempo: Chuva contínua
+        - >
+          Pressão: Sobe bruscamente; Vento: Roda para NW e diminui de intensidade; Nuvens: Cúmulos ou Cúmulos-nimbos; Tempo: Chuva forte e aguaceiros
+    -
+      type: text
+      text: >
+        O que entende por condições meteorológicas?
+      solution: >
+        São as condições físicas da atmosfera num determinado local e período de tempo.
+    -
+      type: choice
+      text: >
+        Como Classifica as nuvens?
+        por condições meteorológicas? 
+      solution: >
+        Altas, Médias, Baixas e de desenvolvimento vertical 
+      alternatives:
+        - Altas e Baixas
+        - Altas, Baixas e de desenvolvimento vertical
+        - Altas, Médias e Baixas      
+    -
+      type: choice
+      text: >
+        O que entende por atmosfera saturada?
+      solution: >
+        É a quantidade máxima de vapor de água, que a uma determinada temperatura, um volume de ar pode conter.
+      alternatives:
+        - É a quantidade máxima de humidade que um volume de ar pode conter.
+        - É a quantidade mínima de vapor de água, que a qualquer temperatura, um volume de água pode conter.
+        - A quantidade mínima de humidade que um volume de ar pode conter a uma determinada temperatura.
+    -
+      type: text
+      text: >
+        Qual o perigo que pode resultar de um cúmulo-nimbo sobre um veleiro?
+      solution: >
+        Avaria nas velas, em resultado de fortes rajadas.
+    -
+      type: text
+      text: >
+        Qual é a diferença entre vaga e ondulação?
+      solution: >
+        É o estado da superfície do mar, com e sem o efeito do vento.
+    -
+      type: text
+      text: >
+        O que entende por frente Oclusa?
+      solution: >
+        É quando uma frente fria se sobrepõe a uma frente quente. Devido à velocidade da
+        frente fria ser superior à velocidade da frente quente.
+    -
+      type: text
+      text: >
+        Qual é a escala termica mais usada em meteorologia?
+      solution: >
+        Centigrada ou Celsius
+    -
+      type: choice
+      text: >
+        A agitação marítima resulta, geralmente, 
+        da acção do vento e é normalmente conhecida como 
+        ondas de superfície. Ao movimento ondulatório 
+        originado pelo vento que sopra à distância ou 
+        que já deixaram de soprar chama-se:
+      solution: >
+        Ondulação 
+      alternatives:
+        - Vagas
+        - Rebentação 
+        - Vento cíclico      
         
         
       
