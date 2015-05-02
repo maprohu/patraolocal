@@ -1383,8 +1383,121 @@
         As motas de água e pranchas motorizadas 
         só podem navegar até 1 milha da linha de baixa mar, 
         desde o nascer até {{1 hora}} antes do pôr do sol.
+-
+  topic: Manobras
+  exercises:
+    -
+      type: choice
+      text: >
+        Os factores que influenciam o governo e a manobra de uma embarcação são:
+      solution: >
+        Todas as alíneas estão correctas 
+      alternatives:
+        - Efeito do leme.
+        - Efeito lateral do hélice.
+        - Correntes produzidas pelos hélices.
+    -
+      type: choice
+      text: >
+        Em relação a uma ER com seis pessoas a bordo, a pressão lateral do hélice é:
+      solution: >
+        Menor do que se a mesma ER levasse apenas um tripulante
+      alternatives:
+        - Maior do que se a mesma ER levasse apenas um tripulante
+        - Igual do que se a mesma ER levasse apenas um tripulante
+    -
+      type: choice
+      text: >
+        A capacidade de uma embarcação guinar, atingir uma determinada velocidade ou parar em maior ou menor espaço, designa-se por:
+      solution: >
+        Manobrabilidade 
+      alternatives:
+        - Estabilidade
+        - Flutuabilidade
+        - Mobilidade
+    -
+      type: choice
+      text: >
+        O Hélice de Passo Direito.
+      solution: >
+        Em marcha AV gira no sentido dos ponteiros do relógio
+      alternatives:
+        - Em marcha AV gira no sentido contrário ao dos ponteiros do relógio 
+        - As alíneas {{0}} e {{1}} estão correctas 
+    - 
+      type: choice
+      text: >
+        Os efeitos do vento pelo sector de popa numa embarcação, originam:
+      solution: >
+        Aumento do seguimento
+      alternatives:
+        - Adornamento
+        - Redução do seguimento
+        - Nenhuma das alíneas anteriores está correcta
+    - 
+      type: choice
+      text: > 
+        Numa ER a motor e com seguimento a ré (com hélice de passo direito, e leme a meio):
+      solution: >
+        A popa vai para bombordo 
+      alternatives: 
+        - A ER segue uma trajectória em linha recta 
+        - A ER segue uma trajectória oscilante
+        - A popa vai para estibordo
+    -
+      type: choice
+      text: >
+        Numa ER com hélice de passo direito, em marcha AV, quando reduzimos a velocidade:
+      solution: >
+        O efeito lateral do hélice começa a sentir-se mais
+      alternatives:
+        - O efeito lateral do hélice começa a sentir-se menos
+        - O efeito lateral do hélice não sofre alteração
+        - Nenhuma alínea está correcta
+    -
+      type: choice
+      text: >
+        Partindo do repouso, numa ER com hélice de passo direito em marcha AV, e leme
+        todo a um bordo:
+      solution: >
+        O efeito do leme é superior ao efeito lateral do hélice
+      alternatives:
+        - O efeito do leme é inferior ao efeito lateral do hélice
+        - O efeito do leme é igual ao efeito lateral do hélice
+        - O efeito do leme é ligeiramente inferior ao efeito lateral do hélice
+    - 
+      type: text
+      text: >
+        Defina vento pelo través de EB:
+      solution: >
+        Vento pelo bordo de EB (90°)
+    -
+      type: choice
+      text: >
+        A manobra de fundear deve ser efectuada:
+      solution: >
+        Contra o elemento predominante; vento ou corrente.
+      alternatives:
+        - A favor do vento.
+        - Contra a corrente.
+        - A favor da corrente.
+    -
+      type: choice
+      text: >
+        A desatracação com vento forte contra o cais deve ser feita:
+      solution: >
+        Abrindo a popa e saindo a ré
+      alternatives: 
+        - Abrindo a proa e saindo a ré
+        - Abrindo a popa e saindo a vante
+        - Abrindo a proa e saindo a vante
+    -
+      type: text
+      text: >
+        O que entende por “navegar à bolina folgada”?
+      solution: > 
+        Navegar com o vento a (+/-) 60° 
       
-        
       
       
     
