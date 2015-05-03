@@ -230,6 +230,7 @@ var app = angular.module('mfw-app', [
 		complete: CompleteHandler,
 		complete_text: CompleteTextHandler,
 		items: ItemsHandler,
+		draw: Handler,
 	};
 	
 	

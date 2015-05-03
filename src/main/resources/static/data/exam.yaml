@@ -4581,3 +4581,430 @@
         - Pa=Pm+D 
         - Pa=Pv–D 
         - Pa=Pm+d
+-
+  topic: ABALROAMENTOS
+  exercises:
+    -
+      type: phrase
+      text: >
+        Quando duas embarcações de propulsão mecânica navegam
+        em rumos cruzados e, o ângulo relativo entre as duas
+        embarcações diminui, a segunda em barcação passa
+        pela proa ou pela popa da primeira?
+      solution: >
+        proa
+    -
+      type: choice
+      text: >
+        Embarcações à vela
+      solution: >
+        Quando duas embarcações à vela se aproximam roda à roda desvia-se aquela que está amurada a Bombordo.
+      alternatives:
+        - Quando duas embarcações à vela se aproximam roda à roda desviam-se ambas para Estibordo.
+        - Quando duas embarcações à vela se aproximam roda à roda desviam-se ambas para Bombordo.
+        - Quando duas embarcações à vela se aproximam roda à roda desvia-se a que vê a outra por Bombordo.
+    -
+      type: text
+      text: >
+        O que entende por velocidade de segurança?
+      solution: >
+        Velocidade que permite à embarcação executar qualquer
+        manobra a fim de evitar um abalroamento e, face às
+        circunstâncias, parar à distância conveniente, em segurança.
+    -
+      type: choice
+      text: >
+        Embarcação alcançante
+      solution: >
+        É aquela que se aproxima de outra de uma direcção que fique mais de 22°.5 para ré do través.
+      alternatives:
+        - É aquela que se aproxima de outra de uma direcção que fique mais de 12°.5 para ré do través.
+        - É aquela que se aproxima de outra de uma direcção que fique mais de 02°.5 para ré do través.
+        - É aquela que se aproxima de outra de uma direcção que fique mais de 102°.5 para cada lado da proa. 
+    -
+      type: choice
+      text: >
+        Em que condições deve ser aplicado o RIEAM ?
+      solution: >
+        Em todas as condições de tempo.
+      alternatives:
+        - As regras relativas aos faróis do nascer ao pôr-do-sol.
+        - As regras relativas aos balões do pôr ao nascer do Sol.
+        - Todas as alíneas estão correctas.
+    -
+      type: choice
+      text: >
+        Embarcações a motor.
+        Das opções abaixo indicadas escolha a correcta, no
+        que respeita a direito de rumo entre embarcações
+        de propulsão mecânica:
+      solution: >
+        Quando duas embarcações navegam com rumos cruzados com risco de abalroamento desvia-se aquela que vê a outra por EB.
+      alternatives:
+        - Quando duas embarcações navegam com rumos cruzados com risco de abalroamento tem direito a rumo aquela que está a BB da outra.
+        - Quando duas embarcações navegam com rumos cruzados com risco de abalroamento desvia-se aquela que vê a outra por BB. 
+        - As respostas {{0}} e {{1}} estão certas. 
+    -
+      type: choice
+      text: >
+        Embarcações à vela
+      solution: >
+        Toda a embarcação que alcança outra desvia-se dela ultrapassando-a por barlavento ou sotavento.
+      alternatives:
+        - Toda a embarcação que alcança outra desvia-se dela ultrapassando-a por sotavento.
+        - Toda a embarcação que alcança outra desvia-se dela ultrapassando-a por barlavento.
+        - Toda a embarcação que alcança outra desvia-se dela ultrapassando-a por sotavento de forma a não lhe tirar o vento.
+    -
+      type: choice
+      text: >
+        Embarcações de propulsão mecânica
+      solution: >
+        Duas embarcações que se aproximam roda à roda desviam-se ambas para Estibordo.
+      alternatives:
+        - Duas embarcações que se aproximam roda à roda desviam-se ambas para Bombordo.
+        - Duas embarcações que se aproximam roda à roda desvia-se aquela que vê a outra por barlavento.
+        - Duas embarcações que se aproximam roda à roda desvia-se aquela que vê a outra por sotavento.
+    -
+      type: choice
+      text: >
+        Embarcações à vela
+      solution: >
+        Quando duas embarcações à vela recebem vento por bordos diferentes desvia-se aquela que navega com amuras a BB.
+      alternatives:
+        - Quando duas embarcações à vela recebem vento por bordos diferentes desvia-se aquela que vê a outra por BB.
+        - Quando duas embarcações à vela recebem vento por bordos diferentes desvia-se aquela que vê a outra por EB.
+        - Quando duas embarcações à vela recebem vento por bordos diferentes desvia-se aquela que navega com amuras a EB.
+    -
+      type: choice
+      text: >
+        Embarcações à vela
+      solution: >
+        Quando duas embarcações à vela recebem vento pelo mesmo bordo desvia-se aquela que está a barlavento da outra.
+      alternatives:
+        - Quando duas embarcações à vela recebem vento pelo mesmo bordo desvia-se aquela que está a sotavento da outra.
+        - Quando duas embarcações à vela recebem vento pelo mesmo bordo desvia-se aquela que vê a outra por BB.
+        - Quando duas embarcações à vela recebem vento pelo mesmo bordo desvia-se aquela que vê a outra por EB.
+    -
+      type: phrase
+      text: >
+        Quando duas embarcações de propulsão mecânica navegam
+        em rumos cruzados e, e o ângulo relativo entre as
+        duas embarcações aumenta, a segunda embarcação
+        passa pela proa ou pela popa da primeira.
+      solution: >
+        Popa
+    -
+      type: choice
+      text: >
+        Embarcações a motor
+      solution: >
+        Considera-se que duas embarcações estão em rumo de colisão quando a marcação se mantém e a distancia diminui.
+      alternatives:
+        - Considera-se que duas embarcações estão em rumo de colisão quando a marcação diminui.
+        - Considera-se que duas embarcações estão em rumo de colisão quando a marcação aumenta.
+        - Considera-se que duas embarcações estão em rumo de colisão quando o ângulo relativo se mantém.
+    -
+      type: choice
+      text: >
+        Aponte a resposta mais completa
+        Na medida do possível, as embarcações na faina da pesca, devem manter-se afastadas do rumo de:
+      solution: >
+        uma embarcação desgovernada ou uma embarcação com capacidade de manobra reduzida.      
+      alternatives:
+        - uma embarcação desgovernada.
+        - uma embarcação com capacidade de manobra reduzida.
+        - uma embarcação desgovernada, embarcação com capacidade de manobra reduzida, uma embarcação a navegar à vela e uma embarcação na faina da pesca.
+    -
+      type: choice
+      text: >
+        Embarcações a motor
+      solution: >
+        As respostas {{2}} e {{3}} estão certas.
+      alternatives:
+        - Uma embarcação de propulsão mecânica desvia-se de uma embarcação que navega à vela quando esta se apresenta por EB.
+        - Uma embarcação de propulsão mecânica tem direito a rumo sobre uma embarcação de vela, por motivo de navegar num canal com manobra reduzida devido ao calado.
+        - Uma embarcação de propulsão mecânica desvia-se de uma embarcação que navegue à vela. 
+    -
+      type: choice
+      text: >
+        Aponte as respostas certas ou que se completem.
+        Uma embarcação de propulsão mecânica ou uma embarcação a navegar à vela desviam-se sempre de:
+      solution: >
+        uma embarcação desgovernada ou com capacidade de mano- bra reduzida, ou uma embarcação na faina da pesca.
+      alternatives:
+        - uma embarcação a navegar a grande velocidade 
+        - uma embarcação a rebocar outra ou outras.
+        - Todas as respostas estão certas.
+    -
+      type: complete
+      text: >
+        Complete a frase.
+      figure: abol16.png
+      data: >
+        A embarcação 
+        {{A}} 
+        tem direito a rumo porque
+        {{está a navegar com capacidade de manobra reduzida}}
+    -
+      type: complete
+      text: >
+        Complete a frase.
+      figure: abol17.png
+      data: >
+        A embarcação 
+        {{B}} 
+        tem direito a rumo porque
+        {{se apresenta por estibordo (Versão IPTM: embarcação B, porque avista a embarcação A por bombordo) e ambas são de propulsão mecânica}}.
+    -
+      type: complete
+      text: >
+        Complete a frase.
+      figure: abol18.png
+      data: >
+        A embarcação 
+        {{A}} 
+        tem direito a rumo porque
+        {{se encontra acircular num canal estreito e se trata de um navio que está com capacidade de manobra reduzida, claramente condicionada pelo calado}}.
+    -
+      type: complete
+      text: >
+        Complete a frase.
+      figure: abol19.png
+      data: >
+        A embarcação 
+        {{A}} 
+        tem direito a rumo porque
+        {{se encontra fundeada}}.
+    -
+      type: complete
+      text: >
+        Complete a frase.
+      figure: abol20.png
+      data: >
+        A embarcação 
+        {{B}} 
+        tem direito a rumo porque
+        {{porque tem amuras a estibordo (Versão IPTM: embarcação B, porque a embarcação A navega com amuras a bombordo)}}.
+    -
+      type: complete
+      text: >
+        Complete a frase.
+      figure: abol21.png
+      data: >
+        A embarcação 
+        {{B}} 
+        tem direito a rumo porque
+        {{é um Navio à Vela e A é um navio de propulsão mecânica}}.
+    -
+      type: complete
+      text: >
+        Complete a frase.
+      figure: abol22.png
+      data: >
+        A embarcação 
+        {{B}} 
+        tem direito a rumo porque
+        {{é um Navio à Vela e A é um navio de propulsão mecânica (por acaso encontra-se a rebocar)}}.
+    -
+      type: choice
+      text: >
+        Um navio que ás 1000 horas seja avistado por outro
+        pela marcação 130° BB a 5 milhas de distância e ás
+        1015 horas pela marcação 130° BB a 3 milhas, aplica-se
+        a regra:
+      solution: >
+        Navio que alcança
+      alternatives:
+        - Navios em rumo de colisão
+        - Navios roda a roda
+        - Nenhuma se aplica        
+    -
+      type: phrase
+      text: >
+        Um iate que navegue à vela e a motor é considerado:
+      solution: >
+        Navio de propulsão mecânica
+    -
+      type: complete
+      text: >
+        Complete a frase.
+      data: >
+        Quando dois navios à vela se aproximam com risco
+        de abalroamento, se receberem o vento {{por bordos diferentes}} o
+        que receber por bombordo deverá desviar-se do caminho
+        do outro.
+    -
+      type: complete
+      text: >
+        Complete a frase.
+      data: >
+        Considera-se que existe risco de abalroamento sempre
+        que a marcação {{se mantiver constante}} e a distância {{diminuir}}.
+    -
+      type: choice
+      text: >
+        Considera-se que existe risco de abalroamento sempre que:
+      solution: >
+        Nenhuma se aplica
+      alternatives:
+        - A distância se mantiver
+        - A distância diminuir
+        - A marcação e a distância se mantiverem
+    -
+      type: choice
+      text: >
+        Um navio de propulsão mecânica a navegar deve desviar-se de:
+      solution: >
+        Todas as alíneas estão correctas
+      alternatives:
+        - Um navio com capacidade de manobra reduzida
+        - Um navio na faina de pesca
+        - Um navio desgovernado
+    -
+      type: choice
+      text: >
+        Deve considerar-se como navio que alcança, aquele
+        que se aproxima de um outro vindo de uma direcção que fique mais de:
+      solution: >
+        22°.5 para ré do través
+      alternatives:
+        - 112°.5 para ré do través
+        - 12°.5 para ré do través
+        - Nenhuma se aplica
+    -
+      type: choice
+      text: >
+        Se, às 1000 horas, avistar uma embarcação pela marcação
+        015 BB a uma distância de 5 milhas e às 1020 horas
+        pela mesma marcação e distância, isso significa que navegam em:
+      solution: >
+        Em rumos paralelos
+      alternatives:
+        - Roda à roda
+        - Em rumo de colisão
+        - Nenhuma se aplica
+    -
+      type: choice
+      text: >
+        Vai a navegar a motor e apercebe-se que está em rumo
+        de colisão com uma embarcação à vela, que se apresenta
+        por seu bombordo. Qual a opção que deve tomar:
+      solution: >
+        Manobra francamente por forma a evitar o abalroamento. Deve passar pela popa.
+      alternatives:
+        - Nenhuma, porque a outra embarcação se apresenta por bombordo.
+        - Guina para evitar a colisão somente depois de verificar que a outra embarcação não manobra.
+        - Guina ligeiramente por forma a evitar a colisão passando próximo e à proa da outra embarcação.
+    -
+      type: choice
+      text: >
+        Um navio de propulsão mecânica a navegar deve desviar-se de:
+      solution: >
+        Todas as alíneas estão correctas
+      alternatives:
+        - Um navio desgovernado
+        - Um navio à vela
+        - Um navio que se aproxime por estibordo
+    -
+      type: choice
+      text: >
+        Para determinar a velocidade de segurança, deve-se ter em consideração os seguintes factores:
+      solution: >
+        Todas as respostas estão correctas
+      alternatives:
+        - A densidade de tráfego
+        - A capacidade de manobra do navio
+        - As condições meteorológicas
+    -
+      type: draw
+      text: >
+        Um navio na faina da pesca (com um comprimento superior a 20 metros) de dia, como deve tal assinalar?
+      solution: abol34.png
+    -
+      type: complete
+      text: >
+        Complete a frase.
+      figure: abol35.png
+      data: >
+        A embarcação 
+        {{A}} 
+        tem direito a rumo porque
+        {{está com capacidade de manobra reduzida}}.
+    -
+      type: choice
+      text: >
+        Como deve manobrar a sua embarcação ao aproximar-se de outra, roda a roda?
+      solution: >
+        Devo guinar para estibordo
+      alternatives:
+        - Devo guinar para bombordo
+        - Devo manter o rumo
+        - Devo parar a embarcação 
+    -
+      type: complete
+      text: >
+        Complete a frase.
+      data: >
+        Quando dois navios à vela se aproximam com risco
+        de abalroamento, se receberem o vento por bordos diferentes,
+        o que receber por {{bombordo}} deverá desviar-se do caminho do outro.
+    -
+      type: choice
+      text: >
+        Embarcações a motor que se aproximem roda a roda devem:
+      solution: >
+        Guinar ambas para estibordo
+      alternatives:
+        - Guinar ambas para bombordo
+        - Reduzirem ambas a velocidade e guinarem para estibordo 
+        - Nenhuma se aplica
+    -
+      type: complete
+      text: >
+        Complete a frase.
+      figure: abol39.png
+      data: >
+        A embarcação 
+        {{B}} 
+        tem direito a rumo porque
+        {{é um Navio à Vela}}.
+    -
+      type: complete
+      text: >
+        Complete a frase.
+      figure: abol40.png
+      data: >
+        A embarcação 
+        {{A}} 
+        tem direito a rumo porque
+        {{é um navio com capacidade de manobra reduzida (por acaso vai a rebocar)}}.
+    -
+      type: choice
+      text: >
+        Como é que um navio desgovernado sinaliza essa situação aos navios na vizinhança durante o dia?
+      solution: >
+        Colocando dois balões esféricos no mastro
+      alternatives:
+        - Colocando três balões esféricos no mastro
+        - Colocando um balão cilíndrico no mastro
+        - Colocando três balões no mastro, sendo o superior e o inferior esféricos e o do meio um balão cónico
+    -
+      type: choice
+      text: >
+        Uma embarcação à vela (A) amurada por bombordo tem prioridade sobre outra embarcação à vela (B) também amurada por bombordo quando:
+      solution: >
+        No caso das alíneas {{0}} e {{1}}
+      alternatives:
+        - A embarcação A está por barlavento
+        - A embarcação A está por sotavento
+        - A embarcação B tem içado um balão cónico invertido
+    -
+      type: choice
+      text: >
+        Das opções abaixo indicadas escolha a correcta, no que respeita a direito a rumo:
+      solution: >
+        Todas estão certas
+      alternatives:
+        - Uma embarcação de propulsão mecânica desvia-se de uma embarcação que navega à vela quando esta se apresenta pelo seu EB
+        - Uma embarcação de propulsão mecânica tem direito a rumo sobre uma embarcação de vela, quando a navegar num canal de manobra reduzida, devido ao calado
+        - Uma embarcação de propulsão mecânica desvia-se de uma embarcação que navega à vela

@@ -8,3 +8,4 @@ check answer for Como se chama o nível de referência vertical a que são re
 	representadas na carta náutica oficial?
 implement phrases
 make it work on safari, check firefox
+implment draw
