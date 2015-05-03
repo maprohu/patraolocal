@@ -224,6 +224,7 @@ var app = angular.module('mfw-app', [
 	var exerciseHandlers = {
 		text: Handler,
 		phrase: Handler,
+		phrases: Handler,
 		choice: ChoiceHandler,
 		choice_multi: ChoiceHandler,
 		complete: CompleteHandler,

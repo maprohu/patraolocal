@@ -1,291 +1,172 @@
 -
-  topic: GENERALIDADES
+  topic: RUMOS E PROAS
   exercises:
     -
-      type: text
+      type: choice
       text: >
-        Como elabora uma Tabela de Rotações?
+        Abatimento é o ângulo entre a:
       solution: >
-        Fazem-se várias corridas entre dois enfiamentos (marcas
-        ou conhecenças), em que se conhece a distância exacta
-        entre eles. Sabendo o tempo que a embarcação leva a
-        percorrer essa distância nas diversas rotações de
-        máquina, correspondentes velocidades de superfície.
+        Pv e R
+      alternatives:
+        - Pv e Pa
+        - Pa e R
+        - Pm e R
     -
       type: choice
       text: >
-        Defina paralelos.
+        Na carta de Mercator o Rumo faz ângulos iguais com os Meridianos.
       solution: >
-        Círculos menores paralelos ao Equador. 
+       VERDADEIRO 
       alternatives:
-        - Círculos máximos paralelos ao Equador. 
-        - Círculos menores que passam pelos Pólos. 
-        - Círculos paralelos entre si.
+        - FALSO
     -
       type: choice
       text: >
-        Diga o que entende por diferença de Latitude.
+        A linha que intersecta os paralelos segundo o mesmo ângulo chama-se?
       solution: >
-        É a medida do arco do meridiano entre duas Latitudes menores que 90°.    
+        Loxodrómica.
       alternatives:
-        - É a medida do arco do meridiano entre duas Longitudes menores que 90°.
-        - É a medida do arco do meridiano entre duas Latitudes menores que 180°.
-        - É a medida do arco do Equador entre duas Latitudes menores que 180°.
-    -
-      type: choice
-      text: >
-        Os círculos máximos que passam pelos Pólos, perpendiculares ao Equador, designam-se por?
-      solution: >
-        Meridianos.
-      alternatives:
-        - Paralelos.
-        - Círculos máximos. 
-        - Círculos menores.
-    -
-      type: choice
-      text: >
-        O que entende por Meridiano do Lugar
-      solution: >
-        Círculo máximo que passa pelo local do observador. 
-      alternatives:
-        - Círculo menor perpendicular ao Equador.
-        - Círculo menor que passa pelo Local do observador. 
-        - Círculo máximo paralelo ao Equador. 
-    -
-      type: choice
-      text: >
-        O que entende por Paralelo do Lugar.
-      solution: >
-        Círculo menor que passa pelo local do observador.
-      alternatives:
-        - Círculo máximo que passa pelo local do observador.
-        - Círculo menor perpendicular ao Equador.
-        - Círculo máximo paralelo ao Equador.
-    -
-      type: choice
-      text: >
-        Defina Latitude do Lugar.
-      solution: >
-        Arco do meridiano compreendido entre o Equador e o paralelo do Lugar.
-      alternatives:
-        - Arco do paralelo compreendido entre o meridiano do Lugar e o meridiano de Greenwich.
-        - Arco do meridiano compreendido entre o paralelo do Lugar e o Meridiano de Greenwich.
-        - Arco do Equador compreendido entre o Equador e o paralelo do Lugar.
-    -
-      type: choice
-      text: >
-        Defina Longitude do Lugar
-      solution: >
-        Arco do Equador compreendido entre o Meridiano de Greenwich e o Meridiano do Lugar.
-      alternatives:
-        - Arco do paralelo compreendido entre o meridiano do Lugar e o meridiano de Greenwich.
-        - Arco do meridiano compreendido entre o paralelo do Lugar e o Meridiano de Greenwich.
-        - Arco do Equador compreendido entre o Meridiano de Greenwich e o paralelo do Lugar.
-    -
-      type: choice
-      text: >
-        O Nó na náutica corresponde a quantos metros?
-      solution: >
-        1852 metros 
-      alternatives:
-        - 1862 metros 
-        - 1952 metros 
-        - 1752 metros
-    -
-      type: choice
-      text: >
-        Diga o que entende por diferença de Longitude
-      solution: >
-        É a medida do arco do Equador entre duas Longitudes menores que 180°.
-      alternatives:
-        - É a medida do arco do meridiano entre duas Longitudes menores que 90°.
-        - É a medida do arco do meridiano entre duas Latitudes menores que 180°.
-        - É a medida do arco do meridiano entre duas Latitudes menores que 90°.
+        - Rumo.
+        - Proa Verdadeira. 
+        - Ortodrómica
     -
       type: text
       text: >
-       O que entende por Fusos Horários e para que servem? 
+        O que entende pela Carta de Mercator ser conforme?
       solution: >
-        Com o fim de obter uma hora distinta, em coordenação
-        com os outros e para cada lugar, dividiu-se a superfície
-        esférica da Terra em 24 fusos horários com intervalos de
-        15° (24x15° = 360°), ou seja, uma hora de diferença
-        entre eles, a fim de que todos os lugares dentro de
-        cada fuso tenham a mesma hora – Hora Legal.
-    -
-      type: phrase
-      text: >
-        Quando uma embarcação ao cortar a linha de mudança de data repete um dia. Está a navegar para W ou E?
-      solution: >
-        Este
-    -
-      type: choice
-      text: >
-        O arco do Equador, compreendido entre o Meridiano de Greenwich e o Meridiano do Lugar, chama-se?
-      solution: >
-        Longitude
-      alternatives:
-        - Diferença de Latitude
-        - Latitude
-        - Diferença de Longitude
-    -
-      type: phrase
-      text: >
-        Ao navegar sobre um enfiamento que está à nossa
-        proa, se a marca posterior estiver à direita da marca
-        anterior, para voltar a navegar no enfiamento, deve guinar para:
-      solution: >
-        Bombordo
-    -
-      type: choice
-      text: >
-        O arco do Meridiano do Lugar compreendido entre o Equador e o Lugar chama-se:
-      solution: >
-        Latitude do Lugar. 
-      alternatives:
-        - Longitude do Lugar. 
-        - Ângulo no Pólo.
+        Mantém os verdadeiros contornos dos Continentes, isto
+        é, não altera a forma nas suas representações.
     -
       type: text
       text: >
-        Como se designa e o que representa uma milha náutica por hora?
+        Diga o que entende por abatimento.
       solution: >
-        Designa-se por NÓ e representa 1852m ou seja um minuto de Latitude 
-    -
-      type: phrase
-      text: >
-        Indique a que instrumento recorre para efectuar uma marcação
-      solution: >
-        Taxímetro
-    -
-      type: choice
-      text: >
-        O ângulo entre a Proa e o Rumo chama-se?
-      solution: >
-        Abatimento.
-      alternatives:
-        - Marcação.
-        - Azimute.
-        - Nenhuma se aplica. 
-    -
-      type: choice
-      text: >
-        Qual a diferença de longitude entre dois lugares:
-      solution: >
-        É a medida do arco do Equador entre duas Longitudes menores que 180°. 
-      alternatives:
-        - É a medida do arco do meridiano entre duas Longitudes menores que 90°. 
-        - É a medida do arco do meridiano entre duas Latitudes menores que 180°. 
-        - É a medida do arco do meridiano entre duas Latitudes menores que 90°.
-    -
-      type: choice
-      text: >
-        Numa Carta de Mercator se a variação da escala das Latitudes cresce para o Sul estamos:
-      solution: >
-        A Sul do Equador 
-      alternatives:
-        - A Norte do Equador 
-        - Nenhuma se aplica
-    -
-      type: choice
-      text: >
-        Uma Marcação é uma LDP do tipo:
-      solution: >
-        Direcção
-      alternatives:
-        - Distância 
-        - Sentido 
-        - Segmento capaz 
-    -
-      type: choice
-      text: >
-        Aos pontos em que o eixo da Terra intersecta a esfera terrestre, dá-se o nome de:
-      solution: >
-        Pólos
-      alternatives:
-        - Coordenadas terrestres
-        - Vertical do lugar
-        - Zénites
-    -
-      type: phrase
-      text: >
-        Na esfera terrestre, o único círculo máximo perpendicular ao eixo da Terra tem o nome de:
-      solution: >
-        Equador
-    -
-      type: choice
-      text: >
-        Uma LDP do tipo distância obtém-se a partir de:
-      solution: >
-        Um radar
-      alternatives:
-        - Uma sonda
-        - Um aparelho de marcar 
-    -
-      type: choice
-      text: >
-        De entre as opções abaixo indicadas, escolha o melhor cruzamento de duas LDP (s):
-      solution: >
-        90°
-      alternatives:
-        - 50°
-        - 30°
-        - 70°
+        É a diferença entre a Proa Verdadeira e o Rumo.
     -
       type: text
       text: >
-        O que entende por Marcação?
+        Qual a diferença entre Proa Verdadeira e Rumo?
       solution: >
-        É o ângulo entre a proa e o objecto considerado.
+        A Proa Verdadeira é o ângulo entre o Meridiano Verdadeiro
+        e a Proa da embarcação relativamente à superfície
+        da água. O Rumo é o ângulo entre o Meridiano Verdadeiro
+        e o caminho seguido pela embarcação em relação ao fundo do mar.
     -
       type: choice
       text: >
-        O que entende por Meridiano do Lugar
+        Qual das Proas pode traçar na carta?
       solution: >
-        Círculo máximo que passa pelos Pólos e pelo local do observador.
+        A Proa Verdadeira.
       alternatives:
-        - Círculo menor paralelo ao Equador que passa pelo local do observador. 
-        - Círculo máximo paralelo ao Equador.
-        - Nenhuma se aplica
+        - A Proa da Agulha.
+        - A Proa Magnética.
+        - O valor dado pela Agulha magnética quando a navegar.
     -
       type: text
       text: >
-        Explique como determina a posição Carteada:
+        Explique o que entende por uma Linha de Posição (LDP).
       solution: >
-        Partindo de um ponto, entro com a proa verdadeira e a
-        velocidade de superfície durante o tempo considerado
-        e obtenho a posição carteada.
+        LDP – é uma linha de possíveis pontos onde a embarcação
+        se encontra. Só depois do cruzamento com outra LDP
+        se determina a posição exacta da embarcação.
     -
       type: phrase
       text: >
-        Qualquer círculo máximo que contenham os Pólos designa-se por?
+        Indique a equação que usa para transformar Pv em Pa .
       solution: >
-        Meridiano
+        Pa=Pv-V
+    -
+      type: text
+      text: >
+        Diga alguns factores que podem provocar abatimento numa embarcação a navegar à vela.
+      solution: >
+        Vento; corrente; vaga
+    -
+      type: text
+      text: >
+        Explique como determina a posição usando a Navegação Carteada?
+      solution: >
+        Partindo de um Ponto inicial, determina-se a posição
+        seguinte entrando com a velocidade de superfície (velocidade
+        em relação à água) e a Proa Verdadeira (não entra
+        o abatimento sendo simplesmente a conversão em agulha)
     -
       type: choice
       text: >
-        Uma LDP tipo direcção obtém-se a partir de:
+        A fórmula para transformar a Proa da Agulha em Proa Verdadeira é:
       solution: >
-        Um aparelho de marcar 
+        Pv=Pa+V
       alternatives:
-        - Uma sonda
-        - Um sextante
-        - Nenhuma se aplica 
-    -
-      type: phrase
-      text: >
-        Se um observador avista para o mesmo lado dois objectos
-        em linha, isso significa que, em relação aos mesmos,
-        o observador está no seu:
-      solution: >
-        Enfiamento
+        - Pv=Pa–V 
+        - PV=Pm–d 
+        - Pv=Pa+D 
     -
       type: choice
       text: >
-        Qual o tipo de navegação que exige maior precisão e rapidez no cálculo da sua posição:
+        O ângulo entre o Meridiano Magnético e a proa da embarcação denomina-se:
       solution: >
-        Navegação em águas restritas
+        Proa Magnética. 
       alternatives:
-        - Navegação costeira
-        - Navegação oceânica
-        - Geonavegação
+        - Rumo Magnético. 
+        - Rumo.
+        - Proa.
+    -
+      type: choice
+      text: >
+        Rumo é o ângulo entre:
+      solution: >
+        O Meridiano Verdadeiro e o caminho seguido pela embarcação em relação ao fundo do mar.
+      alternatives:
+        - O Meridiano Verdadeiro e o caminho seguido pela embarcação em relação à superfície do mar.
+        - O Meridiano Mag nético e o caminho seguido pela embarcação em relação à superfície do mar.
+        - O Meridiano Magnético e o caminho seguido pela embarcação em relação ao fundo do mar.
+    -
+      type: choice
+      text: >
+        O Abatimento pode ser:
+      solution: >
+        Para bombordo ou para estibordo.
+      alternatives:
+        - Norte, Sul, Este ou Oeste.
+        - Para vante, para bombordo ou para estibordo. 
+        - Nenhuma se aplica.
+    -
+      type: choice
+      text: >
+        O ângulo entre o Meridiano Verdadeiro e a proa da embarcação denomina-se:
+      solution: >
+        Proa Verdadeira. 
+      alternatives:
+        - Rumo Verdadeiro. 
+        - Rumo.
+        - Proa. 
+    -
+      type: choice
+      text: >
+        O ângulo entre o Meridiano da Agulha e a proa da embarcação denomina-se:
+      solution: >
+        Proa da Agulha.
+      alternatives:
+        - Proa.
+        - Rumo da Agulha. 
+        - Rumo.
+    -
+      type: choice
+      text: >
+        Na leitura circular as Proas e Rumos contam-se:
+      solution: >
+        De 000° a 360° no sentido dos ponteiros do relógio.
+      alternatives:
+        - De 000° a 360° no sentido contrário dos ponteiros do relógio. 
+        - De 000° a 180° no sentido dos ponteiros do relógio.
+        - De 000° a 180° no sentido contrário dos ponteiros do relógio.      
+    -
+      type: choice
+      text: >
+        A fórmula para transformar a Proa Verdadeira em Proa da Agulha é:
+      solution: >
+        Pa=Pv–V 
+      alternatives:
+        - Pa=Pm+D 
+        - Pa=Pv–D 
+        - Pa=Pm+d
