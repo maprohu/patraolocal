@@ -1,172 +1,93 @@
 -
-  topic: RUMOS E PROAS
+  topic: ABALROAMENTOS
   exercises:
-    -
-      type: choice
-      text: >
-        Abatimento é o ângulo entre a:
-      solution: >
-        Pv e R
-      alternatives:
-        - Pv e Pa
-        - Pa e R
-        - Pm e R
-    -
-      type: choice
-      text: >
-        Na carta de Mercator o Rumo faz ângulos iguais com os Meridianos.
-      solution: >
-       VERDADEIRO 
-      alternatives:
-        - FALSO
-    -
-      type: choice
-      text: >
-        A linha que intersecta os paralelos segundo o mesmo ângulo chama-se?
-      solution: >
-        Loxodrómica.
-      alternatives:
-        - Rumo.
-        - Proa Verdadeira. 
-        - Ortodrómica
-    -
-      type: text
-      text: >
-        O que entende pela Carta de Mercator ser conforme?
-      solution: >
-        Mantém os verdadeiros contornos dos Continentes, isto
-        é, não altera a forma nas suas representações.
-    -
-      type: text
-      text: >
-        Diga o que entende por abatimento.
-      solution: >
-        É a diferença entre a Proa Verdadeira e o Rumo.
-    -
-      type: text
-      text: >
-        Qual a diferença entre Proa Verdadeira e Rumo?
-      solution: >
-        A Proa Verdadeira é o ângulo entre o Meridiano Verdadeiro
-        e a Proa da embarcação relativamente à superfície
-        da água. O Rumo é o ângulo entre o Meridiano Verdadeiro
-        e o caminho seguido pela embarcação em relação ao fundo do mar.
-    -
-      type: choice
-      text: >
-        Qual das Proas pode traçar na carta?
-      solution: >
-        A Proa Verdadeira.
-      alternatives:
-        - A Proa da Agulha.
-        - A Proa Magnética.
-        - O valor dado pela Agulha magnética quando a navegar.
-    -
-      type: text
-      text: >
-        Explique o que entende por uma Linha de Posição (LDP).
-      solution: >
-        LDP – é uma linha de possíveis pontos onde a embarcação
-        se encontra. Só depois do cruzamento com outra LDP
-        se determina a posição exacta da embarcação.
     -
       type: phrase
       text: >
-        Indique a equação que usa para transformar Pv em Pa .
+        Quando duas embarcações de propulsão mecânica navegam
+        em rumos cruzados e, o ângulo relativo entre as duas
+        embarcações diminui, a segunda em barcação passa
+        pela proa ou pela popa da primeira?
       solution: >
-        Pa=Pv-V
+        proa
+    -
+      type: choice
+      text: >
+        Embarcações à vela
+      solution: >
+        Quando duas embarcações à vela se aproximam roda à roda desvia-se aquela que está amurada a Bombordo.
+      alternatives:
+        - Quando duas embarcações à vela se aproximam roda à roda desviam-se ambas para Estibordo.
+        - Quando duas embarcações à vela se aproximam roda à roda desviam-se ambas para Bombordo.
+        - Quando duas embarcações à vela se aproximam roda à roda desvia-se a que vê a outra por Bombordo.
     -
       type: text
       text: >
-        Diga alguns factores que podem provocar abatimento numa embarcação a navegar à vela.
+        O que entende por velocidade de segurança?
       solution: >
-        Vento; corrente; vaga
-    -
-      type: text
-      text: >
-        Explique como determina a posição usando a Navegação Carteada?
-      solution: >
-        Partindo de um Ponto inicial, determina-se a posição
-        seguinte entrando com a velocidade de superfície (velocidade
-        em relação à água) e a Proa Verdadeira (não entra
-        o abatimento sendo simplesmente a conversão em agulha)
+        Velocidade que permite à embarcação executar qualquer
+        manobra a fim de evitar um abalroamento e, face às
+        circunstâncias, parar à distância conveniente, em segurança.
     -
       type: choice
       text: >
-        A fórmula para transformar a Proa da Agulha em Proa Verdadeira é:
+        Embarcação alcançante
       solution: >
-        Pv=Pa+V
+        É aquela que se aproxima de outra de uma direcção que fique mais de 22°.5 para ré do través.
       alternatives:
-        - Pv=Pa–V 
-        - PV=Pm–d 
-        - Pv=Pa+D 
+        - É aquela que se aproxima de outra de uma direcção que fique mais de 12°.5 para ré do través.
+        - É aquela que se aproxima de outra de uma direcção que fique mais de 02°.5 para ré do través.
+        - É aquela que se aproxima de outra de uma direcção que fique mais de 102°.5 para cada lado da proa. 
     -
       type: choice
       text: >
-        O ângulo entre o Meridiano Magnético e a proa da embarcação denomina-se:
+        Em que condições deve ser aplicado o RIEAM ?
       solution: >
-        Proa Magnética. 
+        Em todas as condições de tempo.
       alternatives:
-        - Rumo Magnético. 
-        - Rumo.
-        - Proa.
+        - As regras relativas aos faróis do nascer ao pôr-do-sol.
+        - As regras relativas aos balões do pôr ao nascer do Sol.
+        - Todas as alíneas estão correctas.
     -
       type: choice
       text: >
-        Rumo é o ângulo entre:
+        Embarcações a motor.
+        Das opções abaixo indicadas escolha a correcta, no
+        que respeita a direito de rumo entre embarcações
+        de propulsão mecânica:
       solution: >
-        O Meridiano Verdadeiro e o caminho seguido pela embarcação em relação ao fundo do mar.
+        Quando duas embarcações navegam com rumos cruzados com risco de abalroamento desvia-se aquela que vê a outra por EB.
       alternatives:
-        - O Meridiano Verdadeiro e o caminho seguido pela embarcação em relação à superfície do mar.
-        - O Meridiano Mag nético e o caminho seguido pela embarcação em relação à superfície do mar.
-        - O Meridiano Magnético e o caminho seguido pela embarcação em relação ao fundo do mar.
+        - Quando duas embarcações navegam com rumos cruzados com risco de abalroamento tem direito a rumo aquela que está a BB da outra.
+        - Quando duas embarcações navegam com rumos cruzados com risco de abalroamento desvia-se aquela que vê a outra por BB. 
+        - As respostas {{0}} e {{1}} estão certas. 
     -
       type: choice
       text: >
-        O Abatimento pode ser:
+        Embarcações à vela
       solution: >
-        Para bombordo ou para estibordo.
+        Toda a embarcação que alcança outra desvia-se dela ultrapassando-a por barlavento ou sotavento.
       alternatives:
-        - Norte, Sul, Este ou Oeste.
-        - Para vante, para bombordo ou para estibordo. 
-        - Nenhuma se aplica.
+        - Toda a embarcação que alcança outra desvia-se dela ultrapassando-a por sotavento.
+        - Toda a embarcação que alcança outra desvia-se dela ultrapassando-a por barlavento.
+        - Toda a embarcação que alcança outra desvia-se dela ultrapassando-a por sotavento de forma a não lhe tirar o vento.
     -
       type: choice
       text: >
-        O ângulo entre o Meridiano Verdadeiro e a proa da embarcação denomina-se:
+        Embarcações de propulsão mecânica
       solution: >
-        Proa Verdadeira. 
+        Duas embarcações que se aproximam roda à roda desviam-se ambas para Estibordo.
       alternatives:
-        - Rumo Verdadeiro. 
-        - Rumo.
-        - Proa. 
+        - Duas embarcações que se aproximam roda à roda desviam-se ambas para Bombordo.
+        - Duas embarcações que se aproximam roda à roda desvia-se aquela que vê a outra por barlavento.
+        - Duas embarcações que se aproximam roda à roda desvia-se aquela que vê a outra por sotavento.
     -
       type: choice
       text: >
-        O ângulo entre o Meridiano da Agulha e a proa da embarcação denomina-se:
+        Embarcações à vela
       solution: >
-        Proa da Agulha.
+        Quando duas embarcações à vela recebem vento por bordos diferentes desvia-se aquela que navega com amuras a BB.
       alternatives:
-        - Proa.
-        - Rumo da Agulha. 
-        - Rumo.
-    -
-      type: choice
-      text: >
-        Na leitura circular as Proas e Rumos contam-se:
-      solution: >
-        De 000° a 360° no sentido dos ponteiros do relógio.
-      alternatives:
-        - De 000° a 360° no sentido contrário dos ponteiros do relógio. 
-        - De 000° a 180° no sentido dos ponteiros do relógio.
-        - De 000° a 180° no sentido contrário dos ponteiros do relógio.      
-    -
-      type: choice
-      text: >
-        A fórmula para transformar a Proa Verdadeira em Proa da Agulha é:
-      solution: >
-        Pa=Pv–V 
-      alternatives:
-        - Pa=Pm+D 
-        - Pa=Pv–D 
-        - Pa=Pm+d
+        - Quando duas embarcações à vela recebem vento por bordos diferentes desvia-se aquela que vê a outra por BB.
+        - Quando duas embarcações à vela recebem vento por bordos diferentes desvia-se aquela que vê a outra por EB.
+        - Quando duas embarcações à vela recebem vento por bordos diferentes desvia-se aquela que navega com amuras a EB.
