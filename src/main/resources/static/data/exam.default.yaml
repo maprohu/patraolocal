@@ -3018,3 +3018,1394 @@
         - Popa
         - Estibordo 
         - Bombordo        
+-
+  topic: AGULHA MAGNÉTICA
+  exercises:
+    -
+      type: choice
+      text: >
+        A Declinação é devida ao:
+      solution: >
+        Magnetismo terrestre
+      alternatives:
+        - Magnetismo dos Continentes 
+        - Magnetismo da embarcação 
+        - Nenhuma se aplica
+    -
+      type: text
+      text: >
+        Diga quando a Variação toma o sinal + ou - .
+      solution: >
+        Tem o sinal + (positivo) quando é E e o sinal – (negativo) quando é W
+    -
+      type: text
+      text: >
+        Indique a equação que usa para achar a Variação.
+      solution: >
+        Variação é a som a algébrica da Declinação magnética com o Desvio da agulha, ou seja, V=D+d
+    -
+      type: text
+      text: >
+        Explique a influência que o magnetismo Terrestre tem sobre a Agulha Magnética?  
+      solution: >
+        A Terra tem magnetismo próprio e assim comporta-se
+        como um grande íman. A agulha magnética (se não
+        tiver influência das massas da própria embarcação
+        nem outras) orienta-se para os Pólo Norte e Pólo
+        Sul magnéticos.
+    -
+      type: text
+      text: >
+        Onde se pode obter o valor do desvio?
+      solution: >
+        Na Tabela de Desvios da embarcação
+    -
+      type: choice
+      text: >
+        Defina Declinação.
+      solution: >
+        É o ângulo entre o Meridiano Verdadeiro e o Meridiano magnético.
+      alternatives:
+        - É o ângulo entre o Norte Verdadeiro e o Meridiano magnético.
+        - É o ângulo entre o Meridiano magnético e o Meridiano da Agulha.
+        - É o ângulo entre o Meridiano Verdadeiro e o Meridiano da agulha.
+    -
+      type: choice
+      text: >
+        Defina desvio.
+      solution: >
+        b) É o ângulo entre o Meridiano magnético e o Meridiano da Agulha.
+      alternatives:
+        - É o ângulo entre o Norte Verdadeiro e o Meridiano magnético.
+        - É o ângulo entre o Meridiano Verdadeiro e o Meridiano magnético.
+        - É o ângulo entre o Meridiano Verdadeiro e o Meridiano da agulha.
+    -
+      type: text
+      text: >
+        Explique a influência que o magnetismo da embarcação tem sobre a Agulha Magnética?
+      solution: >
+        As massas de ferro adquirem, com a construção das
+        embarcações, magnetização própria. Este magnetismo
+        também é influenciado pelos circuitos eléctricos
+        da embarcação. Assim a gulha magnética aponta para
+        um a direcção próxima do Norte Magnético, designada
+        por Norte da Agulha. A essa diferença chama-se Desvio
+        da Agulha.
+    -
+      type: choice
+      text: >
+        Defina Variação de uma agulha magnética.
+      solution: >
+        É o ângulo entre o Meridiano Verdadeiro e o Meridiano da agulha. 
+      alternatives:
+        - É o ângulo entre o Norte Verdadeiro e o Meridiano magnético.
+        - É o ângulo entre o Meridiano magnético e o Meridiano da Agulha.
+        - É o ângulo entre o Meridiano Verdadeiro e o Norte magnético.
+    -
+      type: text
+      text: >
+        Onde pode obter o valor da Declinação?
+      solution: > 
+        Nas Cartas de Navegação (na Rosa Magnética)
+    -
+      type: complete
+      text: >
+        Complete a frase
+      data: >
+         A Declinação varia de {{lugar}} para {{lugar}} e no mesmo lugar de {{ano}} para {{ano}}.
+    -
+      type: complete
+      text: >
+        Complete o espaço em branco:
+      data: >
+        A Agulha Magnética trabalha no interior de uma caixa denominada {{morteiro}}.
+    -
+      type: choice
+      text: >
+        O ângulo entre o Meridiano Verdadeiro e o Meridiano Magnético chama-se:
+      solution: >
+        Declinação.
+      alternatives:
+        - Variação.
+        - Desvio.
+        - Nenhuma se aplica.    
+    -
+      type: complete
+      text: >
+        Complete o espaço em branco:
+      data: >
+        A Rosa dos Ventos é graduada de {{000°}} a {{360°}} coincidindo o zero graus com o norte da {{agulha}}.
+    -
+      type: choice
+      text: >
+        A Declinação pode-se obter nas:
+      solution: >
+        Cartas de Navegação. 
+      alternatives:
+        - Tabela das Declinações. 
+        - Tabela de Desvios.
+        - Almanaque Náutico.         
+    -
+      type: choice
+      text: >
+        O Desvio é devido ao:
+      solution: >
+        Magnetismo da embarcação. 
+      alternatives:
+        - Magnetismo dos Continentes. 
+        - Magnetismo terrestre.
+        - Nenhuma se aplica.
+    -
+      type: choice
+      text: >
+        O ângulo entre o Meridiano Verdadeiro e o Meridiano da Agulha chama-se:
+      solution: >
+        Variação.
+      alternatives:
+        - Declinação.
+        - Desvio.
+        - Nenhuma se aplica.
+    -
+      type: choice
+      text: >
+        O ângulo entre o Meridiano Magnético e o Meridiano da Agulha chama-se:
+      solution: >
+        Desvio.
+      alternatives:
+        - Declinação.
+        - Variação.
+        - Nenhuma se aplica.
+    -
+      type: choice
+      text: >
+        O Desvio pode-se obter nas:
+      solution: >
+        Tabela de Desvios.
+      alternatives:
+        - Cartas de Navegação
+        - Tabela das Declinações. 
+        - Nenhuma se aplica.
+- 
+  topic: AZIMUTES
+  exercises:
+    -
+      type: choice
+      text: >
+        Os azimutes contam-se:
+      solution: >
+        De 0° a 360° no sentido dos ponteiros do relógio
+      alternatives:
+        - De 0° a 360° no sentido contrário aos ponteiros do relógio 
+        - De 0° a 180° no sentido contrário aos ponteiros do relógio 
+        - De 0° a 180° no sentido dos ponteiros do relógio 
+    -
+      type: choice
+      text: >
+        Com que valor entra na Tabela de desvios para calcular o valor do Azimute Verdadeiro?
+      solution: >
+        Com a Proa da Agulha
+      alternatives:
+        - Com o Rumo
+        - Com o Azimute da Agulha 
+        - Com a Proa Verdadeira 
+    -
+      type: choice
+      text: >
+        Defina Azimute Verdadeiro
+      solution: >
+        É o ângulo entre o Meridiano Verdadeiro e a linha que une o olho do observador ao Farol.
+      alternatives:
+        - É o ângulo entre o Norte Magnético e a linha que une o olho do observador á conhecença.
+        - É o ângulo entre o Norte e a linha que une o olho do observador ao Farol.
+        - É o ângulo entre o Norte da agulha e a linha que une o olho do observador ao Farol.
+    -
+      type: text
+      text: >
+        Como calcula o erro da agulha?
+      solution: >
+        Elaborando uma Tabela de Desvios. Fazem-se rotações
+        e em proas da Agulha de 15 em 15 ou de 30 em 30 graus
+        com param-se os azimutes da Agulha com os verdadeiros
+        (em relação a um enfiamento conhecido). Depois fazem-se
+        os cálculos e determinam-se os Desvios da Agulha.
+    -
+      type: choice
+      text: >
+        Defina Azimute da Agulha.
+      solution: >
+        É o ângulo entre Meridiano da agulha e a linha que une o olho do observador ao Farol.
+      alternatives:
+        - É o ângulo entre o Norte Magnético e a linha que une o olho do observador á conhecença.
+        - É o ângulo entre o Norte e a linha que une o olho do observador ao Farol.
+        - É o ângulo entre o Meridiano Verdadeiro e a linha que une o olho do observador ao Farol.
+    -
+      type: text
+      text: >
+        Como se pode obter um Azimute?
+      solution: >
+        Com um Aparelho de Marcar
+    -
+      type: choice
+      text: >
+        Defina Azimute Magnético.
+      solution: >
+        É o ângulo entre o Norte Magnético e a linha que une o olho do observador à conhecença.
+      alternatives:
+        - É o ângulo entre o Norte e a linha que une o olho do observador ao Farol. 
+        - É o ângulo entre o Meridiano Magnético e a linha que une o olho do observador ao Farol.
+        - É o ângulo entre o Meridiano Verdadeiro e a linha que une o olho do observador ao Farol.
+    -
+      type: text
+      text: >
+        Que equação usa para transformar um Za em Zv?
+      solution: >
+        Zv=Za+V
+    -
+      type: choice
+      text: >
+        Os azimutes magnéticos para serem traçados nas cartas têm:
+      solution: >
+        Que ser convertidos em Azimutes verdadeiros 
+      alternatives:
+        - Que ser convertidos em Azimutes de Agulha 
+        - Nenhuma se aplica
+    -
+      type: choice
+      text: >
+        Azimute Magnético é o ângulo entre:
+      solution: >
+        O Norte Magnético e a visual para o alvo
+      alternatives:
+        - O Norte e a visual para a conhecença
+        - O Norte Magnético e a proa da embarcação
+        - Nenhuma se aplica
+    -
+      type: choice
+      text: >
+        O Azimute que se obtém com a Agulha de Marcar é o:
+      solution: >
+        Azimute da Agulha. 
+      alternatives:
+        - Azimute Magnético. 
+        - Azimute Verdadeiro. 
+        - Nenhuma se aplica.
+    -
+      type: choice
+      text: >
+        Se tirar um só azimute a uma conhecença, ele define:
+      solution: >
+        Uma linha de posição. 
+      alternatives:
+        - Uma posição marcada. 
+        - Uma posição carteada. 
+        - Nenhuma se aplica.
+    -
+      type: choice
+      text: >
+        Um Azimute obtém-se por / com recurso a:
+      solution: >
+        Uma Agulha (com aparelho) de Marcar. 
+      alternatives:
+        - Uma agulha de governo.
+        - Um sextante.
+        - Nenhuma se aplica.
+    -
+      type: choice
+      text: >
+        Verdadeiro é o ângulo entre:
+      solution: >
+        O Norte Verdadeiro e a visual para o alvo.
+      alternatives:
+        - O Norte e a visual para a conhecença.
+        - O Meridiano da Agulha e a proa da embarcação. 
+        - Nenhuma se aplica. 
+    -
+      type: choice
+      text: >
+        Azimute da Agulha é o ângulo entre:
+      solution: >
+        O Norte da Agulha e a visual para o alvo. 
+      alternatives:
+        - O Norte e a visual para a conhecença.
+        - O Norte da Agulha e a proa da embarcação. 
+        - Nenhuma se aplica.
+    -
+      type: choice
+      text: >
+        Azimute Magnético é o ângulo entre:
+      solution: >
+        O Norte Magnético e a visual para o alvo. 
+      alternatives:
+        - O Norte e a visual para a conhecença.
+        - O Norte Magnético e a proa da embarcação. 
+        - Nenhuma se aplica.
+-
+  topic: BALIZAGEM
+  exercises:
+    - 
+      type: phrases
+      text: >
+        À entrada de um canal balizado na região B, dá EB à bóia de Cor, e qual a numeração?
+      data:
+        -
+          phrase: Cor
+          solution: vermelha
+        -
+          phrase: Numeração
+          solution: par
+    -
+      type: text
+      text: >
+        O que entende e para que servem as marcas para indicar o Canal Principal?
+      solution: >
+        São Marcas que indicam qual o Canal Principal e servem
+        para separar canais principais dos secundários. São
+        idênticas ás marcas laterais mas modificadas com
+        uma faixa verde ou vermelha consoante o canal principal
+        é a EB ou a BB
+    - 
+      type: phrases
+      text: >
+        Diga as cores, forma, marca e luz de uma Marca de Perigo Isolado?
+      data:
+        -
+          phrase: Cores 
+          solution: preta e vermelha
+        -
+          phrase: Forma  
+          solution: facultativa
+        -
+          phrase: Marca  
+          solution: duas esferas sobrepostas
+        -
+          phrase: Luz  
+          solution: cor branca de dois relámpagos
+    -
+      type: text
+      text: >
+        Para que servem as Marcas Cardeais?
+      solution: >
+        Indicam onde se situam as águas mais profundas que se encontram no quadrante que lhe dá o nome
+    -
+      type: text
+      text: >
+        Diga para que serve a Marca de Águas Limpas e a sua cor?
+      solution: >
+        Indica que as águas são navegáveis em torno da marca; tem cor vermelha e branca em faixas verticais
+    - 
+      type: phrases
+      text: >
+        Diga como se apresenta a Marca Cardeal Leste em relação à cor, forma e luz?
+      data:
+        -
+          phrase: Cores 
+          solution: preta e amarela
+        -
+          phrase: Forma  
+          solution: fuso ou antena
+        -
+          phrase: Luz  
+          solution: 3 cintilações
+    - 
+      type: phrases
+      text: >
+        Diga como se apresenta a Marca Cardeal Sul em relação à cor, forma e luz?
+      data:
+        -
+          phrase: Cores 
+          solution: preta e amarela
+        -
+          phrase: Forma  
+          solution: fuso ou antena
+        -
+          phrase: Luz  
+          solution: 6 cintilações
+    -
+      type: text
+      text: >
+        Diga para que serve a Marca da estação de aquisição de dados oceânicos e a sua cor?
+      solution: >
+        ODAS- para aquisição de dados oceânicos tipo correntes, marés, ondulação, etc; Cor amarela
+    - 
+      type: phrases
+      text: >
+        Ver Figura 23 do Anexo
+      figure: figura23.png
+      data:
+        -
+          phrase: Identifique a marca
+          solution: marca lateral
+        -
+          phrase: Região
+          solution: A
+        -
+          phrase: Numeração
+          solution: impar
+        -
+          phrase: Forma da Marca
+          solution: cónica, fuso ou antena
+        -
+          phrase: Luz
+          solution: verde
+        -
+          phrase: Qual o bordo pelo qual a entrada deve deixar
+          solution: estibordo
+    - 
+      type: phrases
+      text: >
+        Ver Figura 22 do Anexo
+      figure: figura22.png
+      data:
+        -
+          phrase: Identifique a marca
+          solution:  marca lateral
+        -
+          phrase: Região
+          solution: A
+        -
+          phrase: Numeração
+          solution: par
+        -
+          phrase: Forma da Marca
+          solution: cilíndrica, fuso ou antena
+        -
+          phrase: Luz
+          solution: vermelha
+        -
+          phrase: Qual o bordo pelo qual a entrada deve deixar
+          solution: bombordo
+    -
+      type: choice
+      text: >
+        As marcas cardeais, em que o alvo superior aponta para
+        baixo e o alvo inferior aponta para cima, indica, que o perigo está a:
+      solution: >
+        Este em relação à bóia
+      alternatives:
+        - Oeste em relação à bóia 
+        - Sul em relaçã o à bóia 
+        - Norte em relação à bóia 
+    - 
+      type: phrases
+      text: >
+        As características das Marcas Laterais de Bombordo (região A) são as seguintes:
+      data:
+        -
+          phrase: Cor
+          solution: vermelha
+        -
+          phrase: Forma
+          solution: cilíndrica, fuso ou antena
+        -
+          phrase: Alvo
+          solution: um único cilindro vermelho
+        -
+          phrase: Luz
+          solution: vermelha
+    -
+      type: choice
+      text: >
+        As marcas cardeais, em que o alvo superior aponta para cima e o alvo inferior aponta para baixo, indica, que o perigo está a:
+      solution: >
+        Oeste em relação à bóia 
+      alternatives:
+        - Norte em relação à bóia 
+        - Sul em relação à bóia 
+        - Leste em relação à bóia 
+    -
+      type: choice
+      text: >
+        As marcas cardeais, em que os dois alvos apontam ambos para cima, indicam que as águas mais profundas estão a:
+      solution: >
+        Norte 
+      alternatives:
+        - Oeste 
+        - Sul 
+        - Este
+    - 
+      type: phrases
+      text: >
+        Ver Figura 27 do Anexo
+      figure: figura27.png
+      data:
+        -
+          phrase: Marca
+          solution:  cardeal oeste
+        -
+          phrase: Indica
+          solution: onde se situam as águas mais profundas. Neste caso, a OESTE.
+    -
+      type: choice
+      text: >
+        As marcas cardeais, em que os dois alvos apontam ambos para baixo, indicam que as águas mais profundas estão a:
+      solution: >
+        Sul 
+      alternatives:
+        - Oeste  
+        - Norte 
+        - Este
+    - 
+      type: phrases
+      text: >
+        Ver Figura 28 do Anexo
+      figure: figura28.png
+      data:
+        -
+          phrase: Marca
+          solution:  cardeal sul
+        -
+          phrase: Indica
+          solution: onde se situam as águas mais profundas. Neste caso, a SUL.
+    - 
+      type: phrases
+      text: >
+        Num porto onde o canal se divide, seguindo o sentido
+        convencional da balizagem, o canal principal pode ser
+        indicado por uma marca lateral modificada, que, no
+        caso de canal principal a bombordo terá as seguintes
+        características:
+      data:
+        -
+          phrase: Cor
+          solution: Verde com uma larga faixa horizontal vermelha
+        -
+          phrase: Forma
+          solution: Cónica, fuso ou antena 
+        -
+          phrase: Alvo
+          solution: Um único cone verde, vértice para cima
+        -
+          phrase: Luz
+          solution: Verde
+    - 
+      type: phrases
+      text: >
+        Ver Figura 20 do Anexo
+      figure: figura20.png
+      data:
+        -
+          phrase: Identifique a marca
+          solution:  lateral
+        -
+          phrase: Região
+          solution: A
+        -
+          phrase: Numeração
+          solution: impar
+        -
+          phrase: Forma da Marca
+          solution: cónica, fuso ou antena
+        -
+          phrase: Luz
+          solution: verde
+        -
+          phrase: Qual o bordo pelo qual a entrada deve deixar
+          solution: estibordo
+    - 
+      type: phrases
+      text: >
+        Ver Figura 31 do Anexo
+      figure: figura31.png
+      data:
+        -
+          phrase: Marca
+          solution: águas limpas
+        -
+          phrase: Indica
+          solution: as águas são navegáveis em torno da marca
+    - 
+      type: phrases
+      text: >
+        Ver Figura 30 do Anexo
+      figure: figura30.png
+      data:
+        -
+          phrase: Marca
+          solution: perigo isolada
+        -
+          phrase: Indica
+          solution: existe algum obstáculo no local
+    - 
+      type: phrases
+      text: >
+        Ver Figura 26 do Anexo
+      figure: figura26.png
+      data:
+        -
+          phrase: Marca
+          solution: cardeal norte
+        -
+          phrase: Indica
+          solution: onde se situam as águas mais profundas. Neste caso, a NORTE.
+    -
+      type: text
+      text: >
+        Para que servem as marcas de bifurcação e confluência?
+      solution: >
+        Quando um porto tem dois canais, em que um é o principal.
+    - 
+      type: phrases
+      text: >
+        Ver Figura 25 do Anexo
+      figure: figura25.png
+      data:
+        -
+          phrase: Identifique a marca
+          solution:  Lateral modificada Canal Principal a BB
+        -
+          phrase: Região
+          solution: B
+        -
+          phrase: Numeração
+          solution: par
+        -
+          phrase: Forma da Marca
+          solution: cónica, fuso ou antena
+        -
+          phrase: Luz
+          solution: vermelha
+        -
+          phrase: Qual o bordo pelo qual a entrada deve deixar
+          solution: depende de se tratar de Canal Principal ou Secundário
+    -
+      type: choice
+      text: >
+        Ao sair de um porto (região A), as marcas laterais a bombordo da embarcação são de cor:
+      solution: >
+        Verde
+      alternatives:
+        - Preta e vermelha 
+        - Preta e amarela 
+        - Vermelha
+    - 
+      type: phrases
+      text: >
+        As características das Marcas de Águas Limpas são as seguintes:
+      data:
+        -
+          phrase: Cor
+          solution: branco e vermelho
+        -
+          phrase: Forma
+          solution: esférica, fuso ou antena
+        -
+          phrase: Alvo
+          solution: esférico vermelho
+        -
+          phrase: Luz
+          solution: branca
+    - 
+      type: phrases
+      text: >
+        À entrada de um porto (região A), as marcas laterais a BB são:
+      data:
+        -
+          phrase: Cor
+          solution: vermelha
+        -
+          phrase: Forma
+          solution: Cilíndrica, fuso ou antena
+        -
+          phrase: Numeração
+          solution: par
+    - 
+      type: phrases
+      text: >
+        Ver Figura 32 do Anexo
+      figure: figura32.png
+      data:
+        -
+          phrase: Marca
+          solution: Especial
+        -
+          phrase: Indica
+          solution: Define uma configuração especial, pode ser um a bóia ODAS, pode delimitar um campo de tiro, etc.
+    - 
+      type: phrases
+      text: >
+        Ver Figura 29 do Anexo
+      figure: figura29.png
+      data:
+        -
+          phrase: Marca
+          solution: Cardeal Este
+        -
+          phrase: Indica
+          solution: as águas mais profundas se encontram no quadrante Este.
+- 
+  topic: DERROTAS
+  exercises:  
+    -
+      type: choice
+      text: >
+        As distâncias na Carta de Mercator medem-se:
+      solution: >
+        Na escala das Latitudes
+      alternatives:
+        - Na escala das Longitudes
+        - No Equador
+        - Na escala das Latitudes ou no Equador
+    -
+      type: text
+      text: >
+        O que entende por Derrota Ortodrómica?
+      solution: >
+        Arco do circulo máximo que representa a distância mais curta entre dois pontos.
+    -
+      type: text
+      text: >
+        O que entende por Derrota Loxodrómica?
+      solution: >
+        É a linha que une dois pontos na Carta do Mercator, formando ângulos constantes com todos os meridianos.
+    -
+      type: choice
+      text: >
+        A que Derrota corresponde o arco do circulo máximo
+        que representa a distância mais curta entre dois pontos.
+      solution: >
+        Ortodrómica.
+      alternatives:
+        - Rumo.
+        - Loxodrómica.
+        - Proa Verdadeira. 
+    -
+      type: choice
+      text: >
+        Diga quais são as unidades de medida que existem nas cartas de Mercator?
+      solution: >
+        Minuto de Latitude – Valor crescendo com a Latitude. Minuto de Longitude – Valor constante.
+      alternatives:
+        - Minuto de Latitude – Valor crescendo com a Latitude. Minuto de Longitude – Valor crescendo com a Longitude.
+        - Minuto de Latitude – Valor crescendo com a Longitude. Minuto de Longitude – Valor constante
+        - Nenhuma está certa.
+    -
+      type: choice
+      text: >
+        Derrota loxodrómica é a:
+      solution: >
+        É a linha que une dois pontos na Carta do Mercator, formando ângulos constantes com todos os meridianos
+      alternatives:
+        - Distância mais curta que une dois pontos no Hemisfério terrestre
+        - Proa da Agulha traçada na Carta de Mercator
+        - Nenhuma se aplica
+    -
+      type: choice
+      text: >
+        A navegação loxodrómica é representada na Carta de Mercator por:
+      solution: >
+        Um segmento de recta
+      alternatives:
+        - Uma curva
+        - Várias rectas
+        - Rectas e curvas
+    -
+      type: complete
+      text: >
+        Complete a frase:
+      data: >
+        Na Carta de Mercator a Proa é representada por um
+        segmento {{segmento de recta}} formando com os 
+        {{meridianos}} ângulos iguais.
+    -
+      type: text
+      text: >
+        O que se entende, em navegação por “derrota”:
+      solution: >
+        Caminho seguido por uma embarcação para se deslocar,
+        de um ponto de partida a um ponto de chegada, pré-determinado.
+    -
+      type: text
+      text: >
+        Como se comportam as escalas de latitude e de longitude na Carta de Mercator?
+      solution: >
+        A longitude mantém-se constante e a latitude é variável.
+-
+  topic: FARÓIS
+  exercises:
+    -
+      type: complete
+      text: >
+        O que entende por Alcance Geográfico? Complete a frase
+      data: >
+        A distância máxima a que a luz do farol pode ser
+        vista em relação ao alcance geográfico depende da
+        {{altitude}} do Farol.
+    -
+      type: complete
+      text: >
+        O que entende por Alcance Nominal? Complete a frase
+      data: >
+        É o alcance que vem indicado na {{Lista de Faróis}}
+        e {{Cartas de Navegação}} do {{Instituto Hidrográfico}}.
+    -
+      type: text
+      text: >
+        Identifique as seguintes informações sobre este Farol.
+        Rl(3) br 18s 130m 24M (AM) Ser 18s
+      solution: >
+        Três relâmpagos agrupados brancos de 18 segundos de período, 130 m
+        altitude, 24 milhas de alcance nominal, aeromarítimo.
+    -
+      type: complete
+      text: >
+        Características da luz. Complete a frase.
+      data: >
+        Relâmpagos – A duração da emissão da luz é {{menor}} que a duração da {{obscuridade}}.
+    -
+      type: complete
+      text: >
+        Características da luz. Complete a frase.
+      data: >
+        Isofásica – A duração da emissão da luz é {{igual}} à duração da {{obscuridade}}.
+    -
+      type: complete
+      text: >
+        Características da luz. Complete a frase.
+      data: >
+        Cintilante – A duração da emissão da luz é {{igual}} à duração da {{obscuridade}}.
+    -
+      type: choice
+      text: >
+        Como classifica os Faróis?
+      solution: >
+        Marítimos, Aeromarítimos e Barcos Faróis.
+      alternatives:
+        - Marítimos e Aeromarítimos
+        - Marítimos, Aeromarítimos e Faróis não vigiados.
+        - Marítimos, Aeromarítimos, Barcos Faróis e Não vigiados 
+    -
+      type: complete
+      text: >
+        Complete a frase
+      data: >
+        Altitude de um Farol é a diferença de {{nível}} entre
+        o {{Plano Focal}} do farol e o nível {{médio das águas}}.
+    -
+      type: complete
+      text: >
+        Características da luz. Complete a frase.
+      data: >
+        Alternada – Alteração de {{cor}} no {{mesmo azimute}}.
+    -
+      type: items
+      text: >
+        Em que publicações pode encontrar as características dos Faróis?
+      solution: 
+        - Lista de Faróis 
+        - Cartas de Navegação
+    -
+      type: complete
+      text: >
+        O que entende por Alcance Luminoso? Complete a frase
+      data: >
+        É o alcance da luz do Farol em relação à {{Potência}}, {{Sistema óptico}}, {{Transparência atmosférica}}.
+    -
+      type: complete
+      text: >
+        Características da luz. Complete a frase.
+      data: >
+        Ocultações – A duração da emissão da luz é {{maior}} que a duração da {{obscuridade}}.
+    - 
+      type: phrases
+      text: >
+        Avista um Farol com esta sequência e duração.
+        Diga qual a:
+      figure: farois13.png
+      data:
+        -
+          phrase: Característica da luz
+          solution: 3 Relâmpagos
+        -
+          phrase: Período
+          solution: 11,5 segundos
+    - 
+      type: phrases
+      text: >
+        Avista um Farol com esta sequência e duração.
+        Diga qual a:
+      figure: farois14.png
+      data:
+        -
+          phrase: Característica da luz
+          solution: 3 relâmpagos
+        -
+          phrase: Período
+          solution: 15 segundos
+    - 
+      type: phrases
+      text: >
+        Avista um Farol com esta sequência e duração.
+        Diga qual a:
+      figure: farois15.png
+      data:
+        -
+          phrase: Característica da luz
+          solution: Relâmpagos
+        -
+          phrase: Período
+          solution: 3 segundos
+    - 
+      type: phrases
+      text: >
+        Avista um Farol com esta sequência e duração.
+        Diga qual a:
+      figure: farois16.png
+      data:
+        -
+          phrase: Característica da luz
+          solution: Ocultações
+        -
+          phrase: Período
+          solution: 15 segundos
+    - 
+      type: phrases
+      text: >
+        Avista um Farol com esta sequência e duração.
+        Diga qual a:
+      figure: farois17.png
+      data:
+        -
+          phrase: Característica da luz
+          solution: Relâmpagos
+        -
+          phrase: Período
+          solution: 4 segundos
+    - 
+      type: phrases
+      text: >
+        Avista um Farol com esta sequência e duração.
+        Diga qual a:
+      figure: farois18.png
+      data:
+        -
+          phrase: Característica da luz
+          solution: 3 Ocultações
+        -
+          phrase: Período
+          solution: 12 segundos
+    - 
+      type: phrases
+      text: >
+        Avista um Farol com esta sequência e duração.
+        Diga qual a:
+      figure: farois19.png
+      data:
+        -
+          phrase: Característica da luz
+          solution: Isofásica
+        -
+          phrase: Período
+          solution: 4 segundos
+    -
+      type: complete
+      text: >
+        Complete a frase em relação às características da luz de um Farol.
+      data: >
+        Período é o intervalo de {{tempo}}, medido em segundos,
+        que decorre num a sequência completa de {{intervalos}} de {{luz}} e {{obscuridade}}.
+    - 
+      type: phrases
+      text: >
+        Avista um Farol com esta sequência e duração.
+        Diga qual a:
+      figure: farois21.png
+      data:
+        -
+          phrase: Característica da luz
+          solution: Cintilante
+        -
+          phrase: Período
+          solution: 2 segundos
+    -
+      type: complete
+      text: >
+        Complete a frase
+      data: >
+        Altura de um Farol é a diferença entre a {{Base}} e o {{Topo}} do edifício.
+    -
+      type: text
+      text: >
+        Identifique as seguintes informações sobre este Farol.
+        Rl(2) br 20s 126m 20M (AM)
+      solution: >
+        Dois relâmpagos agrupados brancos de 20 segundos de
+        período, 126 metros de altitude, 20 milhas de alcance
+        nominal, aeromarítimo.
+    -
+      type: text
+      text: >
+        Identifique as seguintes informações sobre este Farol.
+        Is vm 15s 25m 10M
+      solution: >
+        Luz Isofásica cor vermelha, 15 segundos de período,
+        25 metros de altitude, 10 milhas de alcance nominal
+    -
+      type: text
+      text: >
+        Identifique as seguintes informações sobre este Farol.
+        Oc vm 12s 50m 16M Nauto 60s
+      solution: >
+        Ocultações cor vermelha, 12 segundos de período,
+        50 metros de altitude, 16 milhas de alcance nominal,
+        período da buzina de nevoeiro (Nauto) de 60 segundos
+    -
+      type: text
+      text: >
+        Em relação a Faróis, o que entende por Nauto e Sirene? 
+      solution: >
+        Nauto é um aparelho sonoro que funciona com electroíman
+        fazendo vibrar um disco metálico que provoca o som. 
+        Sirene é um aparelho sonoro que funciona com uma
+        turbina rotativa lançando ar para provocar o som.
+        Ambas são usadas em faróis.
+    -
+      type: choice
+      text: >
+        A maior distância a que um farol pode ser visto de dia, designa-se por:
+      solution: >
+        Alcance geográfico
+      alternatives:
+        - Alcance luminoso
+        - Alcance nominal
+        - Alcance metereológico
+    -
+      type: text
+      text: >
+        Identifique as seguintes informações sobre este Farol. Lage Rl 12s 3 M
+      solution: >
+        Farol de nome Lage, com relâmpagos com um período
+        de 12 segundos e 3 milhas de alcance nominal.
+    -
+      type: choice
+      text: >
+        Quanto às características da luz das ajudas à navegação,
+        se apresentarem luz contínua e de intensidade constante,
+        designa-se por:
+      solution: >
+        Luz fixa
+      alternatives:
+        - Ocultações 
+        - Relâmpagos 
+        - Isofásico
+    -
+      type: text
+      text: >
+        Identifique as seguintes informações sobre este Farol. Rl vm 3s 5m 3M
+      solution: >
+        Farol com relâmpago vermelho com um período de 3 segundos,
+        com a altitude de 5 metros e um alcance nominal de 3 milhas.
+    -
+      type: text
+      text: >
+        Identifique as seguintes informações sobre este Farol. Rl(2) br 10s 50m 15M
+      solution: >
+        Dois relâmpagos agrupados brancos de 10 segundos de
+        período, com a altitude de 50 metros e um alcance
+        nominal de 15 milhas.
+    -
+      type: text
+      text: >
+        O que entende por Alcance Geográfico?
+      solution: >
+        O alcance da luz do farol permitido pela curvatura da Terra.
+    -
+      type: choice
+      text: >
+        Se a luz de um farol for inferior à duração do eclipse, designa-se por:
+      solution: >
+        Relâmpago 
+      alternatives:
+        - Luz fixa
+        - Ocultação 
+        - Isofásica
+-
+  topic: GENERALIDADES
+  exercises:
+    -
+      type: text
+      text: >
+        Como elabora uma Tabela de Rotações?
+      solution: >
+        Fazem-se várias corridas entre dois enfiamentos (marcas
+        ou conhecenças), em que se conhece a distância exacta
+        entre eles. Sabendo o tempo que a embarcação leva a
+        percorrer essa distância nas diversas rotações de
+        máquina, correspondentes velocidades de superfície.
+    -
+      type: choice
+      text: >
+        Defina paralelos.
+      solution: >
+        Círculos menores paralelos ao Equador. 
+      alternatives:
+        - Círculos máximos paralelos ao Equador. 
+        - Círculos menores que passam pelos Pólos. 
+        - Círculos paralelos entre si.
+    -
+      type: choice
+      text: >
+        Diga o que entende por diferença de Latitude.
+      solution: >
+        É a medida do arco do meridiano entre duas Latitudes menores que 90°.    
+      alternatives:
+        - É a medida do arco do meridiano entre duas Longitudes menores que 90°.
+        - É a medida do arco do meridiano entre duas Latitudes menores que 180°.
+        - É a medida do arco do Equador entre duas Latitudes menores que 180°.
+    -
+      type: choice
+      text: >
+        Os círculos máximos que passam pelos Pólos, perpendiculares ao Equador, designam-se por?
+      solution: >
+        Meridianos.
+      alternatives:
+        - Paralelos.
+        - Círculos máximos. 
+        - Círculos menores.
+    -
+      type: choice
+      text: >
+        O que entende por Meridiano do Lugar
+      solution: >
+        Círculo máximo que passa pelo local do observador. 
+      alternatives:
+        - Círculo menor perpendicular ao Equador.
+        - Círculo menor que passa pelo Local do observador. 
+        - Círculo máximo paralelo ao Equador. 
+    -
+      type: choice
+      text: >
+        O que entende por Paralelo do Lugar.
+      solution: >
+        Círculo menor que passa pelo local do observador.
+      alternatives:
+        - Círculo máximo que passa pelo local do observador.
+        - Círculo menor perpendicular ao Equador.
+        - Círculo máximo paralelo ao Equador.
+    -
+      type: choice
+      text: >
+        Defina Latitude do Lugar.
+      solution: >
+        Arco do meridiano compreendido entre o Equador e o paralelo do Lugar.
+      alternatives:
+        - Arco do paralelo compreendido entre o meridiano do Lugar e o meridiano de Greenwich.
+        - Arco do meridiano compreendido entre o paralelo do Lugar e o Meridiano de Greenwich.
+        - Arco do Equador compreendido entre o Equador e o paralelo do Lugar.
+    -
+      type: choice
+      text: >
+        Defina Longitude do Lugar
+      solution: >
+        Arco do Equador compreendido entre o Meridiano de Greenwich e o Meridiano do Lugar.
+      alternatives:
+        - Arco do paralelo compreendido entre o meridiano do Lugar e o meridiano de Greenwich.
+        - Arco do meridiano compreendido entre o paralelo do Lugar e o Meridiano de Greenwich.
+        - Arco do Equador compreendido entre o Meridiano de Greenwich e o paralelo do Lugar.
+    -
+      type: choice
+      text: >
+        O Nó na náutica corresponde a quantos metros?
+      solution: >
+        1852 metros 
+      alternatives:
+        - 1862 metros 
+        - 1952 metros 
+        - 1752 metros
+    -
+      type: choice
+      text: >
+        Diga o que entende por diferença de Longitude
+      solution: >
+        É a medida do arco do Equador entre duas Longitudes menores que 180°.
+      alternatives:
+        - É a medida do arco do meridiano entre duas Longitudes menores que 90°.
+        - É a medida do arco do meridiano entre duas Latitudes menores que 180°.
+        - É a medida do arco do meridiano entre duas Latitudes menores que 90°.
+    -
+      type: text
+      text: >
+       O que entende por Fusos Horários e para que servem? 
+      solution: >
+        Com o fim de obter uma hora distinta, em coordenação
+        com os outros e para cada lugar, dividiu-se a superfície
+        esférica da Terra em 24 fusos horários com intervalos de
+        15° (24x15° = 360°), ou seja, uma hora de diferença
+        entre eles, a fim de que todos os lugares dentro de
+        cada fuso tenham a mesma hora – Hora Legal.
+    -
+      type: phrase
+      text: >
+        Quando uma embarcação ao cortar a linha de mudança de data repete um dia. Está a navegar para W ou E?
+      solution: >
+        Este
+    -
+      type: choice
+      text: >
+        O arco do Equador, compreendido entre o Meridiano de Greenwich e o Meridiano do Lugar, chama-se?
+      solution: >
+        Longitude
+      alternatives:
+        - Diferença de Latitude
+        - Latitude
+        - Diferença de Longitude
+    -
+      type: phrase
+      text: >
+        Ao navegar sobre um enfiamento que está à nossa
+        proa, se a marca posterior estiver à direita da marca
+        anterior, para voltar a navegar no enfiamento, deve guinar para:
+      solution: >
+        Bombordo
+    -
+      type: choice
+      text: >
+        O arco do Meridiano do Lugar compreendido entre o Equador e o Lugar chama-se:
+      solution: >
+        Latitude do Lugar. 
+      alternatives:
+        - Longitude do Lugar. 
+        - Ângulo no Pólo.
+    -
+      type: text
+      text: >
+        Como se designa e o que representa uma milha náutica por hora?
+      solution: >
+        Designa-se por NÓ e representa 1852m ou seja um minuto de Latitude 
+    -
+      type: phrase
+      text: >
+        Indique a que instrumento recorre para efectuar uma marcação
+      solution: >
+        Taxímetro
+    -
+      type: choice
+      text: >
+        O ângulo entre a Proa e o Rumo chama-se?
+      solution: >
+        Abatimento.
+      alternatives:
+        - Marcação.
+        - Azimute.
+        - Nenhuma se aplica. 
+    -
+      type: choice
+      text: >
+        Qual a diferença de longitude entre dois lugares:
+      solution: >
+        É a medida do arco do Equador entre duas Longitudes menores que 180°. 
+      alternatives:
+        - É a medida do arco do meridiano entre duas Longitudes menores que 90°. 
+        - É a medida do arco do meridiano entre duas Latitudes menores que 180°. 
+        - É a medida do arco do meridiano entre duas Latitudes menores que 90°.
+    -
+      type: choice
+      text: >
+        Numa Carta de Mercator se a variação da escala das Latitudes cresce para o Sul estamos:
+      solution: >
+        A Sul do Equador 
+      alternatives:
+        - A Norte do Equador 
+        - Nenhuma se aplica
+    -
+      type: choice
+      text: >
+        Uma Marcação é uma LDP do tipo:
+      solution: >
+        Direcção
+      alternatives:
+        - Distância 
+        - Sentido 
+        - Segmento capaz 
+    -
+      type: choice
+      text: >
+        Aos pontos em que o eixo da Terra intersecta a esfera terrestre, dá-se o nome de:
+      solution: >
+        Pólos
+      alternatives:
+        - Coordenadas terrestres
+        - Vertical do lugar
+        - Zénites
+    -
+      type: phrase
+      text: >
+        Na esfera terrestre, o único círculo máximo perpendicular ao eixo da Terra tem o nome de:
+      solution: >
+        Equador
+    -
+      type: choice
+      text: >
+        Uma LDP do tipo distância obtém-se a partir de:
+      solution: >
+        Um radar
+      alternatives:
+        - Uma sonda
+        - Um aparelho de marcar 
+    -
+      type: choice
+      text: >
+        De entre as opções abaixo indicadas, escolha o melhor cruzamento de duas LDP (s):
+      solution: >
+        90°
+      alternatives:
+        - 50°
+        - 30°
+        - 70°
+    -
+      type: text
+      text: >
+        O que entende por Marcação?
+      solution: >
+        É o ângulo entre a proa e o objecto considerado.
+    -
+      type: choice
+      text: >
+        O que entende por Meridiano do Lugar
+      solution: >
+        Círculo máximo que passa pelos Pólos e pelo local do observador.
+      alternatives:
+        - Círculo menor paralelo ao Equador que passa pelo local do observador. 
+        - Círculo máximo paralelo ao Equador.
+        - Nenhuma se aplica
+    -
+      type: text
+      text: >
+        Explique como determina a posição Carteada:
+      solution: >
+        Partindo de um ponto, entro com a proa verdadeira e a
+        velocidade de superfície durante o tempo considerado
+        e obtenho a posição carteada.
+    -
+      type: phrase
+      text: >
+        Qualquer círculo máximo que contenham os Pólos designa-se por?
+      solution: >
+        Meridiano
+    -
+      type: choice
+      text: >
+        Uma LDP tipo direcção obtém-se a partir de:
+      solution: >
+        Um aparelho de marcar 
+      alternatives:
+        - Uma sonda
+        - Um sextante
+        - Nenhuma se aplica 
+    -
+      type: phrase
+      text: >
+        Se um observador avista para o mesmo lado dois objectos
+        em linha, isso significa que, em relação aos mesmos,
+        o observador está no seu:
+      solution: >
+        Enfiamento
+    -
+      type: choice
+      text: >
+        Qual o tipo de navegação que exige maior precisão e rapidez no cálculo da sua posição:
+      solution: >
+        Navegação em águas restritas
+      alternatives:
+        - Navegação costeira
+        - Navegação oceânica
+        - Geonavegação

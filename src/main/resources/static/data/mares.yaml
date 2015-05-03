@@ -1,526 +1,291 @@
 -
-  topic: Motores
+  topic: GENERALIDADES
   exercises:
-    -
-      type: complete
-      text: >
-        Complete a frase: 
-      data: >
-        Ao arrancar com um motor fora de borda 
-        e caso tenha os bornes da bateria 
-        desligados terá que os ligar. Por 
-        convenção o condutor com manga 
-        vermelha deverá ser ligado ao pólo 
-        {{positivo}}.
     -
       type: text
       text: >
-        Diga em que situação pode sair fumo do porão 
-        onde está instalado um motor interior, sob marcha, 
-        sem que se verifique a existência de chama:
+        Como elabora uma Tabela de Rotações?
       solution: >
-        Rotura na conduta de escape
-    -
-      type: complete
-      text: >
-        Complete a frase: 
-      data: >
-        No sentido de marcha a vante o hélice de passo direito
-        gira no {{sentido}} dos ponteiros do relógio.
+        Fazem-se várias corridas entre dois enfiamentos (marcas
+        ou conhecenças), em que se conhece a distância exacta
+        entre eles. Sabendo o tempo que a embarcação leva a
+        percorrer essa distância nas diversas rotações de
+        máquina, correspondentes velocidades de superfície.
     -
       type: choice
       text: >
-        O motor fora de borda não arranca. Indique as causas prováveis
+        Defina paralelos.
       solution: >
-        Falta de combustível, tubo de gasolina desapertado, filtro de gasolina obstruído.
+        Círculos menores paralelos ao Equador. 
       alternatives:
-        - Falta de combustível, filtro de gasolina obstruído, má vedação da junta da cabeça.
-        - Má vedação da junta da cabeça, tubo de gasolina desapertado.
-        - Falta de combustível, filtro da gasolina obstruído, jacto de água fraco.
+        - Círculos máximos paralelos ao Equador. 
+        - Círculos menores que passam pelos Pólos. 
+        - Círculos paralelos entre si.
     -
       type: choice
       text: >
-        A existência de vela suja pode provocar num motor fora de borda:
+        Diga o que entende por diferença de Latitude.
       solution: >
-        O funcionamento irregular do motor
+        É a medida do arco do meridiano entre duas Latitudes menores que 90°.    
       alternatives:
-        - Sobreaquecimento do motor
-        - Consumo excessivo de combustível
-        - Acumulação excessiva de gases        
+        - É a medida do arco do meridiano entre duas Longitudes menores que 90°.
+        - É a medida do arco do meridiano entre duas Latitudes menores que 180°.
+        - É a medida do arco do Equador entre duas Latitudes menores que 180°.
     -
       type: choice
       text: >
-        Num motor fora de borda, a utilização de óleos não especificados, pode provocar:
+        Os círculos máximos que passam pelos Pólos, perpendiculares ao Equador, designam-se por?
       solution: >
-        Sobreaquecimento do motor
+        Meridianos.
       alternatives:
-        - Não arranque do motor
-        - Obstrução do filtro do combustível
-        - Nenhum se aplica
+        - Paralelos.
+        - Círculos máximos. 
+        - Círculos menores.
+    -
+      type: choice
+      text: >
+        O que entende por Meridiano do Lugar
+      solution: >
+        Círculo máximo que passa pelo local do observador. 
+      alternatives:
+        - Círculo menor perpendicular ao Equador.
+        - Círculo menor que passa pelo Local do observador. 
+        - Círculo máximo paralelo ao Equador. 
+    -
+      type: choice
+      text: >
+        O que entende por Paralelo do Lugar.
+      solution: >
+        Círculo menor que passa pelo local do observador.
+      alternatives:
+        - Círculo máximo que passa pelo local do observador.
+        - Círculo menor perpendicular ao Equador.
+        - Círculo máximo paralelo ao Equador.
+    -
+      type: choice
+      text: >
+        Defina Latitude do Lugar.
+      solution: >
+        Arco do meridiano compreendido entre o Equador e o paralelo do Lugar.
+      alternatives:
+        - Arco do paralelo compreendido entre o meridiano do Lugar e o meridiano de Greenwich.
+        - Arco do meridiano compreendido entre o paralelo do Lugar e o Meridiano de Greenwich.
+        - Arco do Equador compreendido entre o Equador e o paralelo do Lugar.
+    -
+      type: choice
+      text: >
+        Defina Longitude do Lugar
+      solution: >
+        Arco do Equador compreendido entre o Meridiano de Greenwich e o Meridiano do Lugar.
+      alternatives:
+        - Arco do paralelo compreendido entre o meridiano do Lugar e o meridiano de Greenwich.
+        - Arco do meridiano compreendido entre o paralelo do Lugar e o Meridiano de Greenwich.
+        - Arco do Equador compreendido entre o Meridiano de Greenwich e o paralelo do Lugar.
+    -
+      type: choice
+      text: >
+        O Nó na náutica corresponde a quantos metros?
+      solution: >
+        1852 metros 
+      alternatives:
+        - 1862 metros 
+        - 1952 metros 
+        - 1752 metros
+    -
+      type: choice
+      text: >
+        Diga o que entende por diferença de Longitude
+      solution: >
+        É a medida do arco do Equador entre duas Longitudes menores que 180°.
+      alternatives:
+        - É a medida do arco do meridiano entre duas Longitudes menores que 90°.
+        - É a medida do arco do meridiano entre duas Latitudes menores que 180°.
+        - É a medida do arco do meridiano entre duas Latitudes menores que 90°.
     -
       type: text
       text: >
-        Para que serve a vávula de fundo da água salgada do motor a gasóleo?
+       O que entende por Fusos Horários e para que servem? 
       solution: >
-        Para admissão da água salgada no circuito de permuta de água doce.
-    -
-      type: complete
-      text: >
-        Complete a frase: 
-      data: >
-        O circuito de arrefecimento de um motor fora de borda deve ser lavado com {{água doce}}.
-    -
-      type: choice
-      text: >
-        Ao arrancar com um motor fora de borda deve-se verificar se o motor se encontra :
-      solution: >
-        Desengrenado
-      alternatives:
-        - Engrenado à vante
-        - Engrenado à ré
-        - Engrenado em ponto morto
-    -
-      type: choice
-      text: >
-        A incorreta distribuição de pesos, a bordo de uma embarcação com motor fora de
-        borda provoca:
-      solution: >
-        Um sobreaquecimento do motor
-      alternatives:
-        - O não arranque do motor
-        - Um ralenti irregular
-        - Uma perca de velocidade
-    -
-      type: choice
-      text: >
-        Falta de potência do motor fora de borda:
-      solution: >
-        Filtro do combustível obstruído      
-      alternatives:
-        - Nível de óleo alto
-        - Nível do oleo baixo
-        - Bateria descarrega
-    -
-      type: choice
-      text: >
-        O motor vai-se abaixo no motor fora de borda:
-      solution: >
-        Faísca de ignição insuficiente
-      alternatives:
-        - Cavitação do hélice
-        - Tubo de gasolina desapertado
-        - Jato de água fraco
-    -
-      type: choice
-      text: >
-        A existência de combustível contaminado num motor fora de borda provoca:
-      solution: >
-        Um relenti irregular
-      alternatives:
-        - Sobreaquecimento do motor
-        - Cavitação do hélice
-        - Falha de arranque do motor
-    -
-      type: choice
-      text: >
-        Uma incorrecta ligação do tubo de combustível, num motor fora de borda, provoca:
-      solution: >
-        O não arranque do motor
-      alternatives:
-        - Um ralenti irregular
-        - Um sobreaquecimento do motor
-        - Uma velocidade mais alta que o normal
-    -
-      type: choice
-      text: >
-        Um ângulo de inclinação incorreto do motor fora de borda pode provocar:
-      solution: >
-        Velocidade de superfície abaixo do normal
-      alternatives:
-        - Velocidade de superfície acima do normal
-        - Falha do motor a altas velocidades
-        - Cavitação do hélice
-    -
-      type: choice
-      text: >
-        O motor a gasóleo não arranca. Indique a causa provável:
-      solution: >
-        Ar no circuito de combustível
-      alternatives:
-        - Sobreaquecimento do motor.
-        - Diminuição da carga de ar.
-        - Nível de óleo baixo.
-    -
-      type: complete
-      text: >
-        Complete a frase:
-      data: >
-        No sentido de marcha AV o helice de passo esquerdo
-        gira no sentido {{contrário}} dos ponteiros do relógio.
--
-  topic: Nomenclatura
-  exercises:
-    -
-      type: choice
-      text: >
-        O que é o calado de uma embarcação?
-      solution: >
-        c. É a distância na perpendicular entre o plano de água e o paralelo que passa na face inferior da quilha da embarcação. 
-      alternatives:
-        - É a tonelagem de uma embarcação.
-        - É a distância entre a linha de água e a borda da embarcação.
-        - Nenhuma das anteriores.            
-    -
-      type: choice
-      text: >
-        O que são as forquetas?
-      solution: >
-        São peças metálicas onde encaixam os remos
-      alternatives:
-        - São furos no fundo da embarcação para escoamento da água 
-        - São anéis situados à proa e à popa para fixar cabos de amarração 
-        - São pequenos barris deforma achatada para conter água doce
-    -
-      type: choice
-      text: >
-        O que são as boeiras?
-      solution: >
-        São furos existentes no casco da embarcação, tapadas por bujões em metal e que permitem esgotar a água de fundo daquela, quando em seco
-      alternatives:
-        - São anéis situados à proa e à popa para fixar cabos d amarração
-        - São peças metálicas onde encaixam os remos
-        - São pequenos barris de forma achatada para conter água doce
-    -
-      type: choice
-      text: >
-        A região a meio comprimento do navio designa-se por:
-      solution: >
-        Meio-navio 
-      alternatives:
-        - Meia-nau 
-        - Vante
-        - Ré
-    -
-      type: choice
-      text: >
-        A peça que se eleva à proa no prolongamento da quilha chama-se:
-      solution: >
-        Roda de proa
-      alternatives:
-        - Sobrequilha  
-        - Contra roda 
-        - Capelo
-    -
-      type: choice
-      text: >
-        A parte da embarcação abaixo da linha de água chama-se:
-      solution: >
-        Querena ou obras vivas
-      alternatives:
-        - Costado
-        - Cadaste
-        - Roda de proa        
-    -
-      type: choice
-      text: >
-        O plano que se designa por meia nau divide as embarcações em duas regiões que são:
-      solution: >
-        Bombordo e estibordo
-      alternatives:
-        - Amuras e alhetas
-        - Proa e ré
-        - Obras vivas e obras mortas
-    -
-      type: choice
-      text: >
-        A parte do leme que mergulha na água, chama-se:
-      solution: >
-        Porta
-      alternatives:
-        - Cana
-        - Madre  
-        - Cachola
+        Com o fim de obter uma hora distinta, em coordenação
+        com os outros e para cada lugar, dividiu-se a superfície
+        esférica da Terra em 24 fusos horários com intervalos de
+        15° (24x15° = 360°), ou seja, uma hora de diferença
+        entre eles, a fim de que todos os lugares dentro de
+        cada fuso tenham a mesma hora – Hora Legal.
     -
       type: phrase
       text: >
-        A direcção perpendicular à mediana da embarcação e que fica situada entre a amura e a alheta, designa-se por:
+        Quando uma embarcação ao cortar a linha de mudança de data repete um dia. Está a navegar para W ou E?
       solution: >
-        Través
+        Este
     -
       type: choice
       text: >
-        Ao cabo fixo num arganéu de proa, que serve para amarrar a embarcação, da-se o
-        nome de:
+        O arco do Equador, compreendido entre o Meridiano de Greenwich e o Meridiano do Lugar, chama-se?
       solution: >
-        Boça
+        Longitude
       alternatives:
-        - Regeira
-        - Cabo de amarração
-        - Defensa
-    -
-      type: choice
-      text: >
-        A peça longitudinal que fecha a ossada da embarcação, designa-se por: 
-      solution: >
-        Quilha
-      alternatives:
-        - Longarina
-        - Baliza
-        - Robalete
-    -
-      type: choice
-      text: >
-        Os três cantos de uma vela triangular, designam-se por:
-      solution: >
-        Punho da amura, punho da pena e punho da escota
-      alternatives:
-        - Valuma, esteira e pena
-        - Pena boca e escota
-        - Punho da amura, punho da testa e punho da escota
-    -
-      type: choice
-      text: >
-        As peças (normalmente em metal) fixadas à borda da embarcação, que recebem os vergueiros, denominam-se:
-      solution: >
-        Balaústres 
-      alternatives:
-        - Brandais
-        - Esticadores 
-        - Turcos
-    -
-      type: choice_multi
-      text: >
-        Das quatro peças abaixo enunciadas, sinalize duas que são palamenta da embarcação: 
-      solution: 
-        - Croque 
-        - Leme 
-      alternatives:
-        - Boeira
-        - Enora
-    -
-      type: choice
-      text: >
-        Ao pavimento aplicado na parte superior do casco dá-se o nome de: 
-      solution: >
-        Convés 
-      alternatives:
-        - Quilha
-        - Balizas 
-        - Costado
+        - Diferença de Latitude
+        - Latitude
+        - Diferença de Longitude
     -
       type: phrase
       text: >
-        Como se designa a zona do barco compreendida pela roda de proa e o través de bombordo?
+        Ao navegar sobre um enfiamento que está à nossa
+        proa, se a marca posterior estiver à direita da marca
+        anterior, para voltar a navegar no enfiamento, deve guinar para:
       solution: >
-        Amuras de BB
+        Bombordo
     -
       type: choice
       text: >
-        A peça destinada ao governo da embarcação, designa-se por:
+        O arco do Meridiano do Lugar compreendido entre o Equador e o Lugar chama-se:
       solution: >
-        Leme
+        Latitude do Lugar. 
       alternatives:
-        - Roda de proa
-        - Quilha
-        - Painel de popa
+        - Longitude do Lugar. 
+        - Ângulo no Pólo.
     -
-      type: choice
+      type: text
       text: >
-        A medida total entre os extremos da roda de proa e do painel de popa, designa-se por:
+        Como se designa e o que representa uma milha náutica por hora?
       solution: >
-        Comprimento fora a fora
-      alternatives:
-        - Comprimento entre perpendiculares
-        - Pontal
-        - Calado
+        Designa-se por NÓ e representa 1852m ou seja um minuto de Latitude 
     -
       type: phrase
       text: >
-        O dispositivo que possibilita o avanço ou recuo, de uma embarcação através do seu
-        movimento circular, chama-se:
+        Indique a que instrumento recorre para efectuar uma marcação
       solution: >
-        Hélice
+        Taxímetro
     -
       type: choice
       text: >
-        O que é a palamenta de uma embarcação?
+        O ângulo entre a Proa e o Rumo chama-se?
       solution: >
-        O conjunto de apetrechos necessários à navegação de uma embarcação 
+        Abatimento.
       alternatives:
-        - O conjunto de cabos da embarcação
-        - O material de alvamento que deve haver a bordo
-        - São os pequenos barris de forma achatada para conter àgua doce
-    -
-      type: items
-      text: >
-        Quais os 5 principais sectores de uma embarcação:
-      solution: 
-        - Proa 
-        - popa 
-        - través 
-        - amura 
-        - alheta
+        - Marcação.
+        - Azimute.
+        - Nenhuma se aplica. 
     -
       type: choice
       text: >
-        O que entende por bordejar?
+        Qual a diferença de longitude entre dois lugares:
       solution: >
-        Velejar, mudando de amura, para um bordo e outro, por forma a alcançar um ponto situado a barlavento
+        É a medida do arco do Equador entre duas Longitudes menores que 180°. 
       alternatives:
-        - Mudar o rumo da embarcação por forma a afastar a proa da linha do vento
-        - Mudar o rumo da embarcação por forma a aproximar a proa da linha do vento . 
-        - Nenhuma das anteriores. 
+        - É a medida do arco do meridiano entre duas Longitudes menores que 90°. 
+        - É a medida do arco do meridiano entre duas Latitudes menores que 180°. 
+        - É a medida do arco do meridiano entre duas Latitudes menores que 90°.
+    -
+      type: choice
+      text: >
+        Numa Carta de Mercator se a variação da escala das Latitudes cresce para o Sul estamos:
+      solution: >
+        A Sul do Equador 
+      alternatives:
+        - A Norte do Equador 
+        - Nenhuma se aplica
+    -
+      type: choice
+      text: >
+        Uma Marcação é uma LDP do tipo:
+      solution: >
+        Direcção
+      alternatives:
+        - Distância 
+        - Sentido 
+        - Segmento capaz 
+    -
+      type: choice
+      text: >
+        Aos pontos em que o eixo da Terra intersecta a esfera terrestre, dá-se o nome de:
+      solution: >
+        Pólos
+      alternatives:
+        - Coordenadas terrestres
+        - Vertical do lugar
+        - Zénites
     -
       type: phrase
       text: >
-        O conjunto de peças que constituem o cavername da embarcação, designa-se por:
+        Na esfera terrestre, o único círculo máximo perpendicular ao eixo da Terra tem o nome de:
       solution: >
-        Ossada
+        Equador
+    -
+      type: choice
+      text: >
+        Uma LDP do tipo distância obtém-se a partir de:
+      solution: >
+        Um radar
+      alternatives:
+        - Uma sonda
+        - Um aparelho de marcar 
+    -
+      type: choice
+      text: >
+        De entre as opções abaixo indicadas, escolha o melhor cruzamento de duas LDP (s):
+      solution: >
+        90°
+      alternatives:
+        - 50°
+        - 30°
+        - 70°
+    -
+      type: text
+      text: >
+        O que entende por Marcação?
+      solution: >
+        É o ângulo entre a proa e o objecto considerado.
+    -
+      type: choice
+      text: >
+        O que entende por Meridiano do Lugar
+      solution: >
+        Círculo máximo que passa pelos Pólos e pelo local do observador.
+      alternatives:
+        - Círculo menor paralelo ao Equador que passa pelo local do observador. 
+        - Círculo máximo paralelo ao Equador.
+        - Nenhuma se aplica
+    -
+      type: text
+      text: >
+        Explique como determina a posição Carteada:
+      solution: >
+        Partindo de um ponto, entro com a proa verdadeira e a
+        velocidade de superfície durante o tempo considerado
+        e obtenho a posição carteada.
     -
       type: phrase
       text: >
-        As peças metálicas, verticais, cujas bases são fixadas
-        ao convés e que servem para dar a volta aos cabos
-        e espias, designam-se por:
+        Qualquer círculo máximo que contenham os Pólos designa-se por?
       solution: >
-        Cabeços
+        Meridiano
     -
       type: choice
       text: >
-        Defina cana do leme e como é constituída?
+        Uma LDP tipo direcção obtém-se a partir de:
       solution: >
-        É uma barra de madeira ou metal que, que fixa na cachola do leme, permite rodar a embarcação, para um e outro bordo.
+        Um aparelho de marcar 
       alternatives:
-        - É uma regua de madeira, colocada fora do forro e serve para protecção do costado da embarcação.
-        - É uma prancha de madeira que assenta no topo superior das balizas.
-        - É uma régua de madeira colocada no costado para diminuir o balanço da embarcação.
-    -
-      type: choice
-      text: >
-        A região média longitudinal do navio, designa-se por:
-      solution: >
-        Meia –nau
-      alternatives:
-        - Meio-navio
-        - Vante
-        - Ré
+        - Uma sonda
+        - Um sextante
+        - Nenhuma se aplica 
     -
       type: phrase
       text: >
-        À distância que o hélice percorreria no seu movimento
-        circular durante uma rotação, caso a água fosse
-        um meio rígido, dá-se o nome de:
+        Se um observador avista para o mesmo lado dois objectos
+        em linha, isso significa que, em relação aos mesmos,
+        o observador está no seu:
       solution: >
-        Passo do hélice
+        Enfiamento
     -
       type: choice
       text: >
-        Como designa as regiões curvas junto à proa, de um e outro bordo da embarcação? 
+        Qual o tipo de navegação que exige maior precisão e rapidez no cálculo da sua posição:
       solution: >
-        Amuras
+        Navegação em águas restritas
       alternatives:
-        - Través
-        - Baliza
-        - Robaletes
-    -
-      type: choice
-      text: >
-        Ás partes curvas das obras mortas do costado de um
-        e do outro lado da roda de proa, dá-se o nome de:
-      solution: >
-        Amuras 
-      alternatives:
-        - Alheta
-        - Querena
-        - Cadaste
-    -
-      type: choice
-      text: >
-        Navega numa embarcação à vela com o vento a entrar pela marcação de 90° verde.
-        Como se designa essa mareação?
-      solution: >
-        Largo
-      alternatives:
-        - Bolina
-        - Bolina Cerrada
-        - Popa
-    -
-      type: phrase
-      text: >
-        O peso de uma embarcação (que equivale ao peso da água deslocada), designa-se por:
-      solution: >
-        Deslocamento
-    -
-      type: choice
-      text: >
-        Á peça na qual se apoia e trabalha o remo, dá-se o nome de: 
-      solution: >
-        Forqueta
-      alternatives:
-        - Carlinga 
-        - Sarreta 
-        - Cachola
-    -
-      type: choice
-      text: >
-        Ao utensílio que pertence à palamenta de uma embarcação, utilizado para esgotar água, chama-se:
-      solution: >
-        Bartedouro
-      alternatives:
-        - Concha
-        - Mangueira 
-        - Forqueta
-    -
-      type: choice
-      text: >
-        As divisórias verticais que seccionam interiormente as embarcações, designam-se por: 
-      solution: >
-        Anteparas. 
-      alternatives:
-        - Cadaste
-        - Escotilhas 
-        - Vigias.
-    -
-      type: choice
-      text: >
-        As réguas exteriores colocadas longitudinalmente,
-        em ambos os bordos na parte mais larga da querena,
-        destinadas a amortecer o balanço transversal, chamam-se:
-      solution: >
-        Robaletes 
-      alternatives:
-        - Verdugos 
-        - Forquetas 
-        - Balizas 
-    -
-      type: choice
-      text: >
-        As embarcações que dispõem de um pavimento estrutural
-        completo com cobertura protegida por superestruturas,
-        rufos ou gaiutas, designam-se por:
-      solution: >
-        Embarcações com convés
-      alternatives:
-        - Embarcações abertas. 
-        - Embarcações parcialmente abertas. 
-        - Embarcações fechadas. 
-    -
-      type: choice
-      text: >
-        O que é o verdugo?
-      solution: >
-        É uma régua de madeira, colocada no exterior do casco, e que se destina a protegê-lo.
-      alternatives:
-        - É uma prancha de madeira que asssenta no topo superior das balizas
-        - É a tábua superior do forro que finaliza o costado junto à borda
-        - É uma régua de madeira colocada no costado para diminuir o balanço da embarcação.
-    -
-      type: choice
-      text: >
-        A extremidade anterior do navio no sentido da sua marcha, designa-se por:
-      solution: >
-        Proa
-      alternatives:
-        - Popa
-        - Estibordo 
-        - Bombordo
+        - Navegação costeira
+        - Navegação oceânica
+        - Geonavegação
