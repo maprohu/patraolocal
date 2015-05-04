@@ -9,5 +9,8 @@ p.lead {{handler.exercise.text}}
 p.lead
 	ng-include(src="handler.getTemplate()")
 
-
-button.btn.btn-lg.btn-block(ng-click="nextExercise()") Seguinte
+button.btn.btn-lg.btn-block(
+	ng-repeat="group in $storage.groups track by $index"
+	ng-click="nextExercise($index)"
+	ng-class="{'btn-info': $storage.groups[0][handler.exercise.checksum] == $index}"
+) {{$index | alphabet | uppercase}}

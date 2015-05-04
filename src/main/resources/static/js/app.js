@@ -1,6 +1,9 @@
+
+
 var app = angular.module('mfw-app', [
                                      
-	'ui.router'                      
+	'ui.router',
+	'ngStorage',
 	
 ]).directive('plComplete', function($compile) {
 	return {
@@ -73,7 +76,32 @@ var app = angular.module('mfw-app', [
 	      templateUrl: "partials/practice.html"
 	});
 
-}).controller('MainCtrl', function($scope, $http, $resource, $location, $state, CONFIG) {
+}).controller('MainCtrl', function($scope, $http, $resource, $location, $state, $localStorage, CONFIG) {
+	
+	var objectSize = function(obj) {
+	    var size = 0, key;
+	    for (key in obj) {
+	        if (obj.hasOwnProperty(key)) size++;
+	    }
+	    return size;
+	};	
+	
+	var groupCount = 3;
+	var groups = [];
+	for (var i = 0 ; i < groupCount; i++) {
+		groups[i] = {
+				groupSize: 0
+		};
+	}
+	var store = {
+		groups: groups,
+	};
+	
+	$scope.$storage = $localStorage.$default(store);
+	
+	$scope.groupSize = function(groupIndex) {
+		return objectSize($scope.$storage.groups[groupIndex]);
+	}
 
 	function extend(base, sub) {
 		var origProto = sub.prototype;
@@ -253,9 +281,52 @@ var app = angular.module('mfw-app', [
 	$scope.exercises = [];
 	$scope.handler = null;
 	
-	$scope.nextExercise = function() {
+	var deleteFromGroup = function(group, item) {
+		if (item in group) {
+			delete group[item];
+			group.groupSize--;
+		}
+	}
+	
+	var addToGroup = function(group, key, value) {
+		if (!(key in group)) {
+			group.groupSize++;
+		}
+		group[key] = value;
+	}
+	
+	var allChecksums = {};
+
+	$scope.nextExercise = function(targetGroup) {
+		var groups = $scope.$storage.groups;
+		
+		if (targetGroup !== undefined) {
+			deleteFromGroup(groups[0], $scope.handler.exercise.checksum);
+			addToGroup(groups[targetGroup], $scope.handler.exercise.checksum, targetGroup);
+		}
+		
+		if ($scope.exercises.length==0) {
+			alert('0 exercises');
+			return;
+		}
+		
+		for (; groups[0].groupSize == 0 ; groups.push(groups.shift()));
+		var group = groups[0];
+		
+		var source = Object.keys(group);
+		
+		var handler;
+		
+		while (true) {
+			var chk = source[random(source.length)];
+			handler = allChecksums[chk];
+			if (typeof handler !== 'undefined') {
+				break;
+			}
+		}
+		
 		$scope.model = {};
-		$scope.handler = $scope.exercises[random($scope.exercises.length)];
+		$scope.handler = allChecksums[chk];
 		$scope.handler.initialize();
 		$scope.$broadcast("plInitialize");
 	}
@@ -272,6 +343,7 @@ var app = angular.module('mfw-app', [
 		draw: Handler,
 	};
 	
+
 	
 	$scope.dataPromise = $http.get('data/exam.json').success(function(data) {
 		$scope.exam = data;
@@ -282,9 +354,57 @@ var app = angular.module('mfw-app', [
 				if (typeof handler === "undefined") {
 				    alert("no such type: " + exercise.type);
 				}
+				exercise.topic = topic.topic;
+				var chk = checksum(angular.copy(exercise));
+				exercise.checksum = chk;
 				return new handler(topic, exercise);
 			});
 		}));
+		
+		angular.forEach($scope.exercises, function(handler) {
+			var ex = handler.exercise;
+			var chk = ex.checksum;
+			
+			var old = allChecksums[chk];
+			
+			if (old==undefined) {
+				allChecksums[chk] = handler;
+			} else {
+				alert('duplicate: ' + ex.text);
+			}
+			
+			
+			
+			for (var i=0 ; i < $scope.$storage.groups.length ; i++) {
+				var group = $scope.$storage.groups[i];
+				if (chk in group) {
+					return;
+				}
+			}
+			
+			$scope.$storage.groups[0][chk] = -1;
+		});
+		
+		var size = Object.keys(allChecksums).length;
+
+		angular.forEach($scope.$storage.groups, function(group) {
+			
+			var size = 0;
+			
+			angular.forEach(group, function(value, chk) {
+
+				if (!(chk in allChecksums)) {
+					delete group[chk];
+				} else {
+					size++;
+				}
+				
+			});
+
+			group.groupSize = size;
+			
+		});
+		
 		
 		$scope.nextExercise();
 		

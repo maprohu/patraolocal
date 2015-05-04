@@ -1,8 +1,16 @@
-.container(
+div(
 	ng-controller="MainCtrl"
 	ng-busy="dataPromise"
 )
-	h3 Patrão Local
-	
-	div(ui-view)
+	nav.navbar.navbar-default
+		.container-fluid
+			.navbar-header
+				.navbar-brand Patrão Local
+				.navbar-text(
+					ng-repeat="group in $storage.groups"
+				) {{$index | alphabet | uppercase}}: {{group.groupSize}}
+				.navbar-text T: {{exercises.length}}
+		
+	.container
+		div(ui-view)
 	
