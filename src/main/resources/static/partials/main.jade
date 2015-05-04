@@ -6,10 +6,11 @@ div(
 		.container-fluid
 			.navbar-header
 				.navbar-brand Patrão Local
-				.navbar-text(
-					ng-repeat="group in $storage.groups"
-				) {{$index | alphabet | uppercase}}: {{group.groupSize}}
-				.navbar-text T: {{exercises.length}}
+				.navbar-text
+					span(
+						ng-repeat="group in $storage.groups"
+					) {{group.groupSize}}&nbsp;/&nbsp;
+					{{exercises.length}}
 		
 	.container
 		div(ui-view)

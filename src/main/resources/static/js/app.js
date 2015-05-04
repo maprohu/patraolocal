@@ -85,19 +85,23 @@ var app = angular.module('mfw-app', [
 	    }
 	    return size;
 	};	
-	
-	var groupCount = 3;
-	var groups = [];
-	for (var i = 0 ; i < groupCount; i++) {
-		groups[i] = {
-				groupSize: 0
-		};
-	}
+
 	var store = {
-		groups: groups,
+			groups: [],
 	};
-	
 	$scope.$storage = $localStorage.$default(store);
+	
+	var groupCount = 4;
+	var groups = [];
+	
+	while ($scope.$storage.groups.length > groupCount) {
+		$scope.$storage.groups.shift();
+	}
+	while ($scope.$storage.groups.length < groupCount) {
+		$scope.$storage.groups.push({
+				groupSize: 0
+		});
+	}
 	
 	$scope.groupSize = function(groupIndex) {
 		return objectSize($scope.$storage.groups[groupIndex]);
