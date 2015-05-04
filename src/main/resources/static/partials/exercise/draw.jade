@@ -1,0 +1,12 @@
+button.btn.btn-default.btn-lg.btn-block(ng-click="handler.check()", ng-hide="model.showSolution") Verificar
+
+	
+div(ng-show="model.showSolution")
+	h4 Solução:
+	div.bg-warning
+		.row.text-center
+			img(
+				style="max-width: 100%;",
+				ng-src="data/images/{{handler.exercise.solution}}",
+			)
+		

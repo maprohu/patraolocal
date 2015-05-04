@@ -5233,25 +5233,25 @@
         Desenhe na fig. os balões correspondentes a um navio
         condicionado pelo seu calado.
       figure: baloes_draw.png
-      solution: figure22.png
+      solution: baloes22.png
     -
       type: draw
       text: >
         Desenhe na fig. os balões correspondentes a uma embarcação encalhada.
       figure: baloes_draw.png
-      solution: figure23.png
+      solution: baloes23.png
     -
       type: draw
       text: >
         Desenhe na fig. os balões correspondentes a um navio desgovernado.
       figure: baloes_draw.png
-      solution: figure24.png
+      solution: baloes24.png
     -
       type: draw
       text: >
         Desenhe na fig. os balões correspondentes a um navio a rebocar.
       figure: baloes_draw.png
-      solution: figure25.png
+      solution: baloes25.png
 - 
   topic: Luzes
   exercises:

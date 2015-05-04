@@ -180,6 +180,7 @@ var app = angular.module('mfw-app', [
 			
 			$scope.model.elements = this.exercise.solution.concat(this.exercise.alternatives);
 			$scope.model.indexes = indexes;
+			$scope.model.selection = {};
 		},
 		forward: function(index) {
 			return $scope.model.indexes[index];
@@ -188,11 +189,10 @@ var app = angular.module('mfw-app', [
 			return $scope.model.indexes.indexOf(Number(index)); 
 		},
 		isCorrect: function(index) {
-			return this.reverse(index) < this.exercises.solutions.length;
+			return this.forward(index) < this.exercise.solution.length;
 		},
-		select: function(selection) {
-			$scope.model.selection = selection;
-			this.check();
+		toggle: function(selection) {
+			$scope.model.selection[selection] = !$scope.model.selection[selection];
 		},
 		showDefault: function(index) {
 			return !this.showCorrect(index) && !this.showIncorrect(index);
@@ -201,7 +201,10 @@ var app = angular.module('mfw-app', [
 			return $scope.model.showSolution && this.isCorrect(index);
 		},
 		showIncorrect: function(index) {
-			return $scope.model.showSolution && $scope.model.correct != index && $scope.model.selection == index;
+			return $scope.model.showSolution && ( 
+				($scope.model.selection[index] && !this.isCorrect(index))
+			);
+					
 		}
 	};
 	extend(Handler, ChoiceMultiHandler);

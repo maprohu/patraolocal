@@ -1,11 +1,31 @@
 ul.list-group
-	li.list-group-item.btn(
-		ng-repeat="index in model.indexes", 
-		ng-click="handler.select($index)",
-		ng-class="{'btn-default': handler.showDefault($index), 'btn-success': handler.showCorrect($index), 'btn-danger': handler.showIncorrect($index)}",
+	li.list-group-item.btn.btn-default(
+		ng-repeat="index in model.indexes"
+		ng-click="handler.toggle($index)"
+		ng-class="{
+			'active': !model.showSolution && model.selection[$index], 
+			'btn-success': model.showSolution &&  handler.isCorrect($index), 
+			'btn-danger': model.showSolution && model.selection[$index] && !handler.isCorrect($index)
+		}"
 		ng-disabled="model.showSolution"
+		ng-model="model.selection[$index]"
+		
 	)
 		div.lead(style="margin-bottom: 0px")
-			b {{$index | alphabet | uppercase}}: 
-			pl-choice-item(data="model.elements[index]")
+			input.pull-left(type="checkbox", ng-model="model.selection[$index]")
+			{{model.elements[index]}}
+			span.glyphicon.glyphicon-ok.pull-right(
+				ng-if="model.showSolution && model.selection[$index] && handler.isCorrect($index)"
+			) 
+			span.glyphicon.glyphicon-minus.pull-right(
+				ng-if="model.showSolution && model.selection[$index] && !handler.isCorrect($index)"
+			) 
+			span.glyphicon.glyphicon-plus.pull-right(
+				ng-if="model.showSolution && !model.selection[$index] && handler.isCorrect($index)"
+			) 
+
+button.btn.btn-default.btn-lg.btn-block(
+	ng-click="handler.check()"
+	ng-hide="model.showSolution"
+) Verificar
 

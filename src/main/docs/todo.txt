@@ -1,10 +1,11 @@
 X  support figure: attribute
 X replace <img> tags with figure:
+X implement choice_multi
+X implement phrases
+X implment draw
 
 treat text: as html
 
-implement choice_multi
 implement manobras29 as draw
-implement phrases
 make it work on safari, check firefox
-implment draw
+implement learning process

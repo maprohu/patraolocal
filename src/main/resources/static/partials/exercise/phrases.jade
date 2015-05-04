@@ -1,0 +1,26 @@
+
+form(ng-submit="handler.check()")
+
+	.form-group.form-group-lg.has-feedback(
+		ng-repeat="phrase in handler.exercise.data"
+		class="{{model.showSolution ? handler.isCorrect(model.text[$index], phrase.solution) ? 'has-success' : 'has-error'  : ''}}"
+	)
+		label {{phrase.phrase}}
+		input.form-control.input-lg(
+			ng-disabled="model.showSolution",
+			ng-model="model.text[$index]"
+		)
+		span.glyphicon.glyphicon-ok.form-control-feedback.input-lg(
+			ng-show="model.showSolution && handler.isCorrect(model.text[$index], phrase.solution)"
+		)
+		span.glyphicon.glyphicon-remove.form-control-feedback.input-lg(
+			ng-show="model.showSolution && !handler.isCorrect(model.text[$index], phrase.solution)"
+		)
+		
+		div(ng-show="model.showSolution && !handler.isCorrect(model.text[$index], phrase.solution)")
+			div.bg-success
+				{{phrase.solution}}	
+		
+
+	button.btn.btn-default.btn-lg.btn-block(type="submit", ng-hide="model.showSolution") Verificar
+	
