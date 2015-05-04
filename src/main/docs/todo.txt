@@ -1,11 +1,10 @@
-support figure: attribute
+X  support figure: attribute
+X replace <img> tags with figure:
+
 treat text: as html
+
 implement choice_multi
-replace <img> tags with figure:
 implement manobras29 as draw
-check answer of Para indicar um objecto que se aviste 300 à direita da proa, diz-se que está:
-check answer for Como se chama o nível de referência vertical a que são referidas as sondas
-	representadas na carta náutica oficial?
 implement phrases
 make it work on safari, check firefox
 implment draw

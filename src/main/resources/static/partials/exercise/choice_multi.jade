@@ -1,0 +1,11 @@
+ul.list-group
+	li.list-group-item.btn(
+		ng-repeat="index in model.indexes", 
+		ng-click="handler.select($index)",
+		ng-class="{'btn-default': handler.showDefault($index), 'btn-success': handler.showCorrect($index), 'btn-danger': handler.showIncorrect($index)}",
+		ng-disabled="model.showSolution"
+	)
+		div.lead(style="margin-bottom: 0px")
+			b {{$index | alphabet | uppercase}}: 
+			pl-choice-item(data="model.elements[index]")
+

@@ -1,85 +1,1151 @@
--
-  topic: BALÕES
+- 
+  topic: Luzes
   exercises:
     -
       type: choice
       text: >
-        Uma embarcação a arrastar deve apresentar de dia:
+        Uma embarcação de propulsão mecânica com um comprimento superior a 50 metros,
+        a navegar de noite, deve apresentar:
       solution: >
-        Dois balões cónicos unidos pelo vértice, dispostos na mesma linha vertical
+        Farol de luz branca no mastro de vante, farol de luz branca no mastro de ré, farol de luz vermelha a BB, farol de luz verde a EB e farol de luz branca à popa.
       alternatives:
-        - Três balões cónicos unidos pelo vértice
-        - Dois balões, dispostos na mesma linha vertical 
-        - Nenhuma está certa
+        - Farol de luz branca no mastro de vante, farol de luz vermelha a BB e farol de luz verde a EB.
+        - Farol de luz branca no mastro de vante, farol de luz branca no mastro de ré, farol de luz vermelha a EB, farol de luz verde a BB e farol de luz branca à popa.
+        - Farol de luz branca no mastro de vante, farol de luz vermelha a BB, farol de luz verde a EB e farol de luz amarela à popa. 
     -
       type: choice
       text: >
-        Embarcação a navegar à vela e a motor deve apresentar de dia:
+        Uma embarcação (com comprimento inferior a 50 metros) na faina da pesca, de
+        noite, a arrastar, deve apresentar:
       solution: >
-        Um balão cónico com o vértice para baixo de cor preta içado à proa
+        Dois faróis dispostos verticalmente, sendo o superior de luz verde e o inferior de luz branca, faróis de navegação.
       alternatives:
-        - Um balão esférico de cor preta içado à proa
-        - Um balão bicónico de cor preta içado à proa
-        - Dois balões cónicos unidos pelo vértice
+        - Dois faróis dispostos verticalmente, sendo o superior de luz vermelha e o inferior de luz branca, faróis de navegação (e um farol de luz branca mais alto e a ré do farol de luz verde.)
+        - Dois faróis dispostos verticalmente, sendo o superior de luz branca e o inferior de luz vermelha e faróis de navegação.
+        - Dois faróis dispostos verticalmente, sendo o superior de luz branca e o inferior de luz verde e faróis de navegação.
     -
       type: choice
       text: >
-        Uma embarcação com comprimento superior a 200m a rebocar
-        outra ou outras de dia deve apresentar:
+        Uma embarcação de propulsão mecânica desgovernada e sem seguimento, de noite,
+        deve apresentar:
       solution: >
-        Um balão bicónico de cor preta 
+        Duas luzes vermelhas no mastro num arco de 360º, dispostas verticalmente
       alternatives:
-        - Dois balões bicónicos
-        - Dois balões bicónicos de cor preta 
-        - Um balão preto esférico
+        - Três luzes brancas no mastro visíveis num arco de 360º, farol de luz vermelha a BB, farol de luz verde e EB e um farol de luz branca à popa.
+        - Três luzes vermelhas no mastro num arco de 360º
+        - Duas luzes brancas no mastro visíveis num arco de 360º, farol de luz vermelha a BB, farol de luz verde a EB e um farol de luz branca à popa.
     -
       type: choice
       text: >
-        Uma embarcação com comprimento de reboque inferior
-        a 200m outra ou outras de dia deve apresentar:
+        Uma embarcação (com mais de 50 e menos de 100 metros), fundeada de noite, deve apresentar:
       solution: >
-        Nenhuma está certa
+        Um farol de luz branca à proa e outro à popa
       alternatives:
-        - Dois balões bicónicos
-        - Dois balões bicónicos pretos 
-        - Um balão preto esférico
+        - Um farol de luz branca à popa
+        - Um farol de luz branca à proa
+        - Nenhuma se aplica
     -
       type: choice
       text: >
-        Um navio com capacidade reduzida de manobra deve apresentar de dia:
+        Uma embarcação (com menos de 50 metros), fundeada de noite, deve apresentar:
       solution: >
-        Três balões de cor preta, dispostos verticalmente, sendo o do meio bicónico e os outros dois esféricos 
+        Um farol de luz branca à proa.
       alternatives:
-        - Dois balões bicónicos
-        - Três balões bicónicos de cor preta, dispostos verticalmente, sendo o do meio esférico
-        - Três balões esféricos de cor preta
+        - Um farol de luz branca.
+        - Um farol de luz branca à popa e outro à proa.
+        - Nenhuma se aplica.
+    -
+      type: text
+      text: >
+        Vai a navegar a motor.
+        Ao avistar, de noite, este navio em rumo de colisão que deve fazer?
+        Porquê?
+      figure: figura07.png
+      solution: >
+        Manter o rumo e a velocidade. Porque é um navio de
+        propulsão mecânica que por acaso se encontra a rebocar
+        (com um reboque superior a 200m).
+    -
+      type: text
+      text: >
+        Vai a navegar a motor.
+        Ao avistar, de noite, este navio em rumo de colisão que deve fazer?
+        Porquê?
+      figure: figura04.png
+      solution: >
+        Desviar-me. Porque é um navio com manobra reduzida,
+        condicionado pelo seu calado
+    -
+      type: text
+      text: >
+        Vai a navegar a motor.
+        Ao avistar, de noite, este navio em rumo de colisão que deve fazer?
+        Porquê?
+      figure: figura15.png
+      solution: >
+        Desviar-me. Porque é um navio em faina de pesca a arrastar (com menos de 50m)
+    -
+      type: text
+      text: >
+        Vai a navegar a motor.
+        Ao avistar, de noite, este navio em rumo de colisão que deve fazer?
+        Porquê?
+      figure: figura10.png
+      solution: >
+        Desviar-me. Porque é um navio em faina de pesca (com comprimento inferior a 50m) de arrasto.
+    -
+      type: text
+      text: >
+        Vai a navegar a motor.
+        Ao avistar, de noite, este navio em rumo de colisão que deve fazer?
+        Porquê?
+      figure: figura11.png
+      solution: >
+        Desviar-me. Porque é um navio a navegar à vela com
+        mais de 20 metros. (Roda à roda com um veleiro de mais
+        de 20 metros.)
+    -
+      type: text
+      text: >
+        Vai a navegar a motor.
+        Ao avistar, de noite, este navio em rumo de colisão que deve fazer?
+        Porquê?
+      figure: figura16.png
+      solution: >
+        Desviar-me para EB e emitir um som curto. Porque é um
+        navio de propulsão mecânica (barco de pilotos) que vem roda a roda.
+    -
+      type: text
+      text: >
+        Vai a navegar a motor.
+        Ao avistar, de noite, este navio em rumo de colisão que deve fazer?
+        Porquê?
+      figure: figura14.png
+      solution: >
+        Desviar-me. Porque é um veleiro com mais de 20 metros avistado por EB.
     -
       type: choice
       text: >
-        Um navio com manobra reduzida devido ao calado deve apresentar de dia
+        Uma embarcação na faina da pesca estendo a arte da pesca numa distância inferior a 150 metros a partir do navio, de noite, deve apresentar:
       solution: >
-        Um balão cilíndrico de cor preta
+        Dois faróis dispostos verticalmente, sendo o superior de luz vermelha e o inferior de luz branca e faróis de navegação
       alternatives:
-        - Três balões bicónicos de cor preta dispostos verticalmente sendo o do meio esférico
-        - Três balões de cor preta dispostos verticalmente sendo o do meio bicónico
-        - Dois balões cilíndricos de cor preta.
+        - Dois faróis dispostos verticalmente, sendo o superior de luz branca e o inferior de luz vermelha e faróis de navegação
+        - Dois faróis dispostos verticalmente, sendo o superior de luz branca e o inferior de luz verde e faróis de navegação
+        - Dois faróis dispostos verticalmente, sendo o superior de luz verde e o inferior de luz branca e faróis de navegação
     -
       type: choice
       text: >
-        Um navio desgovernado sem seguimento deve apresentar de dia:
+        A expressão acima da borda que define a posição dos faróis da embarcação, designa:
       solution: >
-        Dois balões esféricos de cor preta
+        A altura acima do pavimento contínuo mais elevado
       alternatives:
-        - Dois balões bicónicos
-        - Dois balões bicónicos de cor preta
-        - Um balão preto esférico
+        - A altura acima do plano da água
+        - A altura acima da roda do leme
+        - A altura acima do plano focal do navegador
     -
       type: choice
       text: >
-        Um navio encalhado deve apresentar de dia:
+        Os faróis de borda reunidos numa lanterna combinada
+        num navio de propulsão mecânica de comprimento inferior
+        a 20 metros, devem ficar abaixo do farol de mastro
+        a uma distância não inferior a:
       solution: >
-        Três balões esféricos dispostos verticalmente
+        1,0 metros
       alternatives:
-        - Três balões bicónicos dispostos verticalmente
-        - Dois balões bicónicos dispostos verticalmente
-        - Nenhuma está certa      
+        - 0,5 metros
+        - 1,5 metros
+        - 2,0 metros
+    -
+      type: choice
+      text: >
+        Uma embarcação de propulsão mecânica, condicionada pelo seu calado, a navegar de noite, deve apresentar:
+      solution: >
+        Três faróis vermelhos dispostos verticalmente com arco de visibilidade de 360º e faróis de navegação.
+      alternatives:
+        - Três faróis vermelhos dispostos verticalmente com arco de visibilidade de 225º e faróis de navegação.
+        - Dois faróis vermelhos dispostos verticalmente com arco de visibilidade de 225º e faróis de navegação.
+        - Dois faróis vermelhos dispostos verticalmente com arco de visibilidade de 360º e faróis de navegação.
+    -
+      type: text
+      text: >
+        Vai a navegar a motor.
+        Ao avistar, de noite, este navio em rumo de colisão que deve fazer?
+        Porquê?
+      figure: figura03.png
+      solution: >
+        Trata-se de um navio de propulsão mecânica com menos de 50m (roda a roda) logo, devo guinar para EB.
+    -
+      type: choice
+      text: >
+        Uma embarcação dos pilotos, a navegar de noite, deve apresentar:
+      solution: >
+        Dois faróis dispostos verticalmente, sendo o superior de luz branca e o inferior de luz vermelha e faróis de navegação.
+      alternatives:
+        - Dois faróis dispostos verticalmente, sendo o superior de luz vermelha e o inferior de luz branca e faróis de navegação.
+        - Dois faróis dispostos verticalmente, sendo o superior de luz branca e o inferior de luz verde e faróis de navegação.
+        - Dois faróis dispostos verticalmente, sendo o superior de luz verde e o inferior de luz branca e faróis de navegação.
+    -
+      type: text
+      text: >
+        Vai a navegar a motor.
+        Ao avistar, de noite, este navio em rumo de colisão que deve fazer?
+        Porquê?
+      figure: figura01.png
+      solution: >
+        Desviar-me passando pela sua popa. Porque estou a vê-lo
+        pela amura de EB (é um navio de propulsão mecânica
+        com mais de 50 metros que se apresenta por Estibordo.)
+    -
+      type: choice
+      text: >
+        Uma embarcação de propulsão mecânica, a rebocar de
+        noite, com um reboque inferior a 200 metros, deve apresentar:
+      solution: >
+        Dois faróis de luz branca dispostos verticalmente, farol de luz vermelha a BB, farol de luz verde a EB, farol de luz branca à popa e um farol de luz amarela colocado por cima do farol de luz branca de popa.
+      alternatives:
+        - Dois faróis de luz branca, farol de luz vermelha a BB, farol de luz verde a EB e um farol de luz branca à popa.
+        - Dois faróis de luz branca, farol de luz vermelha a EB, farol de luz verde a BB, um farol de luz branca à popa e um farol de luz amarela colocado por cima do farol de luz branca de popa.
+        - Um farol de luz branca, farol de luz vermelha a EB, farol de luz verde a BB, um farol de luz branca à popa e um farol de luz amarela colocado por cima do farol de luz branca de popa.
+    -
+      type: text
+      text: >
+        Vai a navegar a motor.
+        Ao avistar, de noite, este navio em rumo de colisão que deve fazer?
+        Porquê?
+      figure: figura09.png
+      solution: >
+        Desviar-me. Embarcação dos pilotos pela amura de EB.
+    -
+      type: text
+      text: >
+        Vai a navegar a motor.
+        Ao avistar, de noite, este navio em rumo de colisão que deve fazer?
+        Porquê?
+      figure: figura05.png
+      solution: >
+        Desviar-me. Porque se trata de um navio desgovernado sem seguimento.
+    -
+      type: choice
+      text: >
+        Uma embarcação de propulsão mecânica com capacidade de manobra reduzida, sem seguimento, de noite, deve apresentar:
+      solution: >
+        Três luzes, sendo a do meio de luz branca e as outras duas de luz vermelha, visíveis em todo o horizonte e dispostas verticalmente.
+      alternatives:
+        - Três luzes vermelhas no mastro visíveis em todo o horizonte, dispostas verticalmente.
+        - Três luzes brancas no mastro visíveis em todo o horizonte, dispostas verticalmente.
+        - Duas luzes vermelhas no mastro visíveis em todo o horizonte, dispostas verticalmente.
+    -
+      type: text
+      text: >
+        Vai a navegar a motor.
+        Ao avistar, de noite, este navio em rumo de colisão que deve fazer?
+        Porquê?
+      figure: figura13.png
+      solution: >
+        Desviar-me. Porque é um navio à vela com mais de 20 metros.
+    -
+      type: choice
+      text: >
+        Uma embarcação à vela (com mais de 20 metros), a navegar à noite, deve apresentar:
+      solution: >
+        Faróis de navegação, podendo mostrar dois faróis visíveis em todo o horizonte, sendo o superior vermelho e o inferior verde.
+      alternatives:
+        - Farol vermelho no mastro de 360º de visibilidade e faróis de navegação.
+        - Dois faróis visíveis em todo o horizonte, sendo o superior vermelho e o inferior verde.
+        - Faróis de navegação, podendo mostrar dois faróis visíveis em todo o horizonte, sendo o superior verde e o inferior vermelho.    
+    -
+      type: text
+      text: >
+        Vai a navegar a motor.
+        Ao avistar, de noite, este navio em rumo de colisão que deve fazer?
+        Porquê?
+      figure: figura17.png
+      solution: >
+        Desviar-me. Porque é um navio em faina de pesca.
+    -
+      type: text
+      text: >
+        Vai a navegar a motor.
+        Ao avistar, de noite, este navio em rumo de colisão que deve fazer?
+        Porquê?
+      figure: figura12.png
+      solution: >
+        Desviar-me. Porque é um navio de propulsão mecânica
+        com menos de 50 metros que se apresenta por Estibordo.
+        (Por acaso está a rebocar com um reboque inferior a 200 metros.)
+    -
+      type: text
+      text: >
+        Vai a navegar a motor.
+        Ao avistar, de noite, este navio em rumo de colisão que deve fazer?
+        Porquê?
+      figure: figura06.png
+      solution: >
+        Desviar-me. Porque se trata de um navio encalhado.
+    -
+      type: choice
+      text: >
+        Uma embarcação (com mais de 100 metros), fundeada de
+        noite, deve apresentar:
+      solution: >
+        Um farol de luz branca à popa, outro à proa e as luzes do convés acesas.
+      alternatives:
+        - Um farol de luz branca à popa.
+        - Um farol de luz branca à proa e as luzes do convés acesas.
+        - Nenhuma se aplica.
+    -
+      type: choice
+      text: >
+        Uma embarcação de propulsão mecânica, a rebocar de noite,
+        com um reboque superior a 200 metros, deve apresentar:
+      solution: >
+        Três faróis de luz branca dispostos verticalmente, farol de luz vermelha a BB, farol de luz verde a EB, um farol de luz branca à popa e um farol de luz amarela colocado por cima do farol de luz branca de popa.
+      alternatives:
+        - Três faróis de luz branca, farol de luz vermelha a BB, farol de luz verde a EB e um farol de luz branca à popa.
+        - Dois faróis de luz branca, farol de luz vermelha a BB, farol de luz verde a EB, um farol de luz branca à popa e um farol de luz amarela colocado por cima do farol de luz branca de popa.
+        - Três faróis de luz branca, farol de luz vermelha a EB, farol de luz verde a BB, um farol de luz branca à popa e um farol de luz amarela colocado por cima do farol de luz branca de popa.
+    -
+      type: choice
+      text: >
+        Uma embarcação de propulsão mecânica com capacidade
+        de manobra reduzida, a navegar de noite, deve apresentar:
+      solution: >
+        Três luzes, visíveis em todo o horizonte dispostas
+        verticalmente, sendo a do meio de luz branca e a superior
+        e a inferior de luz vermelha, farol ou faróis de mastro, farol de borda e farol de popa.
+      alternatives:
+        - Três luzes vermelhas no mastro visíveis num arco de 360º, farol de luz vermelha a BB, farol de luz verde e EB e um farol de luz branca à popa.
+        - Três luzes vermelhas no mastro num arco de 360º.
+        - Duas luzes brancas no mastro visíveis num arco de 360º, farol de luz vermelha a BB, farol de luz verde a EB e um farol de luz branca à popa.
+    -
+      type: text
+      text: >
+        Vai a navegar a motor.
+        Ao avistar, de noite, este navio em rumo de colisão que deve fazer?
+        Porquê?
+      figure: figura08.png
+      solution: >
+        Desviar-me. Porque é um navio em faina de pesca.
+    -
+      type: choice
+      text: >
+        Uma embarcação encalhada, com comprimento inferior a 50 metros, de noite, deve apresentar:
+      solution: >
+        Duas luzes vermelhas dispostas verticalmente e uma luz branca à proa.
+      alternatives:
+        - Três luzes vermelhas dispostas verticalmente.
+        - Duas luzes vermelhas dispostas verticalmente.
+        - Três luzes vermelhas dispostas verticalmente e uma luz branca à proa.
+    -
+      type: choice
+      text: >
+        O farol de borda é visível entre a linha de proa-popa e:
+      solution: >
+        112º.5 para cada bordo
+      alternatives:
+        - 90º para cada bordo
+        - 12.5º para ré do través
+        - 122º.5 para cada bordo
+-
+  topic: SINAIS SONOROS
+  exercises:
+    -
+      type: choice
+      text: >
+        Uma embarcação de propulsão mecânica que pretende guinar para EB deve indicá-lo
+        da seguinte forma:
+      solution: >
+        Um som curto
+      alternatives:
+        - Dois sons longos
+        - Um som longo
+        - Dois sons curtos    
+    -
+      type: choice
+      text: >
+        Um navio de propulsão mecânica a rebocar e visibilidade reduzida deve emitir o
+        seguinte sinal sonoro:
+      solution: >
+        Um som prolongado seguido de dois curtos com intervalos que não ultrapassem os dois minutos
+      alternatives:
+        - Um som curto com intervalos que não ultrapassem os dois minutos
+        - Dois sons longos com intervalos que não ultrapassem os dois minutos
+        - Três sons curtos com intervalos não ultrapassem os dois minutos
+    -
+      type: choice
+      text: >
+        Uma embarcação de propulsão mecânica que pretende guinar para BB deve indicá-lo
+        da seguinte forma:
+      solution: >
+        Dois sons curtos
+      alternatives:
+        - Um som curto
+        - Dois sons longos
+        - Um som longo
+    -
+      type: choice
+      text: >
+        Um navio de propulsão mecânica desgovernado e visibilidade reduzida deve emitir o
+        seguinte sinal sonoro:
+      solution: >
+        Um som prolongado seguido de dois curtos com intervalos que não ultrapassem os dois minutos.
+      alternatives:
+        - Um som curto com intervalos que não ultrapassem os dois minutos.
+        - Dois sons longos com intervalos que não ultrapassem os dois minutos.
+        - Três sons curtos com intervalos que não ultrapassem os dois minutos.
+    -
+      type: text
+      text: >
+        A embarcação A pretende atracar por EB no cais. Para isso tem que guinar para BB. Que sinal sonoro tem que emitir?
+      figure: som05.png
+      solution: >
+        dois sons curtos (..)
+    -
+      type: text
+      text: >
+        A embarcação B pretende ultrapassar a embarcação A por EB. Que sinal sonoro tem que emitir a embarcação B?
+        Que sinal sonoro tem que emitir a embarcação A para autorizar?
+      figure: som06.png
+      solution: >
+        B: dois sons longos e um curto ( _ _ .); A: um som longo, um som curto, um som longo, um som curto ( _ . _ . )
+    -
+      type: choice
+      text: >
+        Um navio de propulsão mecânica navegando sem seguimento em condições de visibilidade reduzida, deve emitir o seguinte sinal sonoro:
+      solution: >
+        Dois sons prolongados com intervalos que não ultrapassem os dois minutos
+      alternatives:
+        - Um som curto com intervalo que não ultrapasse os dois minutos
+        - Um som prolongado com intervalo que não ultrapasse os dois minutos
+        - Três sons curtos com intervalos que não ultrapassem os dois minutos
+    -
+      type: choice
+      text: >
+        Um navio de comprimento igual ou superior a 12 metros
+        e inferior a 20 metros deve dispor de material de sinalização
+        sonora definido na alínea:
+      solution: >
+        Apito, sino opcional e gongo opcional
+      alternatives:
+        - Apito, sino e gongo
+        - Apito, sino e gongo opcional
+        - Apito, sino e gongo todos opcionais
+    -
+      type: choice
+      text: >
+        Um navio de propulsão mecânica (com comprimento inferior
+        a 100 metros) fundeado em condições de visibilidade
+        reduzida, deve emitir os seguintes sinais sonoros:
+      solution: >
+        Sequência, com intervalos não superiores a um minuto, de toques de sino em cadência rápida não superior a 5 segundos.
+      alternatives:
+        - Sequência, com intervalos não superiores a um minuto, de toques de sino em cadência rápida não superior a 10 segundos.
+        - Sequência, com intervalos não superiores a dois minutos, de toques de sino em cadência rápida não superior a 10 segundos.
+        - Sequência, com intervalos não superiores a dois minutos, de toques de sino em cadência rápida não superior a 5 segundos.
+    -
+      type: choice
+      text: >
+        Um navio de propulsão mecânica com seguimento e visibilidade
+        reduzida, deve emitir o seguinte sinal sonoro:
+      solution: >
+        Um som prolongado com intervalos que não ultrapassem os dois minutos.
+      alternatives:
+        - Um som curto com intervalos que não ultrapassem os dois minutos.
+        - Dois sons prolongados com intervalos que não ultrapassem os dois minutos.
+        - Três sons curtos com intervalos que não ultrapassem os dois minutos.
+    -
+      type: choice
+      text: >
+        Um navio de propulsão mecânica na faina da pesca e visibilidade
+        reduzida deve emitir o seguinte sinal sonoro:
+      solution: >
+        Um som prolongado seguido de dois curtos com intervalos que não ultrapassem os dois minutos.
+      alternatives:
+        - Um som curto com intervalos que não ultrapassem os dois minutos.
+        - Dois sons longos com intervalos que não ultrapassem os dois minutos.
+        - Três sons curtos com intervalos que não ultrapassem os dois minutos
+    -
+      type: text
+      text: >
+        A embarcação B pretende ultrapassar a embarcação A por BB. Que sinal sonoro tem que emitir a embarcação B?
+        Que sinal sonoro tem que emitir a embarcação A para autorizar?
+      figure: som12.png
+      solution: >
+        Embarcação B: Dois sons longos seguidos de dois curtos ( _ _ . .);
+        Embarcação A: Um som longo, um som curto, um som longo, um som curto ( _ . _ .)
+    -
+      type: choice
+      text: >
+        Um navio de propulsão mecânica com as máquinas a trabalhar a ré deve indicar a manobra da seguinte forma:
+      solution: >
+        Três sons curtos.
+      alternatives:
+        - Um som curto.
+        - Dois sons longos.
+        - Um som longo.
+    -
+      type: text
+      text: >
+        A embarcação A pretende atracar por BB no cais. Para isso tem que guinar para EB. Que sinal sonoro tem que emitir?
+      figure: som14.png
+      solution: >
+        Um som curto ( . )
+    -
+      type: choice
+      text: >
+        Um apito instalado a bordo de um navio de comprimento
+        inferior a 20 metros deve assegurar na direcção de
+        máxima intensidade um alcance sonoro de:
+      solution: >
+        0,5 milha
+      alternatives:
+        - 2,0 milhas
+        - 1,5 milhas
+        - 1,0 milha
+    -
+      type: choice
+      text: >
+        Tanto de dia como de noite, numa zona de visibilidade
+        reduzida ou nas suas proximidades, um navio de propulsão
+        mecânica pairando (com as máquinas paradas e sem seguimento)
+        deve emitir, com intervalos não superiores a dois minutos:
+      solution: >
+        Dois sons prolongados
+      alternatives:
+        - Um som prolongado
+        - Três sons prolongados
+        - Quatro sons prolongados
+    -
+      type: choice
+      text: >
+        Tanto de dia como de noite, numa zona de visibilidade
+        reduzida ou nas suas proximidades, um navio deve tocar
+        o sino a vante, em cadência rápida durante cerca de
+        5 segundos, em intervalos não superiores a um minuto
+        quando se trata de:
+      solution: >
+        Um navio fundeado com comprimento inferior a 100 metros
+      alternatives:
+        - Um navio pairando com comprimento inferior a 100 metros
+        - Um navio encalhado com comprimento igual ou superior a 100 metros
+        - Um navio encalhado com comprimento inferior a 100 metros
+    -
+      type: choice
+      text: >
+        A expressão som prolongado designa um som de apito com
+        a duração de:
+      solution: >
+        4 a 6 segundos
+      alternatives:
+        - 2 a 4 segundos
+        - 3 a 5 segundos
+        - 5 a 7 segundos
+    -
+      type: choice
+      text: >
+        A expressão som curto designa um som de apito com a duração de cerca de:
+      solution: >
+        Um segundo
+      alternatives:
+        - Meio segundo
+        - Um segundo e meio
+        - Dois segundos
+-
+  topic: INCÊNDIOS
+  exercises:
+    - 
+      type: text
+      text: >
+        Indique o nome dos dois gases libertados da reacção do carbono e do hidrogénio do
+        combustível com o oxigénio do ar?
+        Qual o perigo que podem advir de cada uma dessas reacções?
+      solution: >
+        O Dióxido de carbono ocasiona dor de cabeça e vómitos.
+        O Monóxido de carbono pode causar a morte rápidamente.
+    - 
+      type: phrase
+      text: >
+        Qual o extintor que devemos usar para combater um incêndio produzido por
+        combustíveis gases ?
+      solution: >
+        Pó químico
+    -
+      type: phrases
+      text: >
+        Explique o que tem que fazer num incêndio num motor fora de borda?
+      data:
+        -
+          phrase: a)
+          solution: Voltar a proa da embarcação para barlavento
+        -
+          phrase: b)
+          solution: Desligar a gasolina sem tirar o tubo de alimentação do motor
+        -
+          phrase: c)
+          solution: Tentar apagar o incêndio com o extintor de pó químico
+        -
+          phrase: d)
+          solution: Quando o extintor descarregar, tentar abafar o incêndio com uma lona ou manta
+    - 
+      type: phrase
+      text: >
+        Qual o elemento que temos de eliminar num incêndio produzido por combustíveis sólidos?
+      solution: >
+        Temperatura
+    - 
+      type: phrase
+      text: >
+        Qual o elemento que temos de eliminar num incêndio produzido por combustíveis
+        gases ?
+      solution: >
+        Combustível
+    - 
+      type: phrase
+      text: >
+        Qual o extintor que devemos usar para combater um incêndio produzido por combustíveis líquidos?
+      solution: >
+        Espuma
+    - 
+      type: phrase
+      text: >
+        Qual o elemento que temos de eliminar num incêndio produzido por combustíveis líquidos?
+      solution: >
+        Oxigénio
+    - 
+      type: text
+      text: >
+        Como deve atacar um incêndio em combustíveis líquidos?
+      solution: >
+        Devem usar-se extintores de espuma; tenta-se que os vapores produzidos não entrem em contacto com o oxigénio do ar
+    - 
+      type: phrase
+      text: >
+        Qual o elemento que temos de eliminar num incêndio nos cabos eléctricos?
+      solution: >
+        Temperatura
+    - 
+      type: items
+      text: >
+        Para que haja um processo de combustão é necessário que ocorram simultaneamente
+        três elementos. Quais são?
+      solution: 
+        - Temperatura
+        - Combustível
+        - Oxigénio
+    - 
+      type: phrase
+      text: >
+        Qual o extintor que devemos usar para combater um incêndio em cabos eléctricos?
+      solution: >
+        Pó químico
+    - 
+      type: text
+      text: >
+        Quais os cuidados que deve ter com um fogão de gás instalado a bordo de um Iate?
+      solution: >
+        A garrafa de gás deve estar colocada num compartimento
+        do poço e longe de fontes de calor; Esse compartimento
+        deve ter uma abertura em baixo, já que este gás é mais
+        pesado do que o ar; Estar atento às ligações dos tubos
+        e fechar todas as válvulas de segurança quando não
+        está a ser usado.
+    - 
+      type: phrase
+      text: >
+        Qual o extintor que devemos usar para combater um incêndio produzido por combustíveis sólidos?
+      solution: >
+        Extintor de água
+    - 
+      type: phrase
+      text: >
+        Numa embarcação com um só extintor, qual é aquele que deve ter a bordo?
+      solution: >
+        Pó químico
+    -
+      type: choice
+      text: >
+        Um incêndio num quadro eléctrico deve, preferencialmente,
+        ser combatido com:
+      solution: >
+        Pó quimico
+      alternatives:
+        - Água
+        - Espuma
+        - Nenhuma se aplica
+    -
+      type: choice
+      text: >
+        Um incêndio num depósito de óleo deve, preferencialmente, ser combatido com:
+      solution: >
+        Espuma
+      alternatives:
+        - Água
+        - Pó químico
+        - Nenhuma se aplica
+    -
+      type: choice
+      text: >
+        O pó químico é o agente extintor adequado para o combate a incêndio em:
+      solution: >
+        Cabos eléctricos / Equipamentos eléctricos, em carga
+      alternatives:
+        - Madeira
+        - Combustíveis líquidos
+        - Nenhuma se aplica
+    -
+      type: choice
+      text: >
+        Se for detectado um incêndio a bordo, num compartimento, deve-se:
+      solution: >
+        Fechar o compartimento de modo a cortar a entrada de oxigénio.
+      alternatives:
+        - Ventilar o compartimento de modo a não acumular gases.
+        - Ventilar o compartimento de modo a arrefecer o mesmo.
+        - Abrir o compartimento de modo a permitir o combate ao incêndio.
+    - 
+      type: text
+      text: >
+        Quais os cuidados a ter com as garrafas de gás instaladas a bordo de um iate?
+      solution: >
+        Devem estar guardadas em locais de fácil acesso, protegidas
+        do sol, afastadas o mais possível de fontes de calor
+        (motor, fogão, quadro eléctrico); ter furo ladrão no
+        local
+    - 
+      type: phrase
+      text: >
+        Qual o MÉTODO de extinção que devemos usar num incêndio com origem em cabos eléctricos?
+      solution: >
+        Inibição de chama
+    -
+      type: choice
+      text: >
+        Um incêndio num depósito de óleo deve, preferencialmente, ser combatido com:
+      solution: >
+        Espuma
+      alternatives:
+        - Água
+        - Pó Químico
+        - Nenhuma se aplica
+    - 
+      type: phrase
+      text: >
+        No caso de ocorrer um incêndio, dois gases podem este
+        ocasionar: o dióxido de carbono e o monóxido de carbono.
+        Sendo ambos prejudiciais à saúde, qual deles é o mais nocivo:
+      solution: >
+        Monóxido de Carbono (CO)
+    -
+      type: choice
+      text: >
+        Numa embarcação dotada de motor interior, declarando-se
+        um incêndio com origem neste, qual a operação a não executar:
+      solution: >
+        Desligar o motor e ventilar, de imediato, o compartimento do motor
+      alternatives:
+        - Desligar o motor e manter o respectivo compartimento, tanto quanto possível, encerrado ao exterior.
+    - 
+      type: phrase
+      text: >
+        Qual o MÉTODO de extinção que devemos usar num incêndio com origem em equipamentos eléctricos, em carga?
+      solution: >
+        Inibição de chama
+    - 
+      type: phrase
+      text: >
+        Qual o MÉTODO de extinção que devemos usar num incêndio produzido por combustíveis líquidos?
+      solution: >
+        Abafamento
+    - 
+      type: items
+      text: >
+        Para que se verifique um processo de combustão é necessária a existência, simultânea, de quatro elementos. Quais são?
+      solution:
+        - Temperatura
+        - Combustível
+        - Oxigénio
+        - Fonte de ignição / reacção em cadeia
+    - 
+      type: phrase
+      text: >
+        Qual o MÉTODO de extinção que devemos usar num incêndio produzido por combustíveis sólidos?
+      solution: >
+        Arrefecimento
+- 
+  topic: PRIMEIROS SOCORROS
+  exercises:
+    -
+      type: choice
+      text: >
+        Num adulto saudável considera-se como normal uma frequência respiratória de:
+      solution: >
+        16 a 18 por minuto
+      alternatives:
+        - 30 a 35 por minuto
+        - 60 a 65 por minuto
+        - 08 a 10 por minuto    
+    -
+      type: choice
+      text: >
+        Num sinistrado com hemorragia interna deve-se:
+      solution: >
+        Não dar líquidos a beber
+      alternatives:
+        - Dar algum líquido a beber
+        - Apertar a borda da ferida
+    - 
+      type: complete
+      text: >
+        Complete a frase abaixo indicada com uma das seguintes palavras:
+        Respirem / Não respirem
+      data: >
+        A posição lateral de segurança deve ser utilizada em sinistrados inconscientes, que {{respirem}} e com batimentos cardíacos.
+    -
+      type: choice
+      text: >
+        A temperatura média do corpo humano de um adulto é de:
+      solution: >
+        36º,5
+      alternatives:
+        - 34º,5
+        - 35º,5
+        - 37º,8
+    -
+      type: choice
+      text: >
+        Um indivíduo com a seguinte sintomatologia: coloração da pele e mucosas azuladas,
+        paragem respiratória e paragem cardíaca, poderá ser vítima de:
+      solution: >
+        Hidrocussão
+      alternatives:
+        - Paragem de digestão
+        - Insolação
+        - Hipotermia
+    -
+      type: choice
+      text: >
+        Uma ferida com hemorragia deve ser limpa com:
+      solution: >
+        Soro fisiológico.
+      alternatives:
+        - Água oxigenada.
+        - Álcool.
+        - Nenhuma se aplica.
+    -
+      type: choice
+      text: >
+        Num adulto saudável em repouso, o número de pulsações por minuto varia entre?
+      solution: >
+        65 e 80.
+      alternatives:
+        - 30 e 40.
+        - 110 e 120.
+        - 100 e 110.
+    - 
+      type: complete
+      text: >
+        Complete a frase abaixo indicada com uma das seguintes palavras:
+        Conscientes / Inconscientes
+      data: >
+        A posição lateral de segurança deve ser utilizada em
+        sinistrados {{inconscientes}}, que respirem e com batimentos cardíacos.
+    -
+      type: choice
+      text: >
+        Numa hemorragia externa deve-se:
+      solution: >
+        Fazer o tamponamento com compressa, envolvendo-a com uma ligadura apertada.
+      alternatives:
+        - Fazer o tamponamento com uma compressa, envolvendo-a com uma compressa apertada.
+        - Fazer o tamponamento com uma compressa, envolvendo-a com uma ligadura folgada.
+    -
+      type: choice
+      text: >
+        Num adulto saudável, em repouso, os valores médios da temperatura, pulso e frequência respiratória são:
+      solution: >
+        36,5º centígrados;
+        70 pulsações por minuto;
+        17 respirações por minuto;
+      alternatives:
+        - >
+          38º centígrados;
+          70 pulsações por minuto;
+          17 respirações por minuto;
+        - >
+          35º centígrados;
+          100 pulsações por minuto;
+          17 respirações por minuto;
+    - 
+      type: text
+      text: >
+        A actuação adequada para estancar uma hemorragia interna visível é:
+      solution: >
+        Aplicar gelo localmente, de modo a provocar a vasoconstrição local.
+    -
+      type: choice
+      text: >
+        Uma vítima de afogamento que se encontra consciente deve ser:
+      solution: >
+        Deitada com a cabeça de lado e mais baixa que os pulmões
+      alternatives:
+        - Colocada em posição de Drenagem Aquosa para evitar a asfixia
+        - Deitada em posição lateral de segurança
+        - Deitada e efectuar uma massagem cardíaca com ventilação artificial
+-
+  topic: SEGURANÇA
+  exercises:
+    -
+      type: complete
+      text: >
+        Complete a frase.
+      data: > 
+        Depois de lançada a jangada ao mar um dos tripulantes puxa o
+        {{cabo}} que serve para {{disparar a garrafa de ar comprimido da jangada}}.
+    - 
+      type: text
+      text: >
+        Diga os cuidados que deve ter dentro de uma jangada ?
+      solution: >
+        Ter muito cuidado com objectos afiados e cortantes; Verificar periodicamente se as câmaras de flutuação estão moles
+    -
+      type: complete
+      text: >
+        Complete a frase.
+      data: > 
+        O cabo que serve para disparar a {{garrafa de ar comprimido}} da {{jangada}}
+        deve estar correctamente {{fixado}} a bordo.
+    -
+      type: complete
+      text: >
+        Indique o deve fazer no caso de um dos tripulantes cair ao mar por BB ?
+      data: > 
+        <ol>
+        <li>Gritar {{homem}} ao {{mar}} por {{bombordo}}
+        <li>{{Reduzir}} a velocidade dos motores.
+        <li>Guinar para {{bombordo}}.
+        <li>Lançar {{uma bóia (de preferência, com uma retenida)}}.
+        <li>Não perder o tripulante de {{vista}}.
+        <li>Recolher o tripulante por {{sotavento}}.  
+        </ol>
+    - 
+      type: text
+      text: >
+        Em que condições deve usar o colete e o arnês?
+      solution: >
+        De noite ou com mau tempo (condições adversas).
+    - 
+      type: phrases
+      text: >
+        Preencha as linhas em branco.
+        Os tripulantes antes de embarcar na jangada devem:
+      data: 
+        -
+          phrase: a)
+          solution: >
+            Descalçar-se. Deve deixar as meias.
+        -
+          phrase: b)
+          solution: >
+            Envergar o colete de salvação
+        -
+          phrase: c)
+          solution: >
+            Vestir roupas de lã (e pôr um gorro na cabeça)
+        -
+          phrase: d)
+          solution: >
+            Levar um contentor com os pirotécnicos se não houver na jangada
+        -
+          phrase: e)
+          solution: >
+            Levar um contentor com água e rações se não houver na jangada 
+    - 
+      type: phrase
+      text: >
+        Numa embarcação registada para 10 pessoas, se embarcar 4, quantos coletes tem
+        que levar a bordo?
+      solution: >
+        Quatro
+    - 
+      type: text
+      text: >
+        Como deve estar colocada a bordo uma jangada insuflável?
+      solution: >
+        A jangada deve estar colocada em lugar de fácil acesso e onde possa ser facilmente retirada em caso de naufrágio eminente
+    -
+      type: items
+      text: >
+        Diga o nome de alguns meios de salvação que conheça.
+      solution:
+        - Foguetões com pára-quedas
+        - Fachos de mão
+        - Sinais de fumo
+    - 
+      type: phrase
+      text: >
+        Qual a validade dos sinais pirotécnicos?
+      solution: >
+        Três anos
+    -
+      type: complete
+      text: >
+        Complete a frase.
+      data: > 
+        A jangada deve estar {{colocada}} em lugar que possa ser facilmente
+        {{retirada}} em caso de {{naufrágio eminente}}.
+    - 
+      type: text
+      text: >
+        Quais dos sinais pirotécnicos deve utilizar de dia?
+      solution: >
+        Fumígenos; (Em caso de a pergunta pedir a designação de dois sinais pirotécnicos: Fachos de mão; Potes de fumo)
+    - 
+      type: text
+      text: >
+        Diga o que entende, quando e como deve usar o drogue ou âncora flutuante?
+      solution: >
+        É um saco de lona em forma de funil, destinado a ser
+        largado à popa da embarcação, preso a esta por um cabo
+        e com a boca para vante, a fim de evitar que, sob mau
+        tempo e a navegar à popa, aquela se atravesse à vaga.(Pode
+        ser utilizado para estabilizar uma embarcação que perdeu
+        o leme ou está a ser rebocada.)
+    - 
+      type: text
+      text: >
+        Em caso de muito mau tempo, como deve navegar em relação à vaga?
+      solution: >
+        Correr com o tempo ou colocar as amuras à vaga, reduzindo a velocidade ao mínimo de segurança para governar.
+    -
+      type: choice
+      text: >
+        Quando estiver dentro da jangada deve:
+      solution: >
+        Só beber água 24 horas depois de naufragar.
+      alternatives:
+        - Beber pouca água salgada.
+        - Beber água salgada, mas numa percentagem muito pequena em relação à água doce.
+        - Só beber água doce.
+    -
+      type: complete
+      text: >
+        O que deve fazer depois de abandonar uma embarcação, a nado?
+        Complete as frases.
+      data: > 
+        <ol>
+        <li>{{Afaste-se}} da embarcação
+        <li>Não nade {{demais}}
+        <li>Só nade, se tiver a certeza que {{atinge}} um determinado {{objectivo}}
+        <li>Permaneça {{junto/ próximo}} dos outros {{náufragos}}
+        <li>Amarrem os {{coletes}} uns aos {{outros}}
+        <li>Agarre-se a {{objectos}} à deriva
+        </ol>
+    - 
+      type: text
+      text: >
+        Numa embarcação de 6 metros com um motor interior a gasolina o que deve
+        fazer antes de o pôr a trabalhar?
+      solution: >
+        Retirar por meio do extractor, os gases depositados no interior do compartimento do motor de propulsão
+    - 
+      type: text
+      text: >
+        Em caso de alagamento, quais são as duas primeiras acções a tomar?
+      solution: >
+        1ª Eliminar a entrada de água; 2ª Esgotar a água
+    - 
+      type: text
+      text: >
+        Explique que manobra tem que efectuar, para recolher um tripulante 20 minutos
+        após o seu desaparecimento.
+        A Proa Verdadeira com que vai a navegar é de 150º.
+      solution: >
+        Devo efectuar a manobra de Butakow. Meto o leme todo
+        para um dos bordos. Quando a agulha marcar mais ou
+        menos 60º (150+60 ou 150-60 conforme o lado para o
+        qual escolhi por o leme), meto o leme todo para o lado
+        contrário até chegar a 330. Quando chegar junto do
+        homem recolho-o por sotavento.
+    -
+      type: choice
+      text: >
+        Quando tiver que abandonar a embarcação, saltando para o mar:
+      solution: >
+        Descalçar-se, vestir roupa quente e envergar o colete
+      alternatives:
+        - Deve manter-se longe da embarcação
+        - Nadar para longe
+    - 
+      type: text
+      text: >
+        As jangadas têm cabos de disparo. Diga quais os cuidados a ter com estes.
+      solution: >
+        A jangada deve estar colocada em lugar acessível, que permita ser retirada facilmente em caso de necessidade.
+    - 
+      type: text
+      text: >
+        Onde deve ser colocada a jangada pneumática a bordo?
+      solution: >
+        A jangada deve estar colocada em lugar acessível, que permita ser retirada facilmente em caso de necessidade.
+    - 
+      type: text
+      text: >
+        Qual o cuidado que deve haver relativamente ao cabo que faz disparar a garrafa de ar comprimido, da jangada pneumática?
+      solution: >
+        Deve estar preso à embarcação (fixado a bordo).
+    - 
+      type: text
+      text: >
+        Indique as fases da manobra de Boutakow (homem ao mar).
+      solution: >
+        1. IPTM: Carregar o leme todo a um bordo até a embarcação guinar 60º (Guinar 60º em relação ao rumo em que vínhamos para um dos bordos)
+        2. IPTM: Meter o leme todo para o bordo contrário (Guinar tudo para o rumo contrário àquele em que vínhamos inicialmente)
+        3. IPTM: Passar a governar pela proa inversa àquela a que seguimos (mais ou menos 180º). Recolher o homem por sotavento
+    - 
+      type: text
+      text: >
+        Navegando numa embarcação à vela, abalroa um objecto
+        flutuante, de que resulta um rombo de gravidade na
+        querena (obras vivas). Explane a operação a que pode
+        recorrer, por meio de uma vela, para reduzir, razoavelmente,
+        a entrada de água:
+      solution: >
+        Baixar o pano até que a embarcação fique a pairar (se
+        seguir a motor, desligar este ou colocá-lo em ponto
+        morto) e fazer deslizar, por um bordo e outro do casco
+        e da proa para a popa, uma vela (a mais espessa que
+        tiver a bordo) até esta “tapar” a zona onde o rombo
+        se verificou, retesando-a e fixando-a muito bem, em
+        pontos fixos do convés ou da borda, com recurso a cabos
+        previamente amarrados aos punhos do gurutil, da pena
+        e da escota.
+    -
+      type: choice
+      text: >
+        Numa embarcação dotada de motor interior, quais os cuidados a ter antes de o pôr a trabalhar?
+      solution: >
+        Ventilar o compartimento onde possam existir gases libertados pelo combustível
+      alternatives:
+        - Verificar se o circuito de arrefecimento se processa normalmente
+        - Verificar se a correia do alternador está bem ajustada
+        - Verificar se a bateria do arranque está a responder
+    - 
+      type: text
+      text: >
+        Em caso de alagamento, quais são as três primeiras acções a tomar?
+      solution: >
+        1º Isolar o compartimento alagado; 2º Tentar esgotar a água; 3º Localizar e procurar vedar o veio de água.
+    -
+      type: choice
+      text: >
+        É de boa prática marinhática possuir, a bordo, peças
+        em madeira, de forma cónica e vários tamanhos (denominados
+        bujões) que, em caso de necessidade, se destinam a tapar
+        pequenas entradas de água (veios de água). Tais peças devem ser:
+      solution: >
+        Em madeira macia    
+      alternatives:
+        - Em madeira dura
+        - Em borracha
+        - Em cortiça

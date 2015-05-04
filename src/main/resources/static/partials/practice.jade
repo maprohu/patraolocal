@@ -1,5 +1,11 @@
 p.lead {{handler.exercise.text}}
 
+.row.text-center(ng-if="handler.exercise.figure!==undefined")
+	img(
+		style="max-width: 100%;",
+		src="data/images/{{handler.exercise.figure}}",
+	)
+
 p.lead
 	ng-include(src="handler.getTemplate()")
 

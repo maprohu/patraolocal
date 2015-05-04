@@ -136,9 +136,6 @@ var app = angular.module('mfw-app', [
 				indexes.push(i+1);
 			}
 			shuffle(indexes);
-			var items = shuffle(this.exercise.alternatives.slice());
-			var correct = random(items.length + 1);
-			items.splice(correct, 0, this.exercise.solution);
 			
 			$scope.model.elements = [this.exercise.solution].concat(this.exercise.alternatives);
 			$scope.model.indexes = indexes;
@@ -169,6 +166,45 @@ var app = angular.module('mfw-app', [
 		}
 	};
 	extend(Handler, ChoiceHandler);
+	
+	function ChoiceMultiHandler(topic, exercise) {
+		Handler.call(this, topic, exercise);
+	}
+	ChoiceMultiHandler.prototype = {
+		initialize: function() {
+			var indexes = [];
+			for (var i = 0 ; i < this.exercise.solution.length + this.exercise.alternatives.length ; i++) {
+				indexes.push(i);
+			}
+			shuffle(indexes);
+			
+			$scope.model.elements = this.exercise.solution.concat(this.exercise.alternatives);
+			$scope.model.indexes = indexes;
+		},
+		forward: function(index) {
+			return $scope.model.indexes[index];
+		},
+		reverse: function(index) {
+			return $scope.model.indexes.indexOf(Number(index)); 
+		},
+		isCorrect: function(index) {
+			return this.reverse(index) < this.exercises.solutions.length;
+		},
+		select: function(selection) {
+			$scope.model.selection = selection;
+			this.check();
+		},
+		showDefault: function(index) {
+			return !this.showCorrect(index) && !this.showIncorrect(index);
+		},
+		showCorrect: function(index) {
+			return $scope.model.showSolution && this.isCorrect(index);
+		},
+		showIncorrect: function(index) {
+			return $scope.model.showSolution && $scope.model.correct != index && $scope.model.selection == index;
+		}
+	};
+	extend(Handler, ChoiceMultiHandler);
 	
 	function CompleteHandler(topic, exercise) {
 		Handler.call(this, topic, exercise);
@@ -226,7 +262,7 @@ var app = angular.module('mfw-app', [
 		phrase: Handler,
 		phrases: Handler,
 		choice: ChoiceHandler,
-		choice_multi: ChoiceHandler,
+		choice_multi: ChoiceMultiHandler,
 		complete: CompleteHandler,
 		complete_text: CompleteTextHandler,
 		items: ItemsHandler,
